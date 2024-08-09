@@ -17,16 +17,6 @@
         background-position: right;
     }
 }
-.row{
-    margin-top: 50px;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
 
 .why-bg-img-1 {
     background-size: cover !important;
@@ -331,5 +321,23 @@
   
 }
 
+.why-area-2 .why-wrap {
+    padding: 0px;
+   
+}
+.why-area-2 .why-wrap a{
+    width: 250px;
+    transition: all 500ms ease-out;
+}
+.why-area-2 .why-wrap a:hover{
+    width: 100%;
+    transition: all 500ms ease;
+}
 
+.sub-title{
+    margin: 20px 0px 0px;
+}
+.sec-text{
+    margin: 10px 0px 0px;
+}
 </style>
