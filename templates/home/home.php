@@ -14,7 +14,6 @@
         <div class="hero-slider" data-bg-src="linear-gradient(45deg, #000000cf, transparent), url(assets/img/hero/hero-bg-4.jpg)">
             <div class="container">
                 <div class="row">
-
                     <div class="col-lg-8">
                         <div class="hero-style1">
                             <span class="hero-subtitle" data-ani="slideinup" data-ani-delay="0.3s">Explore</span>
@@ -23,7 +22,6 @@
                             <p class="hero-text" data-ani="slideinup" data-ani-delay="0.6s"> Browse our exclusive listings and find your next real estate opportunity. </p>
                             <div class="btn-wrap" data-ani="slideinup" data-ani-delay="0.7s">
                                 <a href="<?php echo $baseUrl ?>/contact" class="btn style2">Join Us Now<i class="fas fa-angle-double-right"></i></a>
-                                <a href="<?php echo $baseUrl ?>/contact" class="btn style3">Get Started<i class="fas fa-angle-double-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -42,34 +40,20 @@
                             <p class="hero-text" data-ani="slideinup" data-ani-delay="0.6s"> Explore a curated selection of homes ready for you to make your own. </p>
                             <div class="btn-wrap" data-ani="slideinup" data-ani-delay="0.7s">
                                 <a href="<?php echo $baseUrl ?>/contact" class="btn style2">Join Us Now<i class="fas fa-angle-double-right"></i></a>
-                                <a href="<?php echo $baseUrl ?>/contact" class="btn style3">Get Started<i class="fas fa-angle-double-right"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="slider-social-area">
-        <ul>
-            <li>
-                <a href="https://www.facebook.com/"> Facebook </a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/"> Instagram </a>
-            </li>
-            <li>
-                <a href="https://www.twitter.com/"> Twitter </a>
-            </li>
-        </ul>
-    </div>
+    </div> 
 </div>
 <!--======== / Hero Section ========-->
 
 <!--==============================
     About_Section
     ==============================-->
-<div class="space">
+<div class="about-main">
     <div class="container container2">
         <div class="row align-items-center justify-content-between">
             <div class="col-lg-6">
@@ -108,7 +92,7 @@
 <!--==============================
     Service_Section   
     ==============================-->
-<div class="service-area-1 space bg-smoke overflow-hidden">
+<div class="service-area-1  overflow-hidden">
     <div class="service-shape1_1 shape-mockup jump-reverse d-lg-block d-none" data-top="0" data-right="0">
         <img src="assets/img/service/service-shape1-1.png" alt="img">
     </div>
@@ -176,14 +160,15 @@
             <div class="col-lg-4 col-md-6">
                 <div class="service-card">
                     <div class="service-card_icon">
-                        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 122.88 122.88"  width="65" height="65" fill="green">
+                        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 122.88 122.88" width="65" height="65" fill="green">
                             <title>smiling-line</title>
                             <path d="M61.44,0h0V0a61.4,61.4,0,0,1,61.43,61.42h0a61.42,61.42,0,0,1-61.42,61.43h0A61.4,61.4,0,0,1,0,61.45H0A61.39,61.39,0,0,1,61.44,0V0ZM33.17,41.06A3.34,3.34,0,0,1,28,36.84,12.83,12.83,0,0,1,29.8,35a19.51,19.51,0,0,1,11.11-4,17.91,17.91,0,0,1,12.34,3.74A15.81,15.81,0,0,1,55.5,37a3.35,3.35,0,1,1-5.18,4.25A8.23,8.23,0,0,0,49,40a11.37,11.37,0,0,0-7.79-2.26A12.73,12.73,0,0,0,34,40.22a5.87,5.87,0,0,0-.87.84Zm40.8,0a3.34,3.34,0,0,1-5.18-4.22,12.76,12.76,0,0,1,1.8-1.8A19.56,19.56,0,0,1,81.7,31a17.92,17.92,0,0,1,12.35,3.74A16.35,16.35,0,0,1,96.3,37a3.35,3.35,0,1,1-5.18,4.25A8.68,8.68,0,0,0,89.84,40,11.38,11.38,0,0,0,82,37.7a12.75,12.75,0,0,0-7.21,2.52,6.28,6.28,0,0,0-.86.84ZM26.49,75.33a3.34,3.34,0,1,1,5.86-3.19,32.49,32.49,0,0,0,15.84,14.2,38.09,38.09,0,0,0,16.15,3.07,34.41,34.41,0,0,0,15.38-4,27.12,27.12,0,0,0,12.1-13.15A3.34,3.34,0,0,1,98,74.88a33.74,33.74,0,0,1-15,16.37,41,41,0,0,1-18.39,4.83,44.81,44.81,0,0,1-19-3.61,39.08,39.08,0,0,1-19-17.14Zm35-67.5h0A53.64,53.64,0,0,0,7.83,61.44h0a53.65,53.65,0,0,0,53.61,53.61v0h0v0a53.65,53.65,0,0,0,53.6-53.62h0A53.64,53.64,0,0,0,61.44,7.83Z" />
                         </svg>
                     </div>
                     <div class="service-card_content">
                         <h3 class="service-card_title "><a href="#">Customer Satisfaction</a></h3>
-                        <p class="service-card_text">Find your dream home with confidence and peace of mind.</p>
+                        <p class="service-card_text">
+                            Find your dream home with confidence and peace of mind.<br><br></p>
                     </div>
                     <div class="service-card_img">
                         <img src="assets/images/home/services-3.jpg" alt="img">
@@ -321,7 +306,7 @@
 <!--==============================
     Faq_Section  
     ==============================-->
-<div class="faq-area-1 overflow-hidden bg-smoke">
+<div class="faq-area-1 overflow-hidden">
     <div class="container container2">
         <div class="row align-items-center flex-row-reverse">
             <div class="col-lg-6">
@@ -419,7 +404,7 @@
 <!--==============================
         Project_Section  
     ==============================-->
-<div class="donation-area-1 space-top overflow-hidden">
+<div class="donation-area-1 overflow-hidden">
     <div class="container container2">
         <div class="title-area text-center">
             <span class="sub-title">Explore Our Exceptional Projects</span>
@@ -453,7 +438,7 @@
                             <a href="<?php echo $baseUrl ?>/convicity">Convicity</a>
                         </h3>
                         <p class="donation-card-text">
-                        Bloomsbury Infrastructure Pvt. Ltd., an ISO 9001:2008 certified company, is a leading real estate developer in Kolkata. We specialize in high-qu....</p>
+                            Bloomsbury Infrastructure Pvt. Ltd., an ISO 9001:2008 certified company, is a leading real estate developer in Kolkata. We specialize in high-qu....</p>
                         <div class="donate-price-area">
                             <a href="<?php echo $baseUrl ?>/convicity" class="btn style4">Visit Now</a>
                         </div>
@@ -485,7 +470,7 @@
 <!--==============================
     Client_Testimonial_Section
     ==============================-->
-<div class="testimonial-area-1 space space-bottom overflow-hidden">
+<div class="testimonial-area-1 space-top overflow-hidden">
     <div class="container container2">
         <div class="row justify-content-center">
             <div class="col-lg-7">
@@ -496,7 +481,7 @@
             </div>
         </div>
     </div>
-    <div class="container container2">
+    <div class="container container2" style="padding-bottom: 30px;">
         <div class="row global-carousel" data-slide-show="3" data-lg-slide-show="2" data-md-slide-show="2" data-dots="true">
             <div class="col-lg-4">
                 <div class="testi-box">
@@ -592,6 +577,65 @@
                             <span class="testi-box_desig">Client</span>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="home-contact-main footer-wrapper footer-layout1 overflow-hidden">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="footer-top">
+                    <div class="row gy-2 align-items-center justify-content-center">
+                        <div class="col-lg-12 col-md-12">
+                            <a href="https://maps.app.goo.gl/QoypPM8x3Q282Pu97" target="_blank">
+                                <div class="info-card" style="background: linear-gradient(75.7deg, rgb(34, 126, 34) 3.8%, rgb(99, 162, 17) 87.1%);">
+                                    <div class="info-card_icon">
+                                        <i class="fas fa-map-marker-alt" style="color: #fc104a;"></i>
+                                    </div>
+                                    <div class="info-card_content">
+                                        <h4 class="info-card_title">Our Corporate Location</h4>
+                                        <p class="info-card_text"><?php echo $system_address ?></p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-12 col-md-12">
+                            <a href="tel:<?php echo $system_ph_num ?>">
+                                <div class="info-card" style="background: linear-gradient(75.7deg, rgb(34, 126, 34) 3.8%, rgb(99, 162, 17) 87.1%);">
+                                    <div class="info-card_icon">
+                                        <i class="fas fa-phone-alt" style="color: #0288d1;"></i>
+                                    </div>
+                                    <div class="info-card_content">
+                                        <h4 class="info-card_title">Call us</h4>
+                                        <p class="info-card_text"><?php echo $system_ph_num; ?></p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-12 col-md-12">
+                            <a href="mailto:<?php echo $system_email ?>">
+                                <div class="info-card" style="background: linear-gradient(75.7deg, rgb(34, 126, 34) 3.8%, rgb(99, 162, 17) 87.1%);">
+                                    <div class="info-card_icon">
+                                        <i class="fas fa-envelope" style="color: black"></i>
+                                    </div>
+
+                                    <div class="info-card_content">
+                                        <h4 class="info-card_title">Our Email</h4>
+                                        <p class="info-card_text"><?php echo $system_email; ?></p>
+                                    </div>
+
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 footer-map-locaton">
+                <div class="info-card" style="overflow: hidden; border-radius: 15px; height: 100%; background: linear-gradient(75.7deg, rgb(34, 126, 34) 3.8%, rgb(99, 162, 17) 87.1%);">
+                    <iframe style="border-radius: 15px" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3684.0620358201922!2d88.451661!3d22.576783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjLCsDM0JzM2LjQiTiA4OMKwMjcnMDYuMCJF!5e0!3m2!1sen!2sin!4v1723183733363!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>

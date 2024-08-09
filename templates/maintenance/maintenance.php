@@ -1,4 +1,4 @@
-<div class="position-relative space overflow-hidden ">
+<div class="position-relative overflow-hidden ">
     <div class="portfolio-shape1_2 shape-mockup d-lg-block d-none" data-bottom="0%" data-right="0">
         <img src="assets/img/process/process-shape1-2.png" alt="img">
     </div>
@@ -23,4 +23,63 @@
         <br>
 
     </main>
+</div>
+
+<div class="home-contact-main footer-wrapper footer-layout1 overflow-hidden">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="footer-top">
+                    <div class="row gy-2 align-items-center justify-content-center">
+                        <div class="col-lg-12 col-md-12">
+                            <a href="https://maps.app.goo.gl/QoypPM8x3Q282Pu97" target="_blank">
+                                <div class="info-card" style="background: linear-gradient(75.7deg, rgb(34, 126, 34) 3.8%, rgb(99, 162, 17) 87.1%);">
+                                    <div class="info-card_icon">
+                                        <i class="fas fa-map-marker-alt" style="color: #fc104a;"></i>
+                                    </div>
+                                    <div class="info-card_content">
+                                        <h4 class="info-card_title">Our Corporate Location</h4>
+                                        <p class="info-card_text"><?php echo $system_address ?></p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-12 col-md-12">
+                            <a href="tel:<?php echo $system_ph_num ?>">
+                                <div class="info-card" style="background: linear-gradient(75.7deg, rgb(34, 126, 34) 3.8%, rgb(99, 162, 17) 87.1%);">
+                                    <div class="info-card_icon">
+                                        <i class="fas fa-phone-alt" style="color: #0288d1;"></i>
+                                    </div>
+                                    <div class="info-card_content">
+                                        <h4 class="info-card_title">Call us</h4>
+                                        <p class="info-card_text"><?php echo $system_ph_num; ?></p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-12 col-md-12">
+                            <a href="mailto:<?php echo $system_email ?>">
+                                <div class="info-card" style="background: linear-gradient(75.7deg, rgb(34, 126, 34) 3.8%, rgb(99, 162, 17) 87.1%);">
+                                    <div class="info-card_icon">
+                                        <i class="fas fa-envelope" style="color: black"></i>
+                                    </div>
+
+                                    <div class="info-card_content">
+                                        <h4 class="info-card_title">Our Email</h4>
+                                        <p class="info-card_text"><?php echo $system_email; ?></p>
+                                    </div>
+
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 footer-map-locaton">
+                <div class="info-card" style="overflow: hidden; border-radius: 15px; height: 100%; background: linear-gradient(75.7deg, rgb(34, 126, 34) 3.8%, rgb(99, 162, 17) 87.1%);">
+                    <iframe style="border-radius: 15px" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3684.0620358201922!2d88.451661!3d22.576783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjLCsDM0JzM2LjQiTiA4OMKwMjcnMDYuMCJF!5e0!3m2!1sen!2sin!4v1723183733363!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
