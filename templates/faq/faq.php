@@ -23,7 +23,7 @@
     <!--==============================
     Faq Area  
     ==============================-->
-    <div class="faq-area-1 space overflow-hidden bg-smoke">
+    <div class="faq-area-1 space overflow-hidden">
         <div class="container container2">
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-lg-6">

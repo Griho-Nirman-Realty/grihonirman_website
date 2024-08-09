@@ -9,7 +9,7 @@
                     <div class="breadcumb-content">
                         <h1 class="breadcumb-title">Testimonial</h1>
                         <ul class="breadcumb-menu">
-                            <li><a href="index.html">Griho Nirman Realty</a></li>
+                            <li><a href="./home">Home</a></li>
                             <li class="active">Testimonial</li>
                         </ul>
                     </div>
@@ -22,7 +22,7 @@
     <!--==============================
     Testimonial Area  
     ==============================-->
-    <div class="testimonial-area-1 space overflow-hidden">
+    <div class="testimonial-area-1 overflow-hidden">
         <div class="container container2">
             <div class="row justify-content-center">
                 <div class="col-lg-7">

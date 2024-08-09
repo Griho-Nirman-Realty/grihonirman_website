@@ -10,7 +10,7 @@
                     <div class="breadcumb-content">
                         <h1 class="breadcumb-title">About Us</h1>
                         <ul class="breadcumb-menu">
-                            <li><a href="index.html">Griho Nirman Realty</a></li>
+                            <li><a href="./home">Home</a></li>
                             <li class="active">About Us</li>
                         </ul>
                     </div>
@@ -23,8 +23,7 @@
     <!--==============================
     About Area  
     ==============================-->
-    <div class="position-relative space overflow-hidden">
-     
+    <div class="about-section-main position-relative overflow-hidden">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-lg-6 ">
@@ -89,10 +88,6 @@
                                     </p>
                                 </div>
                             </div>
-                        </div>
-                        <div class="btn-wrap mt-45">
-                            <a href="about.html" class="btn style4">Read More<i
-                                    class="fas fa-angle-double-right"></i></a>
                         </div>
                     </div>
                 </div>
