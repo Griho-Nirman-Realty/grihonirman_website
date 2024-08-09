@@ -146,7 +146,7 @@
           <div class="form-row">
               <div class="form-group">
                   <label for="full-name">Full Name</label>
-                  <input type="text" id="full-name" name="full-name">
+                  <input type="text" id="full_name" name="full_name">
               </div>
               <div class="form-group">
                   <label for="email">Email *</label>
