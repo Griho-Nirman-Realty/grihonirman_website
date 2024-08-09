@@ -610,56 +610,14 @@ $system_ph_num = $system_info_data[5];
     <!-- Footer Section Start  -->
     <!-- ============================= -->
 
+
+
     <footer class="footer-wrapper footer-layout1 overflow-hidden" data-bg-src="url(assets/img/bg/footer-bg-1.svg)">
         <div class="container">
-            <div class="footer-top">
-                <div class="row gy-2 align-items-center justify-content-center">
-                    <div class="col-lg-12 col-md-12">
-                        <a href="https://maps.app.goo.gl/QoypPM8x3Q282Pu97" target="_blank">
-                            <div class="info-card" style="background-color: linear-gradient(75.7deg, rgb(34, 126, 34) 3.8%, rgb(99, 162, 17) 87.1%);">
-                                <div class="info-card_icon">
-                                    <i class="fas fa-map-marker-alt" style="color: #fc104a;"></i>
-                                </div>
-                                <div class="info-card_content">
-                                    <h4 class="info-card_title">Our Corporate Location</h4>
-                                    <p class="info-card_text"><?php echo $system_address ?></p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-6 col-md-6">
-                        <a href="tel:<?php echo $system_ph_num ?>">
-                            <div class="info-card" style="background-color: linear-gradient(75.7deg, rgb(34, 126, 34) 3.8%, rgb(99, 162, 17) 87.1%);">
-                                <div class="info-card_icon">
-                                    <i class="fas fa-phone-alt" style="color: #0288d1;"></i>
-                                </div>
-                                <div class="info-card_content">
-                                    <h4 class="info-card_title">Call us</h4>
-                                    <p class="info-card_text"><?php echo $system_ph_num; ?></p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-6 col-md-6">
-                        <a href="mailto:<?php echo $system_email ?>">
-                            <div class="info-card" style="background-color: linear-gradient(75.7deg, rgb(34, 126, 34) 3.8%, rgb(99, 162, 17) 87.1%);">
-                                <div class="info-card_icon">
-                                    <i class="fas fa-envelope" style="color: black"></i>
-                                </div>
 
-                                <div class="info-card_content">
-                                    <h4 class="info-card_title">Our Email</h4>
-                                    <p class="info-card_text"><?php echo $system_email; ?></p>
-                                </div>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
             <div class="widget-area">
                 <div class="row justify-content-between">
-                    <div class="col-md-6 col-xl-3 col-lg-4">
+                    <div class="col-md-3 col-lg-5">
                         <div class="widget footer-widget">
                             <div class="widget-about">
                                 <div class="footer-logo">
@@ -668,16 +626,11 @@ $system_ph_num = $system_info_data[5];
                                 <p class="about-text">Griho Nirman is committed to showcasing properties that meet
                                     high standards of quality and providing clear, honest information about each
                                     project, ensuring transparency throughout the buying process.</p>
-                                <div class="social-btn style2">
-                                    <a href="https://www.facebook.com/profile.php?id=61563583546780" tabindex="0"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="https://twitter.com/" tabindex="0"><i class="fab fa-twitter"></i></a>
-                                    <a href="https://www.instagram.com/" tabindex="0"><i class="fab fa-instagram"></i></a>
-                                    <a href="https://linkedin.com/" tabindex="0"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
+
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-xl-auto col-lg-4">
+                    <div class="col-md-6 col-lg-3">
                         <div class="widget widget_nav_menu footer-widget">
                             <h3 class="widget_title">Quick Link</h3>
                             <div class="menu-all-pages-container">
@@ -691,22 +644,7 @@ $system_ph_num = $system_info_data[5];
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-xl-3 col-lg-4">
-                        <div class="widget footer-widget">
-                            <h3 class="widget_title">Our Project</h3>
-                            <div class="recent-post-wrap">
-                                <div class="recent-post">
-                                    <div class="media-img">
-                                        <a href="./basbhumi"><img src="assets/img/widget/recent-post1-1.jpg" alt="Blog Image"></a>
-                                    </div>
-                                    <div class="media-body">
-                                        <h4 class="post-title"><a class="text-inherit" href="./basbhumi">Green View</a></h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="col-md-6 col-lg-4">
                         <div class="widget footer-widget">
                             <h3 class="widget_title">Newsletter</h3>
                             <p class="footer-text">Your opinion is important to us. So contact us for any service.</p>
@@ -716,8 +654,10 @@ $system_ph_num = $system_info_data[5];
                                 </div>
                                 <button type="submit" class="btn"><i class="fas fa-paper-plane"></i></button>
                             </form>
+
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -729,11 +669,13 @@ $system_ph_num = $system_info_data[5];
                     </div>
                     <div class="col-auto align-self-center">
                         <div class="footer-links">
-                            <ul>
-                                <li><a href="./maintenance">Privacy Policy</a></li>
-                                <li><a href="./maintenance">Terms & Condition</a></li>
-                                <li><a href="./career">Join Us</a></li>
-                            </ul>
+                            <div class="social-btn style4" style="justify-content: center">
+                                <a href="https://www.facebook.com/profile.php?id=61563583546780" tabindex="0"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://twitter.com/" tabindex="0"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.instagram.com/" tabindex="0"><i class="fab fa-instagram"></i></a>
+                                <a href="https://linkedin.com/" tabindex="0"><i class="fab fa-linkedin-in"></i></a>
+
+                            </div>
                         </div>
                     </div>
                 </div>

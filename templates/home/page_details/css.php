@@ -1,15 +1,17 @@
 <style>
     .donation-card-img {
-  width: 100%;
-  height: 200px; /* Set the desired height */
-  overflow: hidden;
-}
+        width: 100%;
+        height: 200px;
+        /* Set the desired height */
+        overflow: hidden;
+    }
 
-.donation-card-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
+    .donation-card-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
     .about-content-wrap .sec-title {
         font-size: 28px;
     }
@@ -22,12 +24,67 @@
         padding-top: 250px;
         margin-top: -259px;
     }
-    .donation-card-title{
+
+    .donation-card-title {
         height: 50px;
     }
-    .donation-card-text{
+
+    .donation-card-text {
         height: 130px;
         overflow-y: hidden;
     }
 
+    .home-contact-main {
+        background: linear-gradient(96deg, #599c13, white);
+        padding: 15px 0px;
+    }
+
+    .home-contact-main .footer-top {
+        padding: 0;
+    }
+
+    .home-contact-main .info-card {
+        padding: 5px !important;
+    }
+
+    .hero-title {
+        font-size: 30px;
+    }
+
+    @media (max-width: 1500px) {
+        .hero-style1 {
+            padding: 200px 0 100px;
+        }
+    }
+
+    .about-main {
+        padding: 30px 0px;
+        background-color: #fff !important;
+    }
+    .service-area-1 {
+        padding: 30px 0px;
+        background-color: #c8ff8fde !important;
+    }
+    .faq-area-1{
+        padding: 30px 0px;
+        background-color: #c8ff8fde !important;
+    }
+    .donation-area-1{
+        padding: 30px 0px;
+    }
+    .testimonial-area-1{
+        padding: 30px 0px;
+        background-color: #c8ff8fde !important;
+    }
+
+    @media(max-width: 767px) {
+
+        .about-content-wrap .sec-title {
+            font-size: 17px;
+        }
+
+        .sec-title {
+            font-size: 17px;
+        }
+    }
 </style>

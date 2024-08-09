@@ -14,10 +14,5 @@ if ($_SERVER['SERVER_NAME'] == 'grihonirmanrealty.in' || $_SERVER['HTTP_HOST'] =
 }
 
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$database = "db_griho_nirman";
-
 // Create connection
 $con = mysqli_connect($servername, $username, $password, $database);
