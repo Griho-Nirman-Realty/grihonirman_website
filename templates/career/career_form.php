@@ -1,5 +1,6 @@
 <?php
 include("../../templates/db/db.php");
+global $timestamp;
 
 try {
     $pdo = new PDO("mysql:host=$servername;dbname=$database", $username, $password);
@@ -16,13 +17,16 @@ try {
         $resumeTmpPath = $_FILES['resume']['tmp_name'];
         $resumeName = $_FILES['resume']['name'];
         $resumeDir = 'upload_content/';
-        $resumePath = $resumeDir . basename($resumeName);
-        $resumePath = $timestamp . $resumePath;
-
-
-        if (!is_dir($resumeDir)) {
-            mkdir($resumeDir, 0755, true);
+    
+        // Ensure the upload directory exists
+        if (!file_exists($resumeDir)) {
+            mkdir($resumeDir, 0777, true);
         }
+        
+        // Generate a random string for the filename to avoid collisions
+        $randomString = bin2hex(random_bytes(8)); // Generates an 16-character random string
+        $resumePath = $resumeDir . $randomString . '_' . basename($resumeName);
+        
 
         if (move_uploaded_file($resumeTmpPath, $resumePath)) {
             $stmt = $pdo->prepare("INSERT INTO tbl_career_page (full_name, email, country, telephone, dob, experience, resume) VALUES (:full_name, :email, :country, :telephone, :dob, :experience, :resume)");
