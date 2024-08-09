@@ -17,6 +17,8 @@ try {
         $resumeName = $_FILES['resume']['name'];
         $resumeDir = 'upload_content/';
         $resumePath = $resumeDir . basename($resumeName);
+        $resumePath = $timestamp . $resumePath;
+
 
         if (!is_dir($resumeDir)) {
             mkdir($resumeDir, 0755, true);
