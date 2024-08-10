@@ -1,5 +1,5 @@
 <?php
-if ($_SERVER['SERVER_NAME'] == 'grihonirmanrealty.in' || $_SERVER['HTTP_HOST'] == 'grihonirmanrealty.in') {
+if ($_SERVER['SERVER_NAME'] == 'grihonirmanrealty.in' || $_SERVER['HTTP_HOST'] == 'grihonirmanrealty.in'|| $_SERVER['SERVER_NAME'] == 'www.grihonirmanrealty.in') {
     $folderName = '';
 } else {
     $folderName = '/grihonirman_website';
