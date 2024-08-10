@@ -505,7 +505,7 @@
     $(".slick-current [data-ani]").addClass("slider-animated");
   });
 
-  $(".global-carousel").on(
+  $(".global-carousel-main-slider").on(
     "afterChange",
     function (event, slick, currentSlide, nextSlide) {
       $(slick.$slides).find("[data-ani]").removeClass("slider-animated");
