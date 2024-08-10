@@ -18,4 +18,23 @@
     .about-section-main .sec-title {
         font-size: 27px;
     }
+
+    .why-chose-about-main{
+        padding: 30px 0px;
+        background-color: #7ec3538c;
+    }
+    .counter-area-2{
+        padding: 30px 0px;
+    }
+    .process-area-3{
+        padding: 50px 0px 30px;
+        background-color: var(--theme-back-color);
+    }
+    .process-area-3 .process-card-wrap{
+        margin: 0 !important;
+    }
+    .process-area-3 .sec-title{
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
 </style>
