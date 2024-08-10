@@ -35,6 +35,7 @@
                             <div class="media-body">
                                 <h4 class="contact-info_title">Contacts Info</h4>
                                 <span class="contact-info_text">Phone Number: <?php echo $system_ph_num; ?></span>
+                                <br>
                                 <span class="contact-info_text"><?php echo $system_email; ?></span>
                             </div>
                         </div>

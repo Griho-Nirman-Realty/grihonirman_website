@@ -6001,9 +6001,9 @@ ul.wp-block-latest-posts li:last-child {
   gap: 15px;
 }
 .footer-layout1 .footer-top .info-card .info-card_icon {
-  height: 55px;
-  width: 55px;
-  line-height: 55px;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
   background: var(--white-color);
   color: var(--theme-color);
   text-align: center;

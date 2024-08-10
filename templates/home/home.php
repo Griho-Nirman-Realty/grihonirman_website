@@ -6,8 +6,6 @@
 <!-- 6. Project_Section -->
 <!-- 6. Client_Testimonial_Section -->
 
-
-
 <!-- Slider_Section -->
 <div class="hero-wrapper hero-1" id="hero">
     <div class="global-carousel" id="heroSlider1" data-fade="true" data-slide-show="1" data-arrows="true" data-xl-arrows="true" data-ml-arrows="true" data-lg-arrows="true" data-dots="true" data-xl-dots="true" data-ml-dots="true" data-lg-dots="true">
@@ -58,11 +56,8 @@
         <div class="row align-items-center justify-content-between">
             <div class="col-lg-6">
                 <div class="about-thumb mb-50 mb-lg-0">
-                    <div class="about-img-1">
+                    <div class="about-img-1 text-center">
                         <img src="assets/images/home/about-1.jpg" alt="img">
-                    </div>
-                    <div class="about-img-2">
-                        <img src="upload_content/upload_img/system_img/<?php echo $system_logo == "" ? "no_image.png" : $system_logo ?>" alt="img">
                     </div>
                 </div>
             </div>
@@ -415,7 +410,7 @@
             <span class="sub-title">Explore Our Exceptional Projects</span>
             <h2 class="sec-title">Diverse Real Estate Offerings</h2>
         </div>
-        <div class="row justify-content-center global-carousel" data-slide-show="3" data-md-slide-show="2" data-dots="true" data-adaptive-height="true">
+        <div class="row justify-content-center global-carousel project-card-carousel" data-slide-show="3" data-md-slide-show="2" data-dots="true" data-adaptive-height="true">
             <div class="col-lg-4 col-md-6">
                 <div class="donation-card">
                     <div class="donation-card-img">
@@ -457,7 +452,7 @@
                     </div>
                     <div class="donation-card-content">
                         <h3 class="donation-card-title">
-                            <a href="<?php echo $baseUrl ?>/windfield">windfield</a>
+                            <a href="<?php echo $baseUrl ?>/windfield">Windfield</a>
                         </h3>
                         <p class="donation-card-text">
                             Bashbhumi Green View Project is a premier residential development that offers a variety of plot sizes to cater to diverse needs and preferences...</p>
@@ -487,7 +482,7 @@
         </div>
     </div>
     <div class="container container2" style="padding-bottom: 30px;">
-        <div class="row global-carousel" data-slide-show="3" data-lg-slide-show="2" data-md-slide-show="2" data-dots="true">
+        <div class="row global-carousel home-testimonial">
             <div class="col-lg-4">
                 <div class="testi-box">
                     <div class="testi-box_icon">
