@@ -8,7 +8,7 @@
 
 <!-- Slider_Section -->
 <div class="hero-wrapper hero-1" id="hero">
-    <div class="global-carousel" id="heroSlider1" data-fade="true" data-slide-show="1" data-arrows="true" data-xl-arrows="true" data-ml-arrows="true" data-lg-arrows="true" data-dots="true" data-xl-dots="true" data-ml-dots="true" data-lg-dots="true">
+    <div class="global-carousel-main-slider" id="heroSlider1" data-fade="true" data-slide-show="1" data-arrows="true" data-xl-arrows="true" data-ml-arrows="true" data-lg-arrows="true" data-dots="true" data-xl-dots="true" data-ml-dots="true" data-lg-dots="true">
         <div class="hero-slider" data-bg-src="linear-gradient(45deg, #000000cf, transparent), url(assets/img/hero/hero-bg-4.jpg)">
             <div class="container">
                 <div class="row">
