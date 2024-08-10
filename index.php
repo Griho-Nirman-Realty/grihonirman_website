@@ -14,7 +14,7 @@ include("templates/function/text-short.php");
 if ($pg_nm == "") {
     header('location: ' . $baseUrl . '/home/');
 } else if (!file_exists("templates/" . $pg_nm . "/page_details/title.php")) {
-    header('location: ' . $baseUrl . '/maintenance');
+    header('location: ' . $baseUrl . '/home/');
 }
 
 // if (
