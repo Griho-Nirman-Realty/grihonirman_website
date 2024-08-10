@@ -1,1 +1,0 @@
-<script src="templates/services/controller.js"></script>
