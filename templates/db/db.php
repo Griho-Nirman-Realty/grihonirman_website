@@ -3,7 +3,7 @@
 ini_set('display_errors', 0);
 error_reporting(E_ALL);
 
-if ($_SERVER['SERVER_NAME'] == 'grihonirmanrealty.in' || $_SERVER['HTTP_HOST'] == 'grihonirmanrealty.in') {
+if ($_SERVER['SERVER_NAME'] == 'grihonirmanrealty.in' || $_SERVER['HTTP_HOST'] == 'grihonirmanrealty.in'|| $_SERVER['SERVER_NAME'] == 'www.grihonirmanrealty.in' || $_SERVER['HTTP_HOST'] == 'www.grihonirmanrealty.in') {
   $servername = "localhost";
   $username = "grihonir_db_grihonirman";
   $password = "db_grihonirman";
