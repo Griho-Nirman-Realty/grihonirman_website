@@ -12,12 +12,12 @@ include("templates/db/router.php");
 include("templates/function/text-short.php");
 
 if ($pg_nm == "") {
-    header('location: ' . $baseUrl . '/home');
+    header('location: ' . $baseUrl . '/home/');
+} else if (!file_exists("templates/" . $pg_nm . "/page_details/title.php")) {
+    header('location: ' . $baseUrl . '/maintenance');
 }
 
-// if (!file_exists("templates/" . $pg_nm . "/page_details/title.php")) {
-//     header('location: ' . $baseUrl . '/home');
-// }
+// if (
 
 
 $system_info_dataget = mysqli_query($con, "select system_name, logo, favicon, email, address, ph_num from system_info ");
