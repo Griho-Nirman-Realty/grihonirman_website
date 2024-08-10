@@ -61,18 +61,22 @@
         padding: 30px 0px;
         background-color: #fff !important;
     }
+
     .service-area-1 {
         padding: 30px 0px;
         background-color: #c8ff8fde !important;
     }
-    .faq-area-1{
+
+    .faq-area-1 {
         padding: 30px 0px;
         background-color: #c8ff8fde !important;
     }
-    .donation-area-1{
+
+    .donation-area-1 {
         padding: 30px 0px;
     }
-    .testimonial-area-1{
+
+    .testimonial-area-1 {
         padding: 30px 0px;
         background-color: #c8ff8fde !important;
     }
@@ -81,10 +85,32 @@
 
         .about-content-wrap .sec-title {
             font-size: 17px;
+            text-align: center;
         }
 
         .sec-title {
             font-size: 17px;
+            text-align: center;
         }
+
+        .sub-title {
+            text-align: center;
+        }
+
+        .sec-text {
+            text-align: justify;
+        }
+
+        .btn-wrap {
+            justify-content: center !important;
+        }
+
+
+
+    }
+
+    .about-thumb {
+        padding-right: 0px !important;
+        margin-right: 0px;
     }
 </style>

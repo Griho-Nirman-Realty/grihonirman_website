@@ -247,15 +247,15 @@ $system_ph_num = $system_info_data[5];
         <div class="header-top">
             <div class="container">
                 <div class="row justify-content-center justify-content-lg-between align-items-center gy-2">
-                    <div class="col-auto d-none d-lg-block">
+                    <div class="col-auto">
                         <div class="header-links">
                             <ul>
-                                <li><img src="assets/icon/email.png" alt="Call" style="width: 30px;"><a href="mailto:<?php echo $system_email ?>"><?php echo $system_email; ?></a></li>
-                                <li><img src="assets/icon/call-i.png" alt="Call" style="width: 30px;"><a href="tel: <?php echo $system_ph_num; ?>"><?php echo $system_ph_num; ?></a></li>
+                                <li style="margin-right: 12px;"><img src="assets/icon/email.png" alt="Call" style="width: 30px;"><a href="mailto:<?php echo $system_email ?>"><?php echo $system_email; ?></a></li>
+                                <li style="white-space: nowrap;"><img src="assets/icon/call-i.png" alt="Call" style="width: 30px;"><a href="tel: <?php echo $system_ph_num; ?>"><?php echo $system_ph_num; ?></a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-auto">
+                    <div class="col-auto  d-none d-lg-block">
                         <div class="header-links">
                             <ul>
                                 <li>
@@ -302,12 +302,13 @@ $system_ph_num = $system_info_data[5];
                                             <!-- <li><a href="<?php echo $baseUrl; ?>/team">Our Team</a></li> -->
                                         </ul>
                                     </li>
-                                    <li>
-                                        <a href="<?php echo $baseUrl; ?>/testimonial">Testimonial</a>
-                                    </li>
+
 
                                     <li>
                                         <a href="<?php echo $baseUrl; ?>/portfolio">Our Portfolio</a>
+                                    </li>
+                                    <li>
+                                        <a href="<?php echo $baseUrl; ?>/testimonial">Testimonial</a>
                                     </li>
                                     <li>
                                         <a href="<?php echo $baseUrl; ?>/career">Career</a>
@@ -738,6 +739,7 @@ $system_ph_num = $system_info_data[5];
     <!-- Main Js File -->
     <script src="assets/js/modal.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/sllider-implitaion.js"></script>
     <script src="assets/js/custom.js"></script>
     <!-- WEB SITE JS End -->
 
