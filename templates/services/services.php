@@ -38,7 +38,7 @@
                         <p class="service-card_text">
                             <?php
                             $text = "Keep your dreams alive. Understand to achieve anything requires faith and belief in yourself, vision, hard work, determination, and dedication. Remember all things are possible for those who believe";
-                            echo limitWords($text, 25);
+                            echo limitWords($text, 35);
                             ?>
                         </p>
                         <a href="./maintenance" class="link-btn">Read More <i class="fas fa-angle-double-right"></i></a>
@@ -120,7 +120,7 @@
                 </div>
             </div>
 
-            <div class="col-xl-4 col-md-6">
+            <div class="col-xl-4 col-md-6 ">
                 <div class="service-card style3 style-border">
                     <div class="service-card-img">
                         <img src="assets\images\services\images (3).png" alt="img">
