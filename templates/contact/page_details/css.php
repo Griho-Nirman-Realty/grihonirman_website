@@ -10,6 +10,8 @@
         background-repeat: no-repeat;
     }
 
+    
+
     .contact-info_text {
 
         color: black
