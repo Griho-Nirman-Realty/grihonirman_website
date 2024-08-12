@@ -23,11 +23,11 @@
 <!--==============================
     About Area  
     ==============================-->
-<div class="overflow-hidden">
+<div class="overflow-hidden basbhumi">
     <div class="container">
         <div class="row align-items-center justify-content-between">
             <div class="col-lg-6">
-                <div class="basbhumi">
+                <div class="">
                     <div class="about-img-3">
                         <img src="assets/images/basbhumi/basbhumi_hero.jpg" alt="img">
                     </div>
@@ -47,8 +47,8 @@
                         </p>
                     </div>
                 </div>
-                <div class="btn-wrap mt-45">
-                    <a href="about.html" class="btn style4">Re-sale<i class="fas fa-angle-double-right"></i></a>
+                <div class="btn-wrap ">
+                    <a href="./maintenance" class="btn style4">Re-sale<i class="fas fa-angle-double-right"></i></a>
                     <a href="assets/brochure/bashbhumibrochure/basbhumi.pdf" download=""
                         class="btn style4">Broucher<i class="fas fa-angle-double-right"></i></a>
                 </div>
@@ -57,7 +57,7 @@
         </div>
     </div>
 </div>
-</div>
+
 <!--==============================
     Counter Area  
     ==============================-->

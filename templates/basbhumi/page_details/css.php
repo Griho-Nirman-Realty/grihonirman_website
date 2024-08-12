@@ -18,6 +18,219 @@
     }
 }
 
+/*Overview area css */ 
+.basbhumi {
+   
+   background-color: #c8ff8fde !important;
+}
+
+.overflow-hidden {
+    padding: 2rem; 
+    
+}
+
+/* Image styling */
+.about-img-3 img {
+    border-radius: 10px; 
+    max-width: 100%; 
+    height: auto; 
+}
+
+/* Content wrap styling */
+.about-content-wrap {
+    padding: 1rem; 
+}
+
+/* Title area styling */
+.title-area {
+    margin-bottom: 1.5rem; 
+}
+
+/* Button styling */
+.btn-wrap {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem; 
+    align-items: center; 
+    margin-top: 2rem; 
+}
+
+.btn {
+    padding: 0.75rem 1.5rem; 
+    border-radius: 8px;
+    text-align: center; 
+    font-size: 1rem; 
+    font-weight: bold; 
+}
+
+@media (max-width: 768px) {
+    .btn-wrap {
+        flex-direction: column;
+        margin: 2 auto; /* Center buttons horizontally on mobile */
+    }
+
+    .about-content-wrap {
+        text-align: center; 
+    }
+}
+
+
+/* Counter and site plan styling */
+/* Counter Area */
+.counter-area-2 {
+    padding: 60px 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.counter-card {
+    border-radius: 10px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.counter-card:hover {
+    transform: translateY(-10px);
+}
+
+.counter-card-icon svg {
+    width: 40px;
+    height: 40px;
+    fill: #333;
+}
+
+.counter-card_number {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.counter-card_text {
+    font-size: 1rem;
+}
+
+/* Why Area */
+.why-area-2 {
+    padding: 60px 0;
+}
+
+.why-img-wrap {
+    position: relative;
+}
+
+.why-bg-img-1 {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.why-wrap {
+    padding: 20px;
+}
+
+.title-area {
+    margin-bottom: 30px;
+}
+
+.sub-title {
+    font-size: 1.25rem;
+    color: #555;
+}
+
+.sec-text {
+    font-size: 1rem;
+    color: #333;
+}
+
+.list-wrapper {
+    margin-top: 20px;
+}
+
+.list-container {
+    list-style: none;
+    padding: 0;
+}
+
+.list-container li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.btn.style4 {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn.style4:hover {
+    background-color: #218838;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    border-radius: 10px;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .counter-card {
+        padding: 15px;
+    }
+
+    .counter-card_number {
+        font-size: 1.5rem;
+    }
+
+    .sec-text {
+        font-size: 0.875rem;
+    }
+
+    .btn.style4 {
+        font-size: 0.875rem;
+    }
+}
+
 .why-bg-img-1 {
     background-size: cover !important;
     height: auto;
@@ -32,9 +245,7 @@
 
 }
 
-.basbhumi {
-    border-radius: 50px;
-}
+
 
 .list-container {
     display: flex;
