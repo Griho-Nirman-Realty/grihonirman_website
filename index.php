@@ -8,8 +8,10 @@
 
 <?php
 include("templates/db/db.php");
+include("templates/db/global_db_query.php");
 include("templates/db/router.php");
 include("templates/function/text-short.php");
+include("templates/function/social_user_details_save.php");
 
 if ($pg_nm == "") {
     header('location: ' . $baseUrl . '/home/');
