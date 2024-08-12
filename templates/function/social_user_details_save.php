@@ -10,7 +10,7 @@ $social_type = 'facebook';
 
 $execute = 1;
 
-if ($execute == 1 && $social_type == 'facebook' && $fbclid_value != '') {
+if ($execute == 1 && $social_type == 'facebook' && $fbclid != '') {
     $social_user_code = "SCC_" . uniqid() . time();
     //========================= INSERT IN TABLE =======================
     mysqli_query($con, "INSERT INTO social_user_details (
