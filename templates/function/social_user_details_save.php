@@ -5,10 +5,21 @@ $query_string = $arr[2];
 $query_string = ltrim($query_string, '?');
 parse_str($query_string, $output_array);
 $fbclid = $output_array['fbclid'];
-$fbclid_value = 'https://www.facebook.com/?id=' . $fbclid;
+$fbclid_value = 'https://www.facebook.com/?fbclid=' . $fbclid;
 $social_type = 'facebook';
-
 $execute = 1;
+// if ($execute == 1) {
+//     $dataget = mysqli_query($con, "SELECT * FROM newsletter WHERE newsletter_email='" . $fbclid_value . "' ");
+//     $data = mysqli_fetch_row($dataget);
+//     if ($data) {
+//         $status = "Exist";
+//         $status_text = "This Email Already Exist !";
+//         $execute = 0;
+//     }
+// }
+
+
+
 
 if ($execute == 1 && $social_type == 'facebook' && $fbclid != '') {
     $social_user_code = "SCC_" . uniqid() . time();
