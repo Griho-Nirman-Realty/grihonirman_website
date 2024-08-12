@@ -200,3 +200,28 @@ $(".global-carousel.project-card-carousel").slick({
       },
     ],
   });
+$(".global-carousel-main-slider").slick({
+    dots: false,
+    arrows: true,
+    slidesToShow: 1,
+    autoplay:true,
+    speed: 500,
+    prevArrow:
+      '<button type="button" class="slick-prev"><i class="fas fa-arrow-left"></i></button>',
+    nextArrow:
+      '<button type="button" class="slick-next"><i class="fas fa-arrow-right"></i></button>',
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,        
+        },
+      },
+    ],
+  });
