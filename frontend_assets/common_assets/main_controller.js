@@ -255,7 +255,7 @@ function quick_contact() {
   let xhr = new XMLHttpRequest();
   xhr.onreadystatechange = function () {
     if (xhr.readyState == 4) {
-      // console.log(xhr.responseText);
+      console.log(xhr.responseText);
       const response = JSON.parse(xhr.responseText);
       const status = response["status"];
       const status_text = response["status_text"];
