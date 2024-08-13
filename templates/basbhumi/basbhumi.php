@@ -167,10 +167,9 @@
                             </ul>
                         </div>
                     </div>
-                    <a href="assets/brochure/bashbhumibrochure/basbhumi.pdf" download="" class="btn style4">
-                        Download Brochure
-                        <i class="fas fa-angle-double-right"></i>
-                    </a>
+                    <a href="assets/brochure/basbhumibrochure/basbhumi.pdf" target="_blank" class="btn style4">Brochure<i class="fas fa-angle-double-right"></i></a>
+
+
                 </div>
             </div>
         </div>
@@ -494,10 +493,8 @@
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18800.02153903288!2d88.27974757508181!3d22.41295488013226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0264d5dfc475b5%3A0xe9560b7c8a66169b!2sShree%20Swaminarayan%20Temple%20(Pailan%20Mandir)!5e0!3m2!1sen!2sin!4v1722595854578!5m2!1sen!2sin"
                         width="200px" height="100%" style="border:10px;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    <a href="assets/brochure/bashbhumibrochure/basbhumi.pdf" download="" class="btn style4">
-                        Download Brochure
-                        <i class="fas fa-angle-double-right"></i>
-                    </a>
+                    <a href="assets/brochure/basbhumibrochure/basbhumi.pdf" target="_blank" class="btn style4">Brochure<i class="fas fa-angle-double-right"></i></a>
+
                 </div>
             </div>
         </div>
