@@ -5,7 +5,6 @@ function _(x) {
 function __(x) {
   return document.getElementsByClassName(x);
 }
-
 toastr.options = {
   closeButton: true,
   debug: false,
@@ -188,13 +187,13 @@ function subscribeNewsLetter() {
   xhr.open("POST", "frontend_assets/common_assets/save_newsletter.php", true);
   xhr.send(data);
 }
-function clear_quick_contact(){
-  _("#name").value="";
-  _("#isd_code").value="";
-  _("#phone").value="";
-  _("#email").value="";
-  _("#category").value="";
-  _("#message").value="";
+function clear_quick_contact() {
+  _("#name").value = "";
+  _("#isd_code").value = "";
+  _("#phone").value = "";
+  _("#email").value = "";
+  _("#category").value = "";
+  _("#message").value = "";
 }
 function quick_contact() {
   clearInputAleart();
@@ -259,13 +258,13 @@ function quick_contact() {
       const response = JSON.parse(xhr.responseText);
       const status = response["status"];
       const status_text = response["status_text"];
-      if(status=='save'){
+      if (status == "save") {
         _(".preloader2").style.display = "none";
         toastr["success"](status_text, "Your Request Was Sent Successfully!");
-        _('#closeModalBtn').click();
+        _("#closeModalBtn").click();
         clear_quick_contact();
         return false;
-      }else{
+      } else {
         _(".preloader2").style.display = "none";
         toastr["error"](status_text, "ERROR");
       }
