@@ -98,7 +98,8 @@ if ($execute == 1) {
 
 	// the message
 	$msg = wordwrap($message, 70);
-	mail("contact@grihonirmanrealty.in", "My subject", $msg);
+	$headers = "CC: bhuniasourav360@gmail.com";
+	mail("contact@grihonirmanrealty.in", "My subject", $msg, $headers);
 	$quick_contact_code = "QCC_" . uniqid() . time();
 	//========================= INSERT IN TABLE =======================
 	mysqli_query($con, "INSERT INTO tbl_quick_contact (
