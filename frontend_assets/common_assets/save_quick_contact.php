@@ -114,7 +114,7 @@ if ($execute == 1) {
             <li><strong>Message:</strong> $message</li>
         </ul>
         <p>We will get back to you as soon as possible.</p>
-        <p>Best regards,<br>Your Company Name</p>
+        <p>Best regards,<br>Grihonirman Realty Pvt.LTD.</p>
     </body>
     </html>
 ";

@@ -263,6 +263,7 @@ function quick_contact() {
         toastr["success"](status_text, "Your Request Was Sent Successfully!");
         _("#closeModalBtn").click();
         clear_quick_contact();
+        window.location.href="./thankyou.html";
         return false;
       } else {
         _(".preloader2").style.display = "none";
