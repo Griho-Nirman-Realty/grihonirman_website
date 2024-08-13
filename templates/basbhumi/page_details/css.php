@@ -22,6 +22,8 @@
 .basbhumi {
    
    background-color: #c8ff8fde !important;
+   width: 100%;      
+   height:60%;  
 }
 
 .overflow-hidden {
@@ -50,9 +52,9 @@
 .btn-wrap {
     display: flex;
     flex-direction: row;
-    gap: 1rem; 
+    gap: 1rem;;
     align-items: center; 
-    margin-top: 2rem; 
+    margin-top: 1rem; 
 }
 
 .btn {
@@ -74,20 +76,15 @@
     }
 }
 
-
-/* Counter and site plan styling */
-/* Counter Area */
 .counter-area-2 {
-    padding: 60px 0;
+    padding: 60px 0px;
     background-size: cover;
     background-position: center;
+
 }
 
 .counter-card {
-    border-radius: 10px;
-    padding: 20px;
-    background: #fff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
     transition: transform 0.3s ease;
 }
 
@@ -111,9 +108,8 @@
     font-size: 1rem;
 }
 
-/* Why Area */
 .why-area-2 {
-    padding: 60px 0;
+    padding: 30px 30px;
 }
 
 .why-img-wrap {
@@ -121,13 +117,12 @@
 }
 
 .why-bg-img-1 {
-    border-radius: 10px;
     width: 100%;
     height: auto;
 }
 
 .why-wrap {
-    padding: 20px;
+    padding: 90px;
 }
 
 .title-area {
@@ -336,9 +331,9 @@
 
 .card-container {
     display: flex;
-    flex-wrap: wrap;
+
     justify-content: center;
-    gap: 10px;
+    gap: 1px;
     margin-top:20px;
     margin-bottom: 50px;
     padding: auto;
@@ -537,7 +532,7 @@
    
 }
 .why-area-2 .why-wrap a{
-    width: 250px;
+    width: 300px;
     transition: all 500ms ease-out;
 }
 .why-area-2 .why-wrap a:hover{
@@ -550,5 +545,10 @@
 }
 .sec-text{
     margin: 10px 0px 0px;
+}
+.photo{
+    width: 10%;    
+    height: 10%;   
+     
 }
 </style>
