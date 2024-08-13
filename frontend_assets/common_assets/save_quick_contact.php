@@ -14,9 +14,9 @@
 // $execute = 1;
 // if ($execute == 1) {
 //     $email_text = $message;
-    
+
 //     require '../../backend_assets/mail_class/class.phpmailer.php';
-    
+
 //     $mail = new PHPMailer;
 //     $mail->IsSMTP();
 //     $mail->Host = 'grihonirmanrealty.in';    
@@ -36,7 +36,7 @@
 
 //     if ($mail->Send()) {
 //         $quick_contact_code = "QCC_" . uniqid() . time();
-        
+
 //         // Insert into the database
 //         $query = "INSERT INTO tbl_quick_contact (
 //             `quick_contact_code`,
@@ -56,7 +56,7 @@
 //             '$category',
 //             '$message',
 //             'user')";
-        
+
 //         if (mysqli_query($con, $query)) {
 //             $status = "save";
 //             $status_text = "We will get back to you soon. Thank you!";
@@ -94,7 +94,11 @@ $message = mysqli_real_escape_string($con, $sendData['message']);
 $execute = 1;
 
 
-if ($execute==1) {
+if ($execute == 1) {
+
+	// the message
+	$msg = wordwrap($message, 70);
+	mail("contact@grihonirmanrealty.in", "My subject", $msg);
 	$quick_contact_code = "QCC_" . uniqid() . time();
 	//========================= INSERT IN TABLE =======================
 	mysqli_query($con, "INSERT INTO tbl_quick_contact (
@@ -118,8 +122,7 @@ if ($execute==1) {
 
 	$status = "save";
 	$status_text = "We will get back to you soon. Thank you!";
-}
-else{
+} else {
 	$status = "error";
 	$status_text = "Something went wrong! Please try after some times.";
 }
@@ -129,4 +132,3 @@ $response = [
 	'status_text' => $status_text,
 ];
 echo json_encode($response, true);
-?>
