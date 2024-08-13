@@ -97,9 +97,35 @@ $execute = 1;
 if ($execute == 1) {
 
 	// the message
+	$subject = $category;
+	$body = "
+    <html>
+    <head>
+        <title>$subject</title>
+    </head>
+    <body>
+        <p>Dear $name,</p>
+        <p>Thank you for reaching out to us. Here is a summary of the information you provided:</p>
+        <ul>
+            <li><strong>ISD Code:</strong> $isd_code</li>
+            <li><strong>Phone Number:</strong> $phone</li>
+            <li><strong>Email:</strong> $email</li>
+            <li><strong>Category:</strong> $category</li>
+            <li><strong>Message:</strong> $message</li>
+        </ul>
+        <p>We will get back to you as soon as possible.</p>
+        <p>Best regards,<br>Your Company Name</p>
+    </body>
+    </html>
+";
+
+	// Set the headers for the email
+	$headers = "MIME-Version: 1.0" . "\r\n";
+	$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+	$headers .= "From: contact@grihonirmanrealty.in" . "\r\n";
+	$headers .= "CC: bhuniasourav360@gmail.com, admin@grihonirmanrealty.in" . "\r\n";
 	$msg = wordwrap($message, 70);
-	$headers = "CC: bhuniasourav360@gmail.com";
-	mail("contact@grihonirmanrealty.in", "My subject", $msg, $headers);
+	mail($email, $subject, $body, $headers);
 	$quick_contact_code = "QCC_" . uniqid() . time();
 	//========================= INSERT IN TABLE =======================
 	mysqli_query($con, "INSERT INTO tbl_quick_contact (
