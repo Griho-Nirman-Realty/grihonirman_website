@@ -8,6 +8,32 @@ html {
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
 
+
+.modal-quick-contact .form-control, .modal-quick-contact .form-select{
+  border: 1px solid #1b9603;
+  border-radius: 5px;
+  height: auto;
+  line-height: 1;
+  padding: 15px 10px;
+  color: #000;
+  
+}
+.modal-quick-contact .form-control::placeholder{
+  color: #000;
+}
+.modal-quick-contact .form-control:focus{
+  box-shadow: #000 0px 0px 2px;
+}
+
+@media (max-width: 575px) {
+  .modal-quick-contact .contact-form-wrap{
+    width: 350px;
+    margin-top: 0px !important;
+  }
+  .modal-quick-contact .sec-title{
+    font-size: 12px;
+  }
+}
 .social-links a {
   margin: 0px 0px 0px 7px;
   font-size: 17px;

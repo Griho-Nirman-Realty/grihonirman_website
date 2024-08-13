@@ -1,1 +1,1 @@
-<script src="templates/fullfill-your-dream/controller.js"></script>
+<script src="templates/services/controller.js"></script>

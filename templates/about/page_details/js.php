@@ -1,1 +1,1 @@
-<script src="templates/home/controller.js"></script>
+<script src="templates/about/controller.js"></script>

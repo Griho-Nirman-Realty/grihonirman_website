@@ -349,7 +349,7 @@ $system_ph_num = $system_info_data[5];
         </div>
     </header>
     <!-- Qucik_Contact_Modal -->
-    <div id="modal" class="modal">
+    <div id="modal" class="modal modal-quick-contact">
         <div class="contact-form-wrap ms-xl-4 mt-40 mt-lg-0">
             <div class="title-area">
                 <h2 class="sec-title">Want to Know More? Our Advisors Are Ready to Assist!</h2>
@@ -365,7 +365,7 @@ $system_ph_num = $system_info_data[5];
                     </div>
                     <div class="col-lg-4">
                         <div class="form-group">
-                            <select name="isd_code" id="isd_code" class="form-select style-border" style="margin: 0; padding: 0; padding-left: 5px;" required>
+                            <select name="isd_code" id="isd_code" class="form-select style-border" required>
                                 <option value="" disabled selected hidden>Select Country</option>
                                 <option value="+1">USA (+1)</option>
                                 <option value="+93">Afghanistan (+93)</option>
@@ -757,7 +757,7 @@ $system_ph_num = $system_info_data[5];
 
     <script src="frontend_assets/assets/global/plugins/bootstrap-toastr/toastr.min.js" type="text/javascript"></script>
     <script src="frontend_assets/assets/global/plugins/bootstrap-sweetalert/sweetalert.js" type="text/javascript"></script>
-    <script src="frontend_assets/common_assets/main_controller.js" type="text/javascript"></script>
+    <script src="frontend_assets/common_assets/main_controller.js?v=1.1.1" type="text/javascript"></script>
     <script>
         window.embeddedChatbotConfig = {
             chatbotId: "a9OqzUxQZ1E5DEnTOInm-",
