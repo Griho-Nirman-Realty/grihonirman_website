@@ -73,6 +73,7 @@ function clear_quick_contact1(){
 		  _(".preloader2").style.display = "none";
 		  toastr["success"](status_text, "Your Request Was Sent Successfully!");
 		  clear_quick_contact1();
+		  window.location.href="./thankyou.html";
 		  return false;
 		}else{
 		  _(".preloader2").style.display = "none";
