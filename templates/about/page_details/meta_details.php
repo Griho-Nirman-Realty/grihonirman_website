@@ -1,5 +1,5 @@
 <meta name="description" content="Learn about Griho Nirman Realty Pvt Ltd, a marketing initiative that showcases our exceptional projects, including plots, apartments, and villas, committed to delivering high-quality properties with a focus on customer satisfaction, transparency, and innovative marketing." />
-<meta name="keywords" content="Griho Nirman Realty, about us, ,about, real estate developers, Kolkata, property development, customer satisfaction, quality real estate" />
+<meta name="keywords" content="Griho Nirman Realty, about us,about, real estate developers, Kolkata, property development, customer satisfaction, quality real estate , buy villas in kolkta , plot price, land purchase, land buy" />
 <meta name="author" content="Griho Nirman Realty Pvt Ltd" />
 
 <!-- Open Graph / Facebook -->
