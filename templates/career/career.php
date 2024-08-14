@@ -1,12 +1,12 @@
   <!--==============================
     Breadcumb
     ============================== -->
-  <div class="breadcumb-wrapper" data-bg-src="linear-gradient(45deg, #000000cf, transparent), url(assets/images/career/career-hero.jpg)">
+  <div class="breadcumb-wrapper m-0" data-bg-src="linear-gradient(45deg, #000000cf, transparent), url(assets/images/career/career-hero.jpg)">
       <!-- bg animated image/ -->
-      <div class="container">
-          <div class="row">
+      <div class="container container2 overflow-hidden">
+          <div class="row justify-content">
               <div class="col-lg-12">
-                  <div class="breadcumb-content">
+                  <div class="breadcumb-content ">
                       <h1 class="breadcumb-title">Career</h1>
                       <ul class="breadcumb-menu">
                           <li><a href="index.html">Griho Nirman Realty</a></li>
@@ -22,20 +22,20 @@
   <!--==============================
     About Area  
     ==============================-->
-  <div class="position-relative space overflow-hidden">
+  <div class="py-4 overflow-hidden m-0">
       <div class="container">
           <div class="row align-items-center justify-content-between">
               <div class="col-lg-6">
-                  <div class="basbhumi">
+                  <div class="">
                       <div class="about-img-3">
                           <img src="assets/images/career/joinfamily.jpg" alt="img">
                       </div>
                   </div>
               </div>
-              <div class="col-lg-6">
+              <div class="col-lg-6 col-md-12">
                   <div class="about-content-wrap">
                       <div class="title-area mb-50">
-                          <!-- <span class="sub-title">Overview</span> -->
+                          
                           <h2 class="sec-title">Be a part of our family!</h2>
                           <p class="sec-text">At Griho Nirman Realty Pvt Ltd, our guiding principle is &quot love what
                               you do.&quot This belief permeates every aspect of our organization, from engaging with
@@ -45,20 +45,15 @@
                           </p>
                       </div>
                   </div>
-                  <!-- <div class="btn-wrap mt-45">
-                        <a href="about.html" class="btn style4">Re-sale<i class="fas fa-angle-double-right"></i></a>
-                        <a href="assets/brochure/bashbhumibrochure/basbhumi.pdf" download=""
-                            class="btn style4">Broucher<i class="fas fa-angle-double-right"></i></a>
-                    </div> -->
 
               </div>
           </div>
       </div>
   </div>
-  </div>
 
 
-  <div class="service-area-2 space overflow-hidden">
+
+  <div class="service-area-2 overflow-hidden">
       <div class="leaf-shape-animation3 d-lg-block d-none" data-bg-src="assets/img/service/service-shape2-1.svg">
       </div>
       <div class="service-shape1_2 shape-mockup jump-reverse d-lg-block d-none" data-top="0" data-left="0">
@@ -66,12 +61,12 @@
       </div>
       <div class="leaf-shape-animation" data-bg-src="assets/img/icon/leaf.svg">
       </div>
-      <div class="container container2">
+      <div class="container container3">
 
           <!-- added from bootstrap -->
-          <div class="container px-4 py-5" id="featured-3">
-              <h2 class="pb-2 ">We are looking for you </h2>
-              <span>Become a part of our legacy!</span>
+          <div class="title-area mb-50" id="featured-3">
+              <h2 class="sec-title">We are looking for you </h2>
+              <span class="sec-text">Become a part of our legacy!</span>
 
 
               <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
@@ -83,8 +78,8 @@
                               </g>
                           </svg>
                       </div>
-                      <h3 class="fs-2 text-body-emphasis">Culture</h3>
-                      <p>Join a vibrant team of enthusiastic and driven professionals.
+                      <h3 class="text-body-emphasis">Culture</h3>
+                      <p class="sec-text1 ">Join a vibrant team of enthusiastic and driven professionals.
                           Our culture fosters collaboration and trust, turning &quotI&quot into &quotwe&quot and
                           &quotmine&quot into &quotours.&quot Together, we face challenges with courage, celebrate
                           achievements as one, and make every day a collective success.</p>
@@ -100,8 +95,8 @@
 
                           </svg>
                       </div>
-                      <h3 class="fs-2 text-body-emphasis">Workspace</h3>
-                      <p>Experience our green, dynamic workspace crafted with a
+                      <h3 class=" text-body-emphasis">Workspace</h3>
+                      <p class="sec-text1 ">Experience our green, dynamic workspace crafted with a
                           fun-at-work philosophy. We believe that a joyful environment enhances productivity and
                           creativity. Our employee-centric HR policies ensure a healthy work-life balance, making
                           every day at work enjoyable and rewarding.</p>
@@ -115,8 +110,8 @@
                               </g>
                           </svg>
                       </div>
-                      <h3 class="fs-2 text-body-emphasis">Growth</h3>
-                      <p>We are committed to nurturing your talent through comprehensive
+                      <h3 class=" text-body-emphasis">Growth</h3>
+                      <p class="sec-text1 ">We are committed to nurturing your talent through comprehensive
                           training and mentorship. Embrace challenging projects that inspire confidence and unlock
                           new possibilities. Our supportive environment encourages continuous learning and
                           development, helping you grow your skills and satisfy your curiosity.</p>
@@ -130,7 +125,7 @@
 
 
   <!--Form area   -->
-  <div class="form-container">
+  <div class="form-container overflow-hidden m-0">
       <div class="leaf-shape-animation3 d-lg-block d-none" data-bg-src="assets/img/service/service-shape2-1.svg">
       </div>
       <div class="service-shape1_2 shape-mockup jump-reverse d-lg-block d-none" data-top="0" data-left="0">
