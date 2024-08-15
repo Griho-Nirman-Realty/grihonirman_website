@@ -1,8 +1,5 @@
+
 User-agent: *
-Disallow: /admin_grihonirman/
-
-
-Allow: sitemap.xml
-
-
+Disallow: 
+Disallow: /cgi-bin/
 Sitemap: https://grihonirmanrealty.in/sitemap.xml
