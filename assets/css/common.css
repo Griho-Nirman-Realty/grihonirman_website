@@ -1,6 +1,7 @@
 html {
   scroll-behavior: smooth !important;
 }
+
 .header-layout1 .header-top {
   background-color: #02b95e96;
   padding: 5px 0;
@@ -9,31 +10,36 @@ html {
 }
 
 
-.modal-quick-contact .form-control, .modal-quick-contact .form-select{
+.modal-quick-contact .form-control,
+.modal-quick-contact .form-select {
   border: 1px solid #1b9603;
   border-radius: 5px;
   height: auto;
   line-height: 1;
   padding: 15px 10px;
   color: #000;
-  
+
 }
-.modal-quick-contact .form-control::placeholder{
+
+.modal-quick-contact .form-control::placeholder {
   color: #000;
 }
-.modal-quick-contact .form-control:focus{
+
+.modal-quick-contact .form-control:focus {
   box-shadow: #000 0px 0px 2px;
 }
 
 @media (max-width: 575px) {
-  .modal-quick-contact .contact-form-wrap{
+  .modal-quick-contact .contact-form-wrap {
     width: 350px;
     margin-top: 0px !important;
   }
-  .modal-quick-contact .sec-title{
+
+  .modal-quick-contact .sec-title {
     font-size: 12px;
   }
 }
+
 .social-links a {
   margin: 0px 0px 0px 7px;
   font-size: 17px;
@@ -45,6 +51,7 @@ html {
   padding-top: 4px;
   text-align: center;
 }
+
 .header-links a:hover {
   color: #8dff89;
 }
@@ -58,6 +65,7 @@ html {
   border-radius: 10px;
   text-align: center;
 }
+
 .header-logo.top-section p {
   font-size: 7px;
   font-weight: bold;
@@ -65,6 +73,7 @@ html {
   color: #000;
   margin-bottom: 0px;
 }
+
 .header-logo img {
   /* filter: drop-shadow(0px 0px 10px #44dd44); */
   width: 70px;
@@ -87,12 +96,14 @@ html {
 .faq-area-1 .faq-bg-img-1 {
   width: 45%;
 }
+
 .whatsapp-sticky-main {
   position: fixed;
   bottom: 0;
   right: 0;
   z-index: 999;
 }
+
 .whatsapp-sticky {
   display: block;
   margin-left: -209px;
@@ -115,17 +126,21 @@ html {
 .preloader2 {
   display: none;
 }
+
 .footer-wrapper .footer-logo {
   margin-bottom: 0px;
   margin-top: -20px;
 }
+
 .footer-wrapper .menu-all-pages-container li a {
   margin-bottom: 5px;
 }
+
 .footer-wrapper .widget-area {
   padding: 30px 0px 0px;
   margin-bottom: -20px;
 }
+
 .footer-wrapper .about-text {
   padding: 0px 0px 0px;
   margin: 0px 0px 15px;
@@ -136,10 +151,12 @@ html {
     display: flex;
   }
 }
+
 @media (max-width: 767px) {
   .footer-map-locaton {
     padding: 10px 15px;
   }
+
   .footer-layout1 .footer-top .info-card .info-card_icon {
     height: 35px;
     width: 35px;
@@ -168,24 +185,29 @@ html {
   border-radius: 10px;
   overflow: hidden;
 }
-.global-carousel .slick-list{
+
+.global-carousel .slick-list {
   border-radius: 10px;
   overflow: hidden;
 }
+
 .global-carousel .slick-arrow {
   background-color: rgb(0, 0, 0);
   color: #ffffff;
   opacity: 0.7;
 }
+
 .global-carousel .slick-arrow:hover {
   background-color: rgb(14, 182, 64);
   color: #ffffff;
   opacity: 1;
 }
+
 .global-carousel .slick-arrow.slick-prev {
   left: 10px;
   display: none !important;
 }
+
 .global-carousel .slick-arrow.slick-next {
   right: 30px;
   margin: 0 !important;
@@ -197,10 +219,12 @@ html {
     border-radius: 10px;
     overflow: visible;
   }
+
   .global-carousel .slick-arrow.slick-prev {
     left: -60px;
     display: block !important;
   }
+
   .global-carousel .slick-arrow.slick-next {
     right: -60px;
     margin: 0 !important;
@@ -209,7 +233,8 @@ html {
   }
 }
 
-.global-carousel-main-slider .slick-arrow, .hero-1 .slick-arrow.slick-prev {
+.global-carousel-main-slider .slick-arrow,
+.hero-1 .slick-arrow.slick-prev {
   background-color: rgb(0, 0, 0);
   color: #ffffff;
   opacity: 0.7;
@@ -217,6 +242,7 @@ html {
   border-radius: 50%;
   font-size: 15px;
 }
+
 .global-carousel-main-slider .slick-arrow {
   background-color: rgb(0, 0, 0);
   color: #ffffff;
@@ -224,15 +250,25 @@ html {
   --icon-size: 50px;
   transform: translate(0) !important;
 }
+
 .global-carousel-main-slider .slick-arrow:hover {
   background-color: rgb(14, 182, 64);
   color: #ffffff;
   opacity: 1;
 }
+
 .global-carousel-main-slider .slick-arrow.slick-prev {
   left: 20px;
-  top: 61%;
+  top: 56.3%;
 }
+
+@media (max-width: 575px) {
+  .global-carousel-main-slider .slick-arrow.slick-prev {
+    left: 20px;
+    top: 57.5%;
+  }
+}
+
 .global-carousel-main-slider .slick-arrow.slick-next {
   right: 20px;
   margin: 0 !important;

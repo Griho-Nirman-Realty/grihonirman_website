@@ -105,8 +105,6 @@
             justify-content: center !important;
         }
 
-
-
     }
 
     .about-thumb {

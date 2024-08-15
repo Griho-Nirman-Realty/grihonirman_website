@@ -20,4 +20,4 @@ Kolkata plots for family homes,
 Secure and serene residential plots in Kolkata,
 Plots near Bharat Sevashram Hospital,
 Plots with easy access to Calcutta Hospital," />
-<meta name="author" content="demo" />
+<meta name="author" content="griho nirman realty pvt.ltd" />
