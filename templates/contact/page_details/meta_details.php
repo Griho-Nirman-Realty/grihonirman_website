@@ -1,5 +1,5 @@
 <meta name="description" content="Get in touch with Griho Nirman Realty Pvt Ltd for all your real estate needs. Contact us for inquiries, support, and information about our projects and services." />
-<meta name="keywords" content="Griho Nirman Realty contact, real estate inquiries, customer support, real estate services, property inquiries, Kolkata real estate, contact Griho Nirman Realty" />
+<meta name="keywords" content="plots,villa, Griho Nirman Realty contact, real estate inquiries, customer support, real estate services, property inquiries, Kolkata real estate, contact Griho Nirman Realty" />
 <meta name="author" content="Griho Nirman Realty Pvt Ltd" />
 
 <!-- Open Graph / Facebook -->

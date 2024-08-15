@@ -1,5 +1,5 @@
 <meta name="description" content="Explore the portfolio of Griho Nirman Realty Pvt Ltd, showcasing our completed, running, and upcoming real estate projects. Discover our commitment to quality, transparency, and customer satisfaction." />
-<meta name="keywords" content="Griho Nirman Realty portfolio, real estate projects, completed projects, running projects, upcoming projects, property development, Kolkata real estate, quality real estate, customer satisfaction" />
+<meta name="keywords" content="Projects,villa, plots, resale, sale, Griho Nirman Realty portfolio, real estate projects, completed projects, running projects, upcoming projects, property development, Kolkata real estate, quality real estate, customer satisfaction" />
 <meta name="author" content="Griho Nirman Realty Pvt Ltd" />
 
 <!-- Open Graph / Facebook -->
