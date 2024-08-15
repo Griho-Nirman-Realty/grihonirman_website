@@ -338,7 +338,6 @@
     /* Card styling */
     .card {
         overflow: visible;
-        width: 190px;
         height: 254px;
         margin: 10px;
         background: linear-gradient(75.7deg, rgb(34, 126, 34) 3.8%, rgb(99, 162, 17) 87.1%);
@@ -556,5 +555,14 @@
         margin: 10px 0px 0px;
     }
 
-   
+
+    .counter-card_text{
+        white-space: nowrap;
+    }
+    .img-cursor{
+    cursor: zoom-in;
+   }
+   .counter-card.style3.my-2{
+    width: 100%;
+   }
 </style>
