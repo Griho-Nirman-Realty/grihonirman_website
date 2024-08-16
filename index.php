@@ -300,9 +300,9 @@ $system_ph_num = $system_info_data[5];
                                     <div class="social-links">
                                         <!-- <span class="social-title">Follow On :</span> -->
                                         <a href="https://www.facebook.com/profile.php?id=61563583546780" target="_blank" style="background-color: #0288d1;"><i class="fab fa-facebook"></i></a>
-                                        <a href="https://twitter.com/" style="background-color: #000000;"><i class="fab fa-twitter"></i></a>
-                                        <a href="https://pinterest.com/" style="background-color: #58b5e8;"><i class="fab fa-linkedin"></i></a>
-                                        <a href="https://instagram.com/" style="background-color: #fc104a;"><i class="fab fa-instagram"></i></a>
+                                        <a href="https://x.com/GrihoL48022" target="_blank" style="background-color: #000000;"><i class="fab fa-brands fa-x-twitter"></i></a>
+                                        <a href="https://www.instagram.com/griho.nirman/" target="_blank" style="background-color: #fc104a;"><i class="fab fa-instagram"></i></a>
+                                        <a href="https://www.linkedin.com/in/griho-nirman-97b0a4322/" target="_blank" style="background-color: #58b5e8;"><i class="fab fa-linkedin"></i></a>
                                     </div>
                                 </li>
                             </ul>
@@ -725,10 +725,10 @@ $system_ph_num = $system_info_data[5];
                     <div class="col-auto align-self-center">
                         <div class="footer-links">
                             <div class="social-btn style4" style="justify-content: center">
-                                <a href="https://www.facebook.com/profile.php?id=61563583546780" tabindex="0"><i class="fab fa-facebook-f"></i></a>
-                                <a href="https://twitter.com/" tabindex="0"><i class="fab fa-twitter"></i></a>
-                                <a href="https://www.instagram.com/" tabindex="0"><i class="fab fa-instagram"></i></a>
-                                <a href="https://linkedin.com/" tabindex="0"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://www.facebook.com/profile.php?id=61563583546780" target="_blank" tabindex="0"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://x.com/GrihoL48022" target="_blank" tabindex="1"><i class="fab fa-brands fa-x-twitter"></i></a>
+                                <a href="https://www.instagram.com/griho.nirman/" target="_blank" tabindex="2"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.linkedin.com/in/griho-nirman-97b0a4322/" target="_blank" tabindex="3"><i class="fab fa-linkedin-in"></i></a>
 
                             </div>
                         </div>
@@ -779,6 +779,7 @@ $system_ph_num = $system_info_data[5];
     <script src="assets/js/main.js"></script>
     <script src="assets/js/sllider-implitaion.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script src="https://kit.fontawesome.com/35181277b5.js" crossorigin="anonymous"></script>
     <!-- WEB SITE JS End -->
 
     <script src="frontend_assets/assets/global/plugins/bootstrap-toastr/toastr.min.js" type="text/javascript"></script>

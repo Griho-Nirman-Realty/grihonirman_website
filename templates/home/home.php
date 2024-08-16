@@ -144,6 +144,7 @@
                     <div class="service-card_content">
                         <h3 class="service-card_title "><a href="service-details.html">Personalized Assistance</a></h3>
                         <p class="service-card_text">Receive dedicated support throughout the buying process for a smooth experience.</p>
+                        <br>
                     </div>
                     <div class="service-card_img">
                         <img src="assets/images/home/services-2.jpg" alt="img">
