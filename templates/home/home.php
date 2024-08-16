@@ -64,7 +64,7 @@
             <div class="col-lg-6">
                 <div class="about-content-wrap">
                     <div class="title-area mb-35">
-                        <span class="sub-title">ABOUT WITH US</span>
+                        <span class="sub-title">ABOUT  US</span>
                         <h2 class="sec-title">Welcome To </br> <?php echo $system_name ?></h2>
                         <p class="sec-text">Griho Nirman is a marketing initiative that showcases our exceptional projects, including plots, apartments, and villas. By highlighting unique features and amenities, it caters to a wide audience. Utilizing a multi-channel approach, Griho Nirman maximizes reach and impact, effectively connecting buyers with their dream homes. Focused on quality, transparency, and customer satisfaction, Griho Nirman is a key driver of our marketing success.</p>
                     </div>
