@@ -183,7 +183,7 @@ $system_ph_num = $system_info_data[5];
 <!-- ============================= -->
 
 <body>
-   
+
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KMKJLBNM"
             height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -255,6 +255,8 @@ $system_ph_num = $system_info_data[5];
                             <li><a href="<?php echo $baseUrl; ?>/about">Griho Nirman</a></li>
                             <li><a href="<?php echo $baseUrl; ?>/services">Services</a></li>
                             <li><a href="<?php echo $baseUrl; ?>/faq">FAQ</a></li>
+                            <li><a href="<?php echo $baseUrl; ?>/gallery">Gallery</a></li>
+
 
 
                             <!-- <li><a href="<?php echo $baseUrl; ?>/team">Our Team</a></li> -->
@@ -335,6 +337,8 @@ $system_ph_num = $system_info_data[5];
                                             <li><a href="<?php echo $baseUrl; ?>/about">Griho Nirman</a></li>
                                             <li><a href="<?php echo $baseUrl; ?>/services">Services</a></li>
                                             <li><a href="<?php echo $baseUrl; ?>/faq">FAQ</a></li>
+                                            <li><a href="<?php echo $baseUrl; ?>/gallery">Gallery</a></li>
+
 
 
                                             <!-- <li><a href="<?php echo $baseUrl; ?>/team">Our Team</a></li> -->
@@ -378,7 +382,7 @@ $system_ph_num = $system_info_data[5];
     <div id="modal" class="modal modal-quick-contact">
         <div class="contact-form-wrap ms-xl-4 mt-40 mt-lg-0">
             <div class="title-area">
-                <h2 class="sec-title">Want to Know More? Our Advisors Are Ready to Assist!</h2>
+                <h2 class="sec-title">Want to Know More about the projects? Our Advisors Are Ready to Assist!</h2>
                 <button id="closeModalBtn" class="close-modal-btn">&times;</button>
             </div>
             <form id="modalForm">

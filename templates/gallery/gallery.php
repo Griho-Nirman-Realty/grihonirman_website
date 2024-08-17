@@ -18,102 +18,123 @@ Breadcumb
 </div>
 
 <!-- Gallery section -->
-<div class="gallery-container">
-    <h2 style="text-align:center">Lightbox</h2>
+<div class="process-area-3 overflow-hidden">
+    <div class="service-shape1_1 shape-mockup jump-reverse d-lg-block d-none" data-top="0" data-right="0">
+        <img src="assets/img/service/service-shape1-1.png" alt="img">
+    </div>
+    <div class="service-shape1_2 shape-mockup jump-reverse d-lg-block d-none" data-top="0" data-left="0">
+        <img src="assets/img/service/service-shape1-2.png" alt="img">
+    </div>
+    <div class="leaf-shape-animation" data-bg-src="url(assets/img/icon/leaf.svg)">
+    </div>
+    <div class="container container1">
+        <div class="row justify-content-center">
+            <div class="col-xl-7 col-lg-8">
+                <div class="title-area text-center">
+                    <h2 class="sec-title mt-4 ">Our Projects in Pictures</h2>
+                </div>
+            </div>
+        </div>
 
-    <div class="row1">
-        <div class="column">
-            <img src="assets/images/gallery/convicity-2.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
-        </div>
-        <div class="column">
-            <img src="assets/images/gallery/convicity-1.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
-        </div>
-        <div class="column">
-            <img src="assets/images/gallery/226.jpeg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
-        </div>
-        <div class="column">
-            <img src="assets/images/gallery/villa-5.jpeg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
-        </div>
-        <div class="column">
-            <img src="assets/images/gallery/villa-5.jpeg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+        <div class="gallery-container px-4 py-4 mb-4">
+            <div class="gallery-item" data-index="1">
+                <img src="assets/images/gallery/convicity-2.jpg">
+            </div>
+            <div class="gallery-item" data-index="2">
+                <img src="assets/images/gallery/convicity-1.jpg">
+            </div>
+            <div class="gallery-item" data-index="3">
+                <img src="assets/images/gallery/226.jpeg">
+            </div>
+            <div class="gallery-item" data-index="4">
+                <img src="assets/images/gallery/23.jpeg">
+            </div>
+            <div class="gallery-item" data-index="5">
+                <img src="assets/images/gallery/24.jpeg">
+            </div>
+            <div class="gallery-item" data-index="6">
+                <img src="assets/images/gallery/25.jpeg">
+            </div>
+            <div class="gallery-item" data-index="7">
+                <img src="assets/images/gallery/villa-1.jpeg">
+            </div>
+            <div class="gallery-item" data-index="8">
+                <img src="assets/images/gallery/27.jpeg">
+            </div>
+            <div class="gallery-item" data-index="9">
+                <img src="assets/images/gallery/22.jpeg">
+            </div>
+            <div class="gallery-item" data-index="10">
+                <img src="assets/images/gallery/villa-2.jpeg">
+            </div>
+            <div class="gallery-item" data-index="11">
+                <img src="assets/images/gallery/villa-3.jpeg">
+            </div>
+            <div class="gallery-item" data-index="12">
+                <img src="assets/images/gallery/villa-4.jpeg">
+            </div>
         </div>
     </div>
 </div>
+<script type="text/javascript">
+    const galleryItem = document.getElementsByClassName("gallery-item");
+    const lightBoxContainer = document.createElement("div");
+    const lightBoxContent = document.createElement("div");
+    const lightBoxImg = document.createElement("img");
+    const lightBoxPrev = document.createElement("div");
+    const lightBoxNext = document.createElement("div");
 
-<div id="myModal" class="modal">
-    <span class="close cursor" onclick="closeModal()">&times;</span>
-    <div class="modal-content">
-        <div class="mySlides">
-            <div class="numbertext">1 / 5</div>
-            <img src="assets/images/gallery/convicity-2.jpg" style="width:100%">
-        </div>
-        <div class="mySlides">
-            <div class="numbertext">2 / 5</div>
-            <img src="assets/images/gallery/convicity-1.jpg" style="width:100%">
-        </div>
-        <div class="mySlides">
-            <div class="numbertext">3 / 5</div>
-            <img src="assets/images/gallery/226.jpeg" style="width:100%">
-        </div>
-        <div class="mySlides">
-            <div class="numbertext">4 / 5</div>
-            <img src="assets/images/gallery/villa-5.jpeg" style="width:100%">
-        </div>
-        <div class="mySlides">
-            <div class="numbertext">5 / 5</div>
-            <img src="assets/images/gallery/villa-5.jpeg" style="width:100%">
-        </div>
+    lightBoxContainer.classList.add("lightbox");
+    lightBoxContent.classList.add("lightbox-content");
+    lightBoxPrev.classList.add("fa", "fa-angle-left", "lightbox-prev");
+    lightBoxNext.classList.add("fa", "fa-angle-right", "lightbox-next");
 
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    lightBoxContainer.appendChild(lightBoxContent);
+    lightBoxContent.appendChild(lightBoxImg);
+    lightBoxContent.appendChild(lightBoxPrev);
+    lightBoxContent.appendChild(lightBoxNext);
+    document.body.appendChild(lightBoxContainer);
 
-        <div class="caption-container">
-            <p id="caption"></p>
-        </div>
-    </div>
-</div>
+    let index = 1;
 
-<script>
-    function openModal() {
-        document.getElementById("myModal").style.display = "block";
-        document.body.style.overflow = "hidden"; // Disable scroll on body when modal is open
-    }
-
-    function closeModal() {
-        document.getElementById("myModal").style.display = "none";
-        document.body.style.overflow = "auto"; // Re-enable scroll on body when modal is closed
-    }
-
-    var slideIndex = 1;
-    showSlides(slideIndex);
-
-    function plusSlides(n) {
-        showSlides(slideIndex += n);
-    }
-
-    function currentSlide(n) {
-        showSlides(slideIndex = n);
-    }
-
-    function showSlides(n) {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        if (n > slides.length) {
-            slideIndex = 1;
+    function showLightBox(n) {
+        if (n > galleryItem.length) {
+            index = 1;
+        } else if (n < 1) {
+            index = galleryItem.length;
         }
-        if (n < 1) {
-            slideIndex = slides.length;
-        }
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-        slides[slideIndex - 1].style.display = "block";
+        let imageLocation = galleryItem[index - 1].children[0].getAttribute("src");
+        lightBoxImg.setAttribute("src", imageLocation);
     }
 
-    // Close modal when clicking outside of the content
-    window.onclick = function(event) {
-        if (event.target == document.getElementById("myModal")) {
-            closeModal();
+    function currentImage() {
+        lightBoxContainer.style.display = "block";
+
+        let imageIndex = parseInt(this.getAttribute("data-index"));
+        showLightBox(index = imageIndex);
+    }
+    for (let i = 0; i < galleryItem.length; i++) {
+        galleryItem[i].addEventListener("click", currentImage);
+    }
+
+    function slideImage(n) {
+        showLightBox(index += n);
+    }
+
+    function prevImage() {
+        slideImage(-1);
+    }
+
+    function nextImage() {
+        slideImage(1);
+    }
+    lightBoxPrev.addEventListener("click", prevImage);
+    lightBoxNext.addEventListener("click", nextImage);
+
+    function closeLightBox() {
+        if (this === event.target) {
+            lightBoxContainer.style.display = "none";
         }
     }
+    lightBoxContainer.addEventListener("click", closeLightBox);
 </script>
