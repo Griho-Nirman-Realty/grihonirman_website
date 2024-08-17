@@ -118,7 +118,7 @@
                         </svg>
                     </div>
                     <h2 class="counter-card_number">
-                        <span class="counter-number">100</span>+
+                        <span class="counter-number">50</span>+
                     </h2>
                     <p class="counter-card_text">Team member</p>
                 </div>
@@ -140,7 +140,7 @@
                         </svg>
                     </div>
                     <h2 class="counter-card_number">
-                        <span class="counter-number">1</span>
+                        <span class="counter-number">10</span>+
                     </h2>
                     <p class="counter-card_text">Complete project</p>
                 </div>
@@ -178,7 +178,7 @@
                         </svg>
                     </div>
                     <h2 class="counter-card_number">
-                        <span class="counter-number">900</span>+
+                        <span class="counter-number">40</span>+
                     </h2>
                     <p class="counter-card_text">Client review</p>
                 </div>
