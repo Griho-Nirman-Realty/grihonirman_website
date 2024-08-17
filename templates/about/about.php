@@ -193,11 +193,13 @@
         Process Area  // why choose us 
     ==============================-->
 <div class="process-area-3 overflow-hidden">
-    <div class="portfolio-shape1_2 shape-mockup d-lg-block d-none">
-        <img src="assets/img/process/process-shape1-2.png" alt="img">
+    <div class="service-shape1_1 shape-mockup jump-reverse d-lg-block d-none" data-top="0" data-right="0">
+        <img src="assets/img/service/service-shape1-1.png" alt="img">
     </div>
-    <div class="process-shape3_2 shape-mockup jump-reverse d-lg-block d-none" >
+    <div class="service-shape1_2 shape-mockup jump-reverse d-lg-block d-none" data-top="0" data-left="0">
         <img src="assets/img/service/service-shape1-2.png" alt="img">
+    </div>
+    <div class="leaf-shape-animation" data-bg-src="url(assets/img/icon/leaf.svg)">
     </div>
     <div class="container container2">
         <div class="row justify-content-center">
