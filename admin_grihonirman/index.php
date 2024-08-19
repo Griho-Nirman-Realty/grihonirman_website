@@ -434,7 +434,7 @@ if ($login == "No") {
 									<!--begin::Toggle-->
 									<div class="topbar-item" data-toggle="dropdown" data-offset="10px,0px">
 										<div class="btn btn-icon btn-clean btn-dropdown btn-lg mr-2">
-											<img style="height: 34px;" src="../backend_assets/img_icon/noti_icon.png" class="noti_icon_img" />
+											<img style="height: 34px;" src="../backend_assets/img_icon/noti_icon.png" class="noti_icon_img" alt="image" />
 										</div>
 									</div>
 									<!--end::Toggle-->

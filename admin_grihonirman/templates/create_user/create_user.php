@@ -184,7 +184,7 @@
                                 <center>
                                     <div class="image-input image-input-outline">
                                         <div style="width: auto; height:auto; margin-top:10px;" class="image-input-wrapper">
-                                            <img style="max-width: 150px;" class="profile_img" data-blank-image="../upload_content/upload_img/profile_img/user_icon.png" src="../upload_content/upload_img/profile_img/user_icon.png" />
+                                            <img style="max-width: 150px;" class="profile_img" data-blank-image="../upload_content/upload_img/profile_img/user_icon.png" src="../upload_content/upload_img/profile_img/user_icon.png" alt="image" />
                                         </div>
                                     </div>
                                 </center>

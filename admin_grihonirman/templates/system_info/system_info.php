@@ -74,7 +74,7 @@
                             <center>
                                 <div class="image-input image-input-outline" id="kt_image_1">
                                     <div style="width: auto; height:auto; margin-top:10px;" class="image-input-wrapper">
-                                        <img style="max-width: 150px;" class="logo" data-blank-image="../upload_content/upload_img/no_image.png" src="../upload_content/upload_img/<?php echo $logo == "" ? "no_image.png" : "system_img/" . $logo; ?>" />
+                                        <img style="max-width: 150px;" alt="image" class="logo" data-blank-image="../upload_content/upload_img/no_image.png" src="../upload_content/upload_img/<?php echo $logo == "" ? "no_image.png" : "system_img/" . $logo; ?>" />
                                     </div>
                                 </div>
                             </center>
@@ -91,7 +91,7 @@
                             <center>
                                 <div class="image-input image-input-outline" id="kt_image_1">
                                     <div style="width: auto; height:auto; margin-top:10px;" class="image-input-wrapper">
-                                        <img style="max-width: 150px;" class="favicon" data-blank-image="../upload_content/upload_img/no_image.png" src="../upload_content/upload_img/<?php echo $favicon == "" ? "no_image.png" : "system_img/" . $favicon; ?>" />
+                                        <img style="max-width: 150px;" alt="image" class="favicon" data-blank-image="../upload_content/upload_img/no_image.png" src="../upload_content/upload_img/<?php echo $favicon == "" ? "no_image.png" : "system_img/" . $favicon; ?>" />
                                     </div>
                                 </div>
                             </center>
