@@ -1,4 +1,4 @@
-<meta name="description" content="Explore Bashbhumi Green View Project: premium plots in a serene green setting with easy access to banks, hospitals, schools, and transport. Invest in your dream home today!" />
+<meta name="description" content="Explore Bashbhumi Green View Project: premium plots in a serene, green setting with easy access to banks, hospitals, schools, and transport. Invest in your dream home today!" />
 
 
 

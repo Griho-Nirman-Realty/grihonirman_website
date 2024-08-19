@@ -1,6 +1,4 @@
-<meta name="description" content="Discover Bashbhumi Green View Project - a premier residential development offering a variety of plot sizes in a serene and green environment. 
-Enjoy modern living with easy access to essential amenities such as banks, hospitals, schools, and transportation hubs. 
-Invest in a plot at Bashbhumi Green View and build your dream home in a tranquil setting with strong potential for future appreciation." />
+<meta name="description" content="Explore Bashbhumi Green View Project—premium residential plots in a serene, green setting. Modern living with nearby amenities. Invest now for future growth potential!" />
 
 <link rel="canonical" href="https://grihonirmanrealty.in/basbhumi" />
 
