@@ -60,6 +60,35 @@ $system_ph_num = $system_info_data[5];
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Griho Nirman Realty",
+            "description": "Providing top-notch real estate services in Kolkata.",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Plot no.10/871(hidco), Street no. 871, action area -3b",
+                "addressLocality": "Newtown",
+                "addressRegion": "West Bengal",
+                "postalCode": "700160",
+                "addressCountry": "IN"
+            },
+            "telephone": "+91  9147390718",
+            "url": "https://grihonirmanrealty.in",
+            "logo": "https://grihonirmanrealty.in/siteimage.jpg",
+            "sameAs": [
+                "https://www.facebook.com/profile.php?id=61563583546780",
+                "https://x.com/GrihoL48022",
+                "https://www.instagram.com/griho.nirman/",
+                "https://www.linkedin.com/in/griho-nirman-97b0a4322/"
+            ],
+            "openingHours": " 09:00-18:00"
+        }
+    </script>
     <!-- Google / Search Engine Tags -->
     <meta itemprop="name" content=" Griho Nirman Realty Pvt Ltd">
     <meta itemprop="description" content=" Discover premium real estate in Kolkata with Griho Nirman Realty. Explore top property listings and expert services to find your dream home or investment property.">
@@ -68,7 +97,7 @@ $system_ph_num = $system_info_data[5];
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
 
-    <link rel="canonical" href="https://grihonirmanrealty.in/home" />
+
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content="https://grihonirmanrealty.in/home">
     <meta property="og:type" content="website">

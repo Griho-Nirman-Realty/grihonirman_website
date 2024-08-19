@@ -2,7 +2,7 @@
     Breadcumb
     ============================== -->
 <div class="breadcumb-wrapper"
-    data-bg-src="linear-gradient(45deg, #000000cf, transparent), url(assets/images/basbhumi/basbhumi_hero.jpg)">
+    data-bg-src="linear-gradient(45deg, #000000cf, transparent), url(assets/images/basbhumi/basbhumi_hero.webp)">
     <!-- bg animated image/ -->
     <div class="container">
         <div class="row">
@@ -29,7 +29,7 @@
             <div class="col-lg-6">
                 <div class="">
                     <div class="about-img-3">
-                        <img src="assets/images/basbhumi/basbhumi_hero.jpg" alt="img">
+                        <img src="assets/images/basbhumi/basbhumi_hero.webp" alt="img">
                     </div>
                 </div>
             </div>
@@ -142,7 +142,7 @@
 <div class="container py-4">
     <div class="row">
         <div class="col-lg-6">
-            <img src="assets/images/basbhumi/basbhumi_plan.jpg" class="why-bg-img-1 img-cursor" alt="Bashbhumi Plan"
+            <img src="assets/images/basbhumi/basbhumi_plan.webp" class="why-bg-img-1 img-cursor" alt="Bashbhumi Plan"
                 id="myImg">
         </div>
         <div class="col-lg-6">
@@ -172,7 +172,7 @@
 <!-- The Modal -->
 <div id="myModal" class="modal">
     <span class="close">&times;</span>
-    <img class="modal-content" id="img01">
+    <img class="modal-content" id="img01" alt="image">
     <div id="caption"></div>
 </div>
 <!--==============================
@@ -491,7 +491,7 @@
     <div class="container py-4">
         <div class="row">
             <div class="col-lg-6">
-                <img src="assets/images/basbhumi/basbhumi_map_location.jpg" class="why-bg-img-1 img-cursor" alt="Bashbhumi Location" id="myImg1">
+                <img src="assets/images/basbhumi/basbhumi_map_location.webp" class="why-bg-img-1 img-cursor" alt="Bashbhumi Location" id="myImg1">
             </div>
             <div class="col-lg-6">
                 <div class="title-area mb-30">
@@ -511,7 +511,7 @@
     <!-- The Modal -->
     <div id="myModal1" class="modal">
         <span class="close">&times;</span>
-        <img class="modal-content" id="img011">
+        <img class="modal-content" id="img011" alt="image">
         <div id="caption1"></div>
     </div>
 </div>

@@ -57,7 +57,7 @@
             <div class="col-lg-6">
                 <div class="about-thumb mb-50 mb-lg-0">
                     <div class="about-img-1 text-center">
-                        <img src="assets/images/home/about-1.jpg" alt="img">
+                        <img src="assets/images/home/about-1.webp" alt="img">
                     </div>
                 </div>
             </div>
@@ -120,7 +120,7 @@
                         <p class="service-card_text">Discover quality plots, apartments, and villas tailored to your needs and preferences.</p>
                     </div>
                     <div class="service-card_img">
-                        <img src="assets/images/home/services-1.jpg" alt="img">
+                        <img src="assets/images/home/services-1.webp" alt="img">
                         <a href="./maintenance" class="btn">Read More <i class="fas fa-angle-double-right"></i></a>
                     </div>
                 </div>
@@ -147,7 +147,7 @@
                         <br>
                     </div>
                     <div class="service-card_img">
-                        <img src="assets/images/home/services-2.jpg" alt="img">
+                        <img src="assets/images/home/services-2.webp" alt="img">
                         <a href="./maintenance" class="btn">Read More <i class="fas fa-angle-double-right"></i></a>
                     </div>
                 </div>
@@ -167,7 +167,7 @@
                             Find your dream home with confidence and peace of mind.<br><br></p>
                     </div>
                     <div class="service-card_img">
-                        <img src="assets/images/home/services-3.jpg" alt="img">
+                        <img src="assets/images/home/services-3.webp" alt="img">
                         <a href="./maintenance" class="btn">Read More <i class="fas fa-angle-double-right"></i></a>
                     </div>
                 </div>
@@ -415,7 +415,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="donation-card">
                     <div class="donation-card-img">
-                        <img src="assets/images/home/project-green-view.jpg" alt="img">
+                        <img src="assets/images/home/project-green-view.webp" alt="img">
                     </div>
                     <div class="donation-card-content">
                         <h3 class="donation-card-title">
@@ -432,7 +432,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="donation-card">
                     <div class="donation-card-img">
-                        <img src="assets/images/portfolio/convicity/convicity-home.jpg" alt="img">
+                        <img src="assets/images/portfolio/convicity/convicity-home.webp" alt="img">
                     </div>
                     <div class="donation-card-content">
                         <h3 class="donation-card-title">
@@ -449,7 +449,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="donation-card">
                     <div class="donation-card-img">
-                        <img src="assets/images/portfolio/windfield/windfields.jpg" alt="img">
+                        <img src="assets/images/portfolio/windfield/windfields.webp" alt="img">
                     </div>
                     <div class="donation-card-content">
                         <h3 class="donation-card-title">

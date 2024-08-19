@@ -2,7 +2,7 @@
     Breadcumb
     ============================== -->
     <div class="breadcumb-wrapper"
-        data-bg-src="linear-gradient(3deg, #00000099, #0012008a) , url(assets/images/portfolio/windfield/windfields.jpg)">
+        data-bg-src="linear-gradient(3deg, #00000099, #0012008a) , url(assets/images/portfolio/windfield/windfields.webp)">
         <!-- bg animated image/ -->
         <div class="container">
             <div class="row">
@@ -29,10 +29,10 @@
                 <div class="col-xl-6">
                     <div class="about-thumb6 mb-40 mb-xl-0">
                         <div class="about-img-1">
-                            <img src="assets/images/portfolio/windfield/21.jpg" alt="img">
+                            <img src="assets/images/portfolio/windfield/21.webp" alt="img">
                         </div>
                         <div class="about-img-2 jump">
-                            <img src="assets/images/portfolio/windfield/floors-image.jpg" alt="img">
+                            <img src="assets/images/portfolio/windfield/floors-image.webp" alt="img">
                         </div>
 
                     </div>
@@ -323,7 +323,7 @@
                     <div class="blog-card">
                         <div class="blog-img">
                             <a href="https://convicity.in/project/catalog/classic-villa" target="_blank">
-                                <img src="assets/images/portfolio/convicity/classic.jpg" alt=" image">
+                                <img src="assets/images/portfolio/convicity/classic.webp" alt=" image">
                                 <!-- <div class="blog-date">03 Apr</div> -->
                             </a>
                         </div>
