@@ -16,7 +16,7 @@
                         <div class="hero-style1">
                             <span class="hero-subtitle" data-ani="slideinup" data-ani-delay="0.3s">Explore</span>
                             <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">Discover Your Next Investment</h1>
-                            <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.5s">Top Resale Properties</h1>
+                            <h2 class="hero-title" data-ani="slideinup" data-ani-delay="0.5s">Top Resale Properties</h2>
                             <p class="hero-text" data-ani="slideinup" data-ani-delay="0.6s"> Browse our exclusive listings and find your next real estate opportunity. </p>
                             <div class="btn-wrap" data-ani="slideinup" data-ani-delay="0.7s">
                                 <a href="<?php echo $baseUrl ?>/contact" class="btn style2">Join Us Now<i class="fas fa-angle-double-right"></i></a>
@@ -33,8 +33,8 @@
                     <div class="col-lg-8 col-md-12">
                         <div class="hero-style1">
                             <span class="hero-subtitle" data-ani="slideinup" data-ani-delay="0.3s">Explore</span>
-                            <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">Find Your Perfect Property</h1>
-                            <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.5s"> Quality Resales at Your Fingertips</h1>
+                            <h2 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">Find Your Perfect Property</h2>
+                            <h2 class="hero-title" data-ani="slideinup" data-ani-delay="0.5s"> Quality Resales at Your Fingertips</h2>
                             <p class="hero-text" data-ani="slideinup" data-ani-delay="0.6s"> Explore a curated selection of homes ready for you to make your own. </p>
                             <div class="btn-wrap" data-ani="slideinup" data-ani-delay="0.7s">
                                 <a href="<?php echo $baseUrl ?>/contact" class="btn style2">Join Us Now<i class="fas fa-angle-double-right"></i></a>

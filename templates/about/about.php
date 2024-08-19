@@ -221,7 +221,7 @@
                     </div>
                     <h3 class="process-card-title">Diverse Property Offerings</h3>
                     <p class="process-card-text">Griho Nirman provides a wide selection of plots, apartments, and villas, ensuring there's something for everyone.</p>
-                    <!-- <a class="link-btn" href="service-details.html">Read More <i class="fas fa-plus"></i></a> -->
+                  
                 </div>
             </div>
             <div class="col-xl-3 col-sm-6 process-card-wrap">
@@ -234,7 +234,7 @@
                     </div>
                     <h3 class="process-card-title">Expertise in Real Estate</h3>
                     <p class="process-card-text">We leverage our deep knowledge and expertise to help you find the perfect property.</p>
-                    <!-- <a class="link-btn" href="service-details.html">Read More <i class="fas fa-plus"></i></a> -->
+                   
                 </div>
             </div>
             <div class="col-xl-3 col-sm-6 process-card-wrap">
@@ -247,7 +247,7 @@
                     </div>
                     <h3 class="process-card-title">Multi-Channel Marketing Strategy</h3>
                     <p class="process-card-text">We connect you with your ideal property through various channels.</p>
-                    <!-- <a class="link-btn" href="service-details.html">Read More <i class="fas fa-plus"></i></a> -->
+                   
                 </div>
             </div>
             <div class="col-xl-3 col-sm-6 process-card-wrap">
@@ -260,7 +260,7 @@
                     </div>
                     <h3 class="process-card-title">Commitment to Quality and Transparency</h3>
                     <p class="process-card-text">We prioritize high standards and clear, honest information, showcasing properties built to the highest quality.</p>
-                    <!-- <a class="link-btn" href="service-details.html">Read More <i class="fas fa-plus"></i></a> -->
+                   
                 </div>
             </div>
         </div>
