@@ -91,7 +91,7 @@ $system_ph_num = $system_info_data[5];
     </script>
     <!-- Google / Search Engine Tags -->
     <meta itemprop="name" content=" Griho Nirman Realty Pvt Ltd">
-    <meta itemprop="description" content=" Discover premium real estate in Kolkata with Griho Nirman Realty. Explore top property listings and expert services to find your dream home or investment property.">
+    <meta itemprop="description" content="Discover premium real estate in Kolkata with Griho Nirman Realty. Explore top listings and expert services to find your dream home or investment property.">
     <meta itemprop="image" content="https://grihonirmanrealty.in/siteimage.jpg">
     <meta property="og:image:type" content="image/jpeg">
     <meta property="og:image:width" content="1200">
@@ -102,7 +102,7 @@ $system_ph_num = $system_info_data[5];
     <meta property="og:url" content="https://grihonirmanrealty.in/home">
     <meta property="og:type" content="website">
     <meta property="og:title" content=" Griho Nirman Realty Pvt Ltd">
-    <meta property="og:description" content=" Discover premium real estate in Kolkata with Griho Nirman Realty. Explore top property listings and expert services to find your dream home or investment property.">
+    <meta property="og:description" content="Discover premium real estate in Kolkata with Griho Nirman Realty. Explore top listings and expert services to find your dream home or investment property.">
     <meta property="og:image" content="https://grihonirmanrealty.in/siteimage.jpg">
     <meta property="og:image:type" content="image/jpeg">
     <meta property="og:image:width" content="1200">
@@ -112,7 +112,7 @@ $system_ph_num = $system_info_data[5];
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content=" Griho Nirman Realty Pvt Ltd">
-    <meta name="twitter:description" content=" Discover premium real estate in Kolkata with Griho Nirman Realty. Explore top property listings and expert services to find your dream home or investment property.">
+    <meta name="twitter:description" content="Discover premium real estate in Kolkata with Griho Nirman Realty. Explore top listings and expert services to find your dream home or investment property.">
     <meta name="twitter:image" content="https://grihonirmanrealty.in/siteimage.jpg">
     <meta property="og:image:type" content="image/jpeg">
     <meta property="og:image:width" content="1200">
@@ -126,7 +126,7 @@ $system_ph_num = $system_info_data[5];
 
         <!-- HTML Meta Tags -->
         <title>Home</title>
-        <meta name="description" content=" Discover premium real estate in Kolkata with Griho Nirman Realty. Explore top property listings and expert services to find your dream home or investment property.">
+        <meta name="description" content="Discover premium real estate in Kolkata with Griho Nirman Realty. Explore top listings and expert services to find your dream home or investment property.">
     <?php
 
     }
