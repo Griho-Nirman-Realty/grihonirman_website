@@ -2,7 +2,7 @@
 Enjoy modern living with easy access to essential amenities such as banks, hospitals, schools, and transportation hubs. 
 Invest in a plot at Bashbhumi Green View and build your dream home in a tranquil setting with strong potential for future appreciation." />
 
-
+<link rel="canonical" href="https://grihonirmanrealty.in/basbhumi" />
 
 <meta name="keywords" content="
 Bashbhumi Green View Project,

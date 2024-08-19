@@ -68,7 +68,7 @@ $system_ph_num = $system_info_data[5];
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
 
-
+    <link rel="canonical" href="https://grihonirmanrealty.in/home" />
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content="https://grihonirmanrealty.in/home">
     <meta property="og:type" content="website">
