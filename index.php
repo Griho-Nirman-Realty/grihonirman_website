@@ -176,6 +176,12 @@ $system_ph_num = $system_info_data[5];
 
         gtag('config', 'AW-16665448208');
     </script>
+    <script>
+        gtag('config', 'AW-16665448208/-jskCIKZqMsZEJCe2oo-', {
+            'phone_conversion_number': '9147390718'
+        });
+    </script>
+
 </head>
 
 <!-- ============================= -->

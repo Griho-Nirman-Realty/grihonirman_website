@@ -127,7 +127,7 @@ if($view_permission=="Yes"){
 		$profileImageStr = '<center>
 							<div class="image-input image-input-outline">
 								<div style="width: auto; height:auto;" class="image-input-wrapper">
-									<img style="max-width: 80px;" src="../upload_content/upload_img/profile_img/'.$profileImage.'">
+									<img alt="image" style="max-width: 80px;" src="../upload_content/upload_img/profile_img/ '.$profileImage.'" >
 								</div>
 							</div>
 						</center>';
