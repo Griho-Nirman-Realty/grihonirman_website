@@ -2,7 +2,7 @@
     <!--==============================
     Breadcumb
     ============================== -->
-    <div class="breadcumb-wrapper" data-bg-src="url(assets/images/FAQ/FAQ-hero.jpg)" >
+    <div class="breadcumb-wrapper" data-bg-src="url(assets/images/FAQ/FAQ-hero.webp)" >
         <!-- bg animated image/ -->
         <div class="container">
             <div class="row">

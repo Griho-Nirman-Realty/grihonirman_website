@@ -37,7 +37,7 @@
           <div class="row filter-active gy-2">
               <div class="col-md-4 filter-item complate">
                   <div class="project-card style2">
-                      <div class="project-card-img" data-bg-src="url(assets/images/portfolio/convicity/convicity-hero.jpg) no-repeat center center / cover">
+                      <div class="project-card-img" data-bg-src="url(assets/images/portfolio/convicity/convicity-hero.webp) no-repeat center center / cover">
                       </div>
                       <div class="project-card-details">
                           <p class="project-card-subtitle"><a href="./convicity">convicity</a></p>
@@ -66,7 +66,7 @@
 
               <div class="col-md-4 filter-item complate">
                   <div class="project-card style2">
-                      <div class="project-card-img" data-bg-src="url(assets/images/portfolio/windfield/windfields1.jpg) no-repeat center center / cover">
+                      <div class="project-card-img" data-bg-src="url(assets/images/portfolio/windfield/windfields1.webp) no-repeat center center / cover">
                       </div>
                       <div class="project-card-details">
                           <p class="project-card-subtitle"><a href="./windfield">Windfields</a></p>
@@ -81,7 +81,7 @@
 
               <div class="col-md-4 filter-item upcoming">
                   <div class="project-card style2">
-                      <div class="project-card-img" data-bg-src="url(assets/images/portfolio/coming-soon.jpg) no-repeat center center / cover">
+                      <div class="project-card-img" data-bg-src="url(assets/images/portfolio/coming-soon.webp) no-repeat center center / cover">
                       </div>
                       <div class="project-card-details">
                           <p class="project-card-subtitle"><a href="./home">Upcoming</a></p>

@@ -30,10 +30,10 @@
                 <div class="col-xl-6">
                     <div class="about-thumb6 mb-40 mb-xl-0">
                         <div class="about-img-1">
-                            <img src="assets/images/portfolio/convicity/convicity-hero.jpg" alt="img">
+                            <img src="assets/images/portfolio/convicity/convicity-hero.wepb" alt="img">
                         </div>
                         <div class="about-img-2 jump">
-                            <img src="assets/images/portfolio/convicity/convicity-hero-1.jpg" alt="img">
+                            <img src="assets/images/portfolio/convicity/convicity-hero-1.webp" alt="img">
                         </div>
 
                     </div>

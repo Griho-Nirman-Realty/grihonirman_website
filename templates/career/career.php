@@ -1,7 +1,7 @@
   <!--==============================
     Breadcumb
     ============================== -->
-  <div class="breadcumb-wrapper m-0" data-bg-src="linear-gradient(45deg, #000000cf, transparent), url(assets/images/career/career-hero.jpg)">
+  <div class="breadcumb-wrapper m-0" data-bg-src="linear-gradient(45deg, #000000cf, transparent), url(assets/images/career/career-hero.webp)">
       <!-- bg animated image/ -->
       <div class="container container2 overflow-hidden">
           <div class="row justify-content">
@@ -28,7 +28,7 @@
               <div class="col-lg-6">
                   <div class="">
                       <div class="about-img-3">
-                          <img src="assets/images/career/joinfamily.jpg" alt="img">
+                          <img src="assets/images/career/joinfamily.webp" alt="img">
                       </div>
                   </div>
               </div>
