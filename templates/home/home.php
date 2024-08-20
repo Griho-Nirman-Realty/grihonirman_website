@@ -15,7 +15,7 @@
                     <div class="col-lg-8">
                         <div class="hero-style1">
                             <span class="hero-subtitle" data-ani="slideinup" data-ani-delay="0.3s">Explore</span>
-                            <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">Discover Your Next Investment</h1>
+                            <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">Griho Nirman Realty - Discover Your Next Investment</h1>
                             <h2 class="hero-title" data-ani="slideinup" data-ani-delay="0.5s">Top Resale Properties</h2>
                             <p class="hero-text" data-ani="slideinup" data-ani-delay="0.6s"> Browse our exclusive listings and find your next real estate opportunity. </p>
                             <div class="btn-wrap" data-ani="slideinup" data-ani-delay="0.7s">
@@ -142,7 +142,7 @@
                         </svg>
                     </div>
                     <div class="service-card_content">
-                        <h3 class="service-card_title "><a href="service-details.html">Personalized Assistance</a></h3>
+                        <h3 class="service-card_title "><a href="./maintenance">Personalized Assistance</a></h3>
                         <p class="service-card_text">Receive dedicated support throughout the buying process for a smooth experience.</p>
                         <br>
                     </div>

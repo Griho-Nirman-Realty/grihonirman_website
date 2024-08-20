@@ -1,5 +1,5 @@
 <!-- HTML Meta Tags -->
-<title>Griho Nirman Realty Pvt Ltd</title>
+<title>Griho Nirman Realty-Best plots in kolkata</title>
 <meta name="description" content="Discover premium real estate in Kolkata with Griho Nirman Realty. Explore top listings and expert services to find your dream home or investment property.">
 
 
@@ -7,18 +7,24 @@
 
 
 <meta name="keywords" content="
+best relestate company in kolkata,
+buy plots in kolkata,
+buy villa in kolkata,
+housing,
+99acers,
+
 land sale in kolkata,
-but villas , bunglow ,
+buy villas , 
+bunglow ,
 plot sale ,
 property,
 Bashbhumi Green View Project,
 Residential plots,
 Real estate,
 Plot sizes,
-Buy plots in Kolkata,
 Plots for sale near Joka Metro Station,
 Residential plots near Vivekananda Mission School,
-Affordable plots in Kolkata,
+plots in Kolkata,
 Buy residential plots in a green environment,
 Investment in Kolkata real estate,
 Plots with modern amenities in Kolkata,
