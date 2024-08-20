@@ -34,7 +34,7 @@
                         </svg>
                     </div>
                     <div class="service-card_content">
-                        <h3 class="service-card_title "><a href="service-details.html">Fulfill your dreams </a></h3>
+                        <h3 class="service-card_title "><a href="./maintenance">Fulfill your dreams </a></h3>
                         <p class="service-card_text">
                             <?php
                             $text = "Keep your dreams alive. Understand to achieve anything requires faith and belief in yourself, vision, hard work, determination, and dedication. Remember all things are possible for those who believe";
@@ -58,7 +58,7 @@
                         </svg>
                     </div>
                     <div class="service-card_content">
-                        <h3 class="service-card_title "><a href="service-details.html">Construction</a></h3>
+                        <h3 class="service-card_title "><a href="./maintenance">Construction</a></h3>
                         <p class="service-card_text">
 
                             <?php

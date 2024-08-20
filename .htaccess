@@ -1,4 +1,6 @@
 RewriteEngine on
+Redirect 301 / https://grihonirmanrealty.in/
+Redirect 301 /service-details.html https://grihonirmanrealty.in/home
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d

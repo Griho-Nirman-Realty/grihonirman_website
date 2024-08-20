@@ -12,7 +12,7 @@
 <div>
     <center>
         <img src="../upload_content/upload_img/system_img/<?php echo $system_logo ?>" alt="landing" style='width: 220px; margin-top: 50px; margin-bottom: 20px;'>
-        <h1>Welcome To <?php echo $system_name ?></h1>
+        <h1><?php echo $system_name ?></h1>
     </center>
 </div>
 <!--end::Card-->
