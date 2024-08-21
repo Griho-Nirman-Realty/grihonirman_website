@@ -3083,7 +3083,7 @@
      */
     var createImage = function (url) {
       return $.Deferred(function (deferred) {
-        var $img = $('<img>');
+        var $img = $('<img loading="lazy" >');
 
         $img.one('load', function () {
           $img.off('error abort');

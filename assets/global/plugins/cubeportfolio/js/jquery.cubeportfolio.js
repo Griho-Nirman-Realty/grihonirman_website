@@ -193,7 +193,7 @@
                         if (t.checkSrc(el.src) === null) {
                             t.removeAttrImage(el);
                         } else {
-                            $('<img>').on('load.cbp error.cbp', function() {
+                            $('<img loading="lazy" >').on('load.cbp error.cbp', function() {
                                 t.removeAttrImage(el);
                             }).attr('src', el.src); // for ie8
                         }
@@ -212,7 +212,7 @@
                 }
 
                 $.each(src, function(i, el) {
-                    $('<img>').on('load.cbp error.cbp', function() {
+                    $('<img loading="lazy" >').on('load.cbp error.cbp', function() {
                         srcLength--;
 
                         if (srcLength === 0) {
@@ -3423,7 +3423,7 @@ if (typeof Object.create !== 'function') {
                 parentNode.removeClass(t.options.loadingClass);
             } else {
                 parentNode.addClass(t.options.loadingClass);
-                $('<img>').on('load.cbp error.cbp', function() {
+                $('<img loading="lazy" >').on('load.cbp error.cbp', function() {
                     t.removeLazy(el, dataSrc, parentNode);
                 }).attr('src', dataSrc); // for ie8
             }
@@ -4779,7 +4779,7 @@ if (typeof Object.create !== 'function') {
 
             t.tooggleLoading(true);
 
-            t.cubeportfolio.loadImages($('<div><img src="' + el.src + '"></div>'), function() {
+            t.cubeportfolio.loadImages($('<div><img loading="lazy"  src="' + el.src + '"></div>'), function() {
                 t.updateImagesMarkup(el.src, el.title, t.getCounterMarkup(t.options.lightboxCounter, t.current + 1, t.counterTotal));
 
                 t.tooggleLoading(false);
@@ -4909,7 +4909,7 @@ if (typeof Object.create !== 'function') {
             t.wrap.removeClass('cbp-popup-lightbox-isIframe');
 
             var markup = '<div class="cbp-popup-lightbox-figure">' +
-                '<img src="' + src + '" class="cbp-popup-lightbox-img" ' + t.dataActionImg + ' />' +
+                '<img loading="lazy"  src="' + src + '" class="cbp-popup-lightbox-img" ' + t.dataActionImg + ' />' +
                 '<div class="cbp-popup-lightbox-bottom">' +
                 ((title) ? '<div class="cbp-popup-lightbox-title">' + title + '</div>' : '') +
                 counter +

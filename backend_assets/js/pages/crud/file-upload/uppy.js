@@ -111,7 +111,7 @@ var KTUppy = function () {
 				var imageType = /image/;
 				var thumbnail = "";
 				if (imageType.test(value.type)){
-					thumbnail = '<div class="uppy-thumbnail"><img src="'+value.uploadURL+'"/></div>';
+					thumbnail = '<div class="uppy-thumbnail"><img loading="lazy"  src="'+value.uploadURL+'"/></div>';
 				}
 				var sizeLabel = "bytes";
 				var filesize = value.size;
@@ -159,7 +159,7 @@ var KTUppy = function () {
 				var imageType = /image/;
 				var thumbnail = "";
 				if (imageType.test(value.type)){
-					thumbnail = '<div class="uppy-thumbnail"><img src="'+value.uploadURL+'"/></div>';
+					thumbnail = '<div class="uppy-thumbnail"><img loading="lazy"  src="'+value.uploadURL+'"/></div>';
 				}
 				var sizeLabel = "bytes";
 				var filesize = value.size;

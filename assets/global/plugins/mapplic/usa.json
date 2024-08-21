@@ -41,7 +41,7 @@
 				{
 					"id":"il",
 					"title":"Illinois",
-					"description":"<p>Three U.S. presidents have been elected while living in Illinois</p><img src=\"images/logo.png\" alt=\"Mapplic\">",
+					"description":"<p>Three U.S. presidents have been elected while living in Illinois</p><img loading="lazy"  src=\"images/logo.png\" alt=\"Mapplic\">",
 					"about": "Illinois state",
 					"link": "http://en.wikipedia.org/wiki/Illinois",
 					"pin":"hidden",
@@ -92,7 +92,7 @@
 				{
 					"id":"tx",
 					"title":"Texas",
-					"description":"<p>The Lone Star State <a href=\"http://www.codecanyon.net\">Canyon</a></p><img src=\"images/logo.png\" alt=\"Mapplic\">",
+					"description":"<p>The Lone Star State <a href=\"http://www.codecanyon.net\">Canyon</a></p><img loading="lazy"  src=\"images/logo.png\" alt=\"Mapplic\">",
 					"link": "http://en.wikipedia.org/wiki/Texas",
 					"pin":"hidden",
 					"fill": "#4d5e6d",
@@ -103,7 +103,7 @@
 				{
 					"id":"dc",
 					"title":"Washington DC",
-					"description":"<p>Washington, D.C., formally the District of Columbia is the capital of the United States.</p><img src=\"http://upload.wikimedia.org/wikipedia/commons/thumb/a/af/WhiteHouseSouthFacade.JPG/600px-WhiteHouseSouthFacade.JPG\">",
+					"description":"<p>Washington, D.C., formally the District of Columbia is the capital of the United States.</p><img loading="lazy"  src=\"http://upload.wikimedia.org/wikipedia/commons/thumb/a/af/WhiteHouseSouthFacade.JPG/600px-WhiteHouseSouthFacade.JPG\">",
 					"link": "http://en.wikipedia.org/wiki/Washington,_D.C.",
 					"pin":"iconpin fa fa-institution",
 					"x":"0.8388",
@@ -139,7 +139,7 @@
 				{
 					"id":"miami",
 					"title":"Miami",
-					"description":"<p>Miami's metro area is the eighth most populous and fourth-largest urban area in the United States.</p><img src=\"http://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Downtown_Miami_Panorama_from_the_Rusty_Pelican_photo_D_Ramey_Logan.jpg/400px-Downtown_Miami_Panorama_from_the_Rusty_Pelican_photo_D_Ramey_Logan.jpg\">",
+					"description":"<p>Miami's metro area is the eighth most populous and fourth-largest urban area in the United States.</p><img loading="lazy"  src=\"http://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Downtown_Miami_Panorama_from_the_Rusty_Pelican_photo_D_Ramey_Logan.jpg/400px-Downtown_Miami_Panorama_from_the_Rusty_Pelican_photo_D_Ramey_Logan.jpg\">",
 					"x":"0.8333",
 					"y":"0.8997",
 					"zoom": "2"

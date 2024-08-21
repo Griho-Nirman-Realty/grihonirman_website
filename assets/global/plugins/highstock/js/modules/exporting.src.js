@@ -219,7 +219,7 @@ extend(Chart.prototype, {
 			.replace(/&shy;/g,  '\u00AD') // soft hyphen
 
 			// IE specific
-			.replace(/<IMG /g, '<image ')
+			.replace(/<img loading="lazy"  /g, '<image ')
 			.replace(/<(\/?)TITLE>/g, '<$1title>')
 			.replace(/height=([^" ]+)/g, 'height="$1"')
 			.replace(/width=([^" ]+)/g, 'width="$1"')

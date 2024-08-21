@@ -24,13 +24,13 @@ Load files in the <head> section of your HTML document. Make sure you also add t
 
 Create your links with a `title` if you want a title to be shown, and add a class:
 
-    <a href="large_image.jpg" class="fancybox" title="Sample title"><img src="small_image.jpg" /></a>
+    <a href="large_image.jpg" class="fancybox" title="Sample title"><img loading="lazy"  src="small_image.jpg" /></a>
 
 If you have a set of related items that you would like to group,
 additionally include a group name in the `rel` (or `data-fancybox-group`) attribute:
 
-    <a href="large_1.jpg" class="fancybox" rel="gallery" title="Sample title 1"><img src="small_1.jpg" /></a>
-    <a href="large_2.jpg" class="fancybox" rel="gallery" title="Sample title 1"><img src="small_2.jpg" /></a>
+    <a href="large_1.jpg" class="fancybox" rel="gallery" title="Sample title 1"><img loading="lazy"  src="small_1.jpg" /></a>
+    <a href="large_2.jpg" class="fancybox" rel="gallery" title="Sample title 1"><img loading="lazy"  src="small_2.jpg" /></a>
 
 Initialise the script like this:
 

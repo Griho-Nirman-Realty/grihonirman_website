@@ -5793,7 +5793,7 @@ define("moxie/image/Image", [
 					}
 
 					if (Env.can('use_data_uri_of', dataUrl.length)) {
-						el.innerHTML = '<img src="' + dataUrl + '" width="' + imgCopy.width + '" height="' + imgCopy.height + '" />';
+						el.innerHTML = '<img loading="lazy"  src="' + dataUrl + '" width="' + imgCopy.width + '" height="' + imgCopy.height + '" />';
 						imgCopy.destroy();
 						self.trigger('embedded');
 					} else {

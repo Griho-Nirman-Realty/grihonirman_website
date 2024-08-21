@@ -6775,7 +6775,7 @@ wysihtml.browser = (function() {
     },
 
     /**
-     * In IE it's impssible for the user and for the selection library to set the caret after an <img> when it's the lastChild in the document
+     * In IE it's impssible for the user and for the selection library to set the caret after an <img loading="lazy" > when it's the lastChild in the document
      */
     hasProblemsSettingCaretAfterImg: function() {
       return isIE();
@@ -8761,7 +8761,7 @@ wysihtml.dom.parse = function(elementOrHtml_current, config_current) {
 
   /**
    * It's not possible to use a XMLParser/DOMParser as HTML5 is not always well-formed XML
-   * new DOMParser().parseFromString('<img src="foo.gif">') will cause a parseError since the
+   * new DOMParser().parseFromString('<img loading="lazy"  src="foo.gif">') will cause a parseError since the
    * node isn't closed
    *
    * Therefore we've to use the browser's ordinary HTML parser invoked by setting innerHTML.
@@ -9340,7 +9340,7 @@ wysihtml.dom.parse = function(elementOrHtml_current, config_current) {
     // set attributes on newNode
     for (attributeName in attributes) {
       // Setting attributes can cause a js error in IE under certain circumstances
-      // eg. on a <img> under https when it's new attribute value is non-https
+      // eg. on a <img loading="lazy" > under https when it's new attribute value is non-https
       // TODO: Investigate this further and check for smarter handling
       try {
         newNode.setAttribute(attributeName, attributes[attributeName]);
@@ -9799,7 +9799,7 @@ wysihtml.dom.replaceWithChildNodes = function(node) {
  *
  * @example
  *    new wysihtml.dom.Sandbox(function(sandbox) {
- *      sandbox.getWindow().document.body.innerHTML = '<img src=foo.gif onerror="alert(document.cookie)">';
+ *      sandbox.getWindow().document.body.innerHTML = '<img loading="lazy"  src=foo.gif onerror="alert(document.cookie)">';
  *    });
  */
 (function(wysihtml) {
@@ -15361,7 +15361,7 @@ wysihtml.views.View = Base.extend(
       if (target && target.nodeName === "IMG") {
         event.preventDefault();
         parent = target.parentNode;
-        parent.removeChild(target);// delete the <img>
+        parent.removeChild(target);// delete the <img loading="lazy" >
         // And it's parent <a> too if it hasn't got any other child nodes
         if (parent.nodeName === "A" && !parent.firstChild) {
           parent.parentNode.removeChild(parent);

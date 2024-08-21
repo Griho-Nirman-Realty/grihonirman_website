@@ -28,11 +28,11 @@
             <div class="col-lg-6 ">
                 <div class="about-thumb3 mb-50 mb-lg-0">
                     <div class="about-img-1">
-                        <img src="assets/images/about/about-1-bg.webp" alt="img">
+                        <img loading="lazy"  src="assets/images/about/about-1-bg.webp" alt="img">
                     </div>
 
                     <div class="about-img-3">
-                        <img src="assets/images/about/about-1.webp" alt="img">
+                        <img loading="lazy"  src="assets/images/about/about-1.webp" alt="img">
                     </div>
                 </div>
             </div>
@@ -194,10 +194,10 @@
     ==============================-->
 <div class="process-area-3 overflow-hidden">
     <div class="service-shape1_1 shape-mockup jump-reverse d-lg-block d-none" data-top="0" data-right="0">
-        <img src="assets/img/service/service-shape1-1.png" alt="img">
+        <img loading="lazy"  src="assets/img/service/service-shape1-1.png" alt="img">
     </div>
     <div class="service-shape1_2 shape-mockup jump-reverse d-lg-block d-none" data-top="0" data-left="0">
-        <img src="assets/img/service/service-shape1-2.png" alt="img">
+        <img loading="lazy"  src="assets/img/service/service-shape1-2.png" alt="img">
     </div>
     <div class="leaf-shape-animation" data-bg-src="url(assets/img/icon/leaf.svg)">
     </div>

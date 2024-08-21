@@ -29,7 +29,7 @@
             <div class="col-lg-6">
                 <div class="">
                     <div class="about-img-3">
-                        <img src="assets/images/basbhumi/basbhumi_hero.webp" alt="img">
+                        <img loading="lazy"  src="assets/images/basbhumi/basbhumi_hero.webp" alt="img">
                     </div>
                 </div>
             </div>
@@ -142,7 +142,7 @@
 <div class="container py-4">
     <div class="row">
         <div class="col-lg-6">
-            <img src="assets/images/basbhumi/basbhumi_plan.webp" class="why-bg-img-1 img-cursor" alt="Bashbhumi Plan"
+            <img loading="lazy"  src="assets/images/basbhumi/basbhumi_plan.webp" class="why-bg-img-1 img-cursor" alt="Bashbhumi Plan"
                 id="myImg">
         </div>
         <div class="col-lg-6">
@@ -172,7 +172,7 @@
 <!-- The Modal -->
 <div id="myModal" class="modal">
     <span class="close">&times;</span>
-    <img class="modal-content" id="img01" alt="image">
+    <img loading="lazy"  class="modal-content" id="img01" alt="image">
     <div id="caption"></div>
 </div>
 <!--==============================
@@ -181,10 +181,10 @@
 <div class="row m-0 nearby justify-content-center pt-5">
     <div>
         <div class="service-shape1_1 shape-mockup jump-reverse d-lg-block d-none" data-top="0" data-right="0">
-            <img src="assets/img/service/service-shape1-1.png" alt="img">
+            <img loading="lazy"  src="assets/img/service/service-shape1-1.png" alt="img">
         </div>
         <div class="service-shape1_2 shape-mockup jump-reverse d-lg-block d-none" data-top="0" data-left="0">
-            <img src="assets/img/service/service-shape1-2.png" alt="img">
+            <img loading="lazy"  src="assets/img/service/service-shape1-2.png" alt="img">
         </div>
         <div class="leaf-shape-animation" data-bg-src="url(assets/img/icon/leaf.svg)">
         </div>
@@ -491,7 +491,7 @@
     <div class="container py-4">
         <div class="row">
             <div class="col-lg-6">
-                <img src="assets/images/basbhumi/basbhumi_map_location.webp" class="why-bg-img-1 img-cursor" alt="Bashbhumi Location" id="myImg1">
+                <img loading="lazy"  src="assets/images/basbhumi/basbhumi_map_location.webp" class="why-bg-img-1 img-cursor" alt="Bashbhumi Location" id="myImg1">
             </div>
             <div class="col-lg-6">
                 <div class="title-area mb-30">
@@ -511,7 +511,7 @@
     <!-- The Modal -->
     <div id="myModal1" class="modal">
         <span class="close">&times;</span>
-        <img class="modal-content" id="img011" alt="image">
+        <img loading="lazy"  class="modal-content" id="img011" alt="image">
         <div id="caption1"></div>
     </div>
 </div>

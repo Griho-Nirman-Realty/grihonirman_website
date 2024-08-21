@@ -1,4 +1,4 @@
-<img alt="Dropzone.js" src="http://www.dropzonejs.com/images/new-logo.svg" />
+<img loading="lazy"  alt="Dropzone.js" src="http://www.dropzonejs.com/images/new-logo.svg" />
 
 [ ![Codeship Status for enyo/dropzone](https://codeship.com/projects/3fc90800-74e0-0132-38ce-22ab3bab314c/status?branch=master)](https://codeship.com/projects/55087)
 
@@ -30,7 +30,7 @@ there's a standalone version and an [AMD](https://github.com/amdjs/amdjs-api/wik
 module that's compatible with [RequireJS](http://requirejs.org) in the downloads
 folder.
 
-<img slt="Dropzone Screenshot" width="585" src="http://i.imgur.com/Xf7QvVG.png" />
+<img loading="lazy"  slt="Dropzone Screenshot" width="585" src="http://i.imgur.com/Xf7QvVG.png" />
 
 
 

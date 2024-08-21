@@ -361,7 +361,7 @@
 
     if (img_mode) {
 
-      $img2 = $('<img />')
+      $img2 = $('<img loading="lazy"  />')
           .attr('src', $img.attr('src')).css(img_css).width(boundx).height(boundy),
 
       $img_holder.append($img2);

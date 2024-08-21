@@ -28,7 +28,7 @@
               <div class="col-lg-6">
                   <div class="">
                       <div class="about-img-3">
-                          <img src="assets/images/career/joinfamily.webp" alt="img">
+                          <img loading="lazy"  src="assets/images/career/joinfamily.webp" alt="img">
                       </div>
                   </div>
               </div>
@@ -57,7 +57,7 @@
       <div class="leaf-shape-animation3 d-lg-block d-none" data-bg-src="assets/img/service/service-shape2-1.svg">
       </div>
       <div class="service-shape1_2 shape-mockup jump-reverse d-lg-block d-none" data-top="0" data-left="0">
-          <img src="assets/img/service/service-shape1-2.png" alt="img">
+          <img loading="lazy"  src="assets/img/service/service-shape1-2.png" alt="img">
       </div>
       <div class="leaf-shape-animation" data-bg-src="assets/img/icon/leaf.svg">
       </div>
@@ -129,7 +129,7 @@
       <div class="leaf-shape-animation3 d-lg-block d-none" data-bg-src="assets/img/service/service-shape2-1.svg">
       </div>
       <div class="service-shape1_2 shape-mockup jump-reverse d-lg-block d-none" data-top="0" data-left="0">
-          <img src="assets/img/service/service-shape1-2.png" alt="img">
+          <img loading="lazy"  src="assets/img/service/service-shape1-2.png" alt="img">
       </div>
       <div class="leaf-shape-animation" data-bg-src="assets/img/icon/leaf.svg">
       </div>

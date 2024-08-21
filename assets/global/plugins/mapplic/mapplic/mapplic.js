@@ -89,7 +89,7 @@
 					if (!self.o.zoom) zoomTo(0.5, 0.5, 1, 600, 'easeInOutCubic');
 					s.hide();
 				});
-				this.image = $('<img>').addClass('mapplic-tooltip-image').hide().appendTo(this.el);
+				this.image = $('<img loading="lazy" >').addClass('mapplic-tooltip-image').hide().appendTo(this.el);
 				this.title = $('<h4></h4>').addClass('mapplic-tooltip-title').appendTo(this.el);
 				this.content = $('<div></div>').addClass('mapplic-tooltip-content').appendTo(this.el);
 				this.desc = $('<div></div>').addClass('mapplic-tooltip-description').appendTo(this.content);
@@ -390,9 +390,9 @@
 
 			this.addLayer = function(data) {
 				var layer = $('<div></div>').addClass('mapplic-minimap-layer').addClass(data.id).appendTo(this.el);
-				$('<img>').attr('src', data.minimap).addClass('mapplic-minimap-background').appendTo(layer);
+				$('<img loading="lazy" >').attr('src', data.minimap).addClass('mapplic-minimap-background').appendTo(layer);
 				$('<div></div>').addClass('mapplic-minimap-overlay').appendTo(layer);
-				$('<img>').attr('src', data.minimap).addClass('mapplic-minimap-active').appendTo(layer);
+				$('<img loading="lazy" >').attr('src', data.minimap).addClass('mapplic-minimap-active').appendTo(layer);
 			}
 
 			this.show = function(target) {
@@ -475,7 +475,7 @@
 							item.toggleClass('mapplic-opened');
 							ol.slideToggle(200);
 						});
-						if (category.icon) $('<img>').attr('src', category.icon).addClass('mapplic-list-thumbnail').prependTo(link);
+						if (category.icon) $('<img loading="lazy" >').attr('src', category.icon).addClass('mapplic-list-thumbnail').prependTo(link);
 						$('<span></span>').text('0').addClass('mapplic-list-count').prependTo(link);
 						list.append(item);
 					});
@@ -496,7 +496,7 @@
 					}
 				}).appendTo(item);
 
-				if (data.thumbnail) $('<img>').attr('src', data.thumbnail).addClass('mapplic-list-thumbnail').appendTo(link);
+				if (data.thumbnail) $('<img loading="lazy" >').attr('src', data.thumbnail).addClass('mapplic-list-thumbnail').appendTo(link);
 				$('<h4></h4>').text(data.title).appendTo(link)
 				$('<span></span>').html(data.about).appendTo(link);
 				var category = $('.mapplic-list-category[data-category="' + data.category + '"]');
@@ -702,7 +702,7 @@
 
 						// Image formats
 						case 'jpg': case 'jpeg': case 'png': case 'gif':
-							$('<img>').attr('src', source).addClass('mapplic-map-image').appendTo(layer);
+							$('<img loading="lazy" >').attr('src', source).addClass('mapplic-map-image').appendTo(layer);
 							break;
 
 						// Vector format

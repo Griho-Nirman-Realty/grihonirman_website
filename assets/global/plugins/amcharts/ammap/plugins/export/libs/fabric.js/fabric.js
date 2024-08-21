@@ -5372,7 +5372,7 @@ fabric.Pattern = fabric.util.createClass(/** @lends fabric.Pattern.prototype */ 
     if (typeof this.source === 'function') {
       source = String(this.source);
     }
-    // <img> element
+    // <img loading="lazy" > element
     else if (typeof this.source.src === 'string') {
       source = this.source.src;
     }

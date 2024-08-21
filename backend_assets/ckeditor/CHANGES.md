@@ -519,7 +519,7 @@ Other Changes:
 
 * Fixed XSS vulnerability in the [Enhanced Image](https://ckeditor.com/cke4/addon/image2) (`image2`) plugin reported by [Kyaw Min Thein](https://twitter.com/kyawminthein99).
 
-	Issue summary: It was possible to execute XSS inside CKEditor using the `<img>` tag and specially crafted HTML. Please note that the default presets (Basic/Standard/Full) do not include this plugin, so you are only at risk if you made a custom build and enabled this plugin.
+	Issue summary: It was possible to execute XSS inside CKEditor using the `<img loading="lazy" >` tag and specially crafted HTML. Please note that the default presets (Basic/Standard/Full) do not include this plugin, so you are only at risk if you made a custom build and enabled this plugin.
 
 We would like to thank the [Drupal security team](https://www.drupal.org/drupal-security-team) for bringing this matter to our attention and coordinating the fix and release process!
 
