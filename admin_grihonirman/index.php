@@ -213,7 +213,7 @@ if ($login == "No") {
 		<div id="kt_header_mobile" class="header-mobile align-items-center header-mobile-fixed">
 			<!--begin::Logo-->
 			<a href="?">
-				<img alt="Logo" style="max-width: 160px; max-height: 45px;" src="../upload_content/upload_img/system_img/<?php echo $system_logo; ?>" />
+				<img loading="lazy"  alt="Logo" style="max-width: 160px; max-height: 45px;" src="../upload_content/upload_img/system_img/<?php echo $system_logo; ?>" />
 			</a>
 			<!--end::Logo-->
 			<!--begin::Toolbar-->
@@ -253,7 +253,7 @@ if ($login == "No") {
 					<div class="brand flex-column-auto" id="kt_brand">
 						<!--begin::Logo-->
 						<a href="" class="brand-logo">
-							<img style="max-width: 160px; max-height: 45px;" alt="Logo" src="../upload_content/upload_img/system_img/<?php echo $system_logo; ?>" />
+							<img loading="lazy"  style="max-width: 160px; max-height: 45px;" alt="Logo" src="../upload_content/upload_img/system_img/<?php echo $system_logo; ?>" />
 						</a>
 						<!--end::Logo-->
 						<!--begin::Toggle-->
@@ -434,7 +434,7 @@ if ($login == "No") {
 									<!--begin::Toggle-->
 									<div class="topbar-item" data-toggle="dropdown" data-offset="10px,0px">
 										<div class="btn btn-icon btn-clean btn-dropdown btn-lg mr-2">
-											<img style="height: 34px;" src="../backend_assets/img_icon/noti_icon.png" class="noti_icon_img" alt="image" />
+											<img loading="lazy"  style="height: 34px;" src="../backend_assets/img_icon/noti_icon.png" class="noti_icon_img" alt="image" />
 										</div>
 									</div>
 									<!--end::Toggle-->

@@ -83,7 +83,7 @@ Backward incompatible changes
 - Moved Glyph operator `GF_` constants in separate `\Mpdf\Fonts\GlyphOperator` class
 - All methods in Barcode class renamed to camelCase including public `dec_to_hex` and `hex_to_dec`
 - Decimal conversion methods (to roman, cjk, etc.) were moved to classes in `\Mpdf\Conversion` namespace
-- Images in PHP variables (`<img src="var:smileyface">`) were moved from direct Mpdf properties to `Mpdf::$imageVars` public property array
+- Images in PHP variables (`<img loading="lazy"  src="var:smileyface">`) were moved from direct Mpdf properties to `Mpdf::$imageVars` public property array
 - Removed global `_SVG_AUTOFONT` and `_SVG_CLASSES` constants in favor of `svgAutoFont` and `svgClasses` configuration keys
 - Moved global `_testIntersect`, `_testIntersectCircle` and `calc_bezier_bbox` fucntions inside `Svg` class as private methods.
     - Changed names to camelCase without underscores and to `computeBezierBoundingBox`
@@ -240,7 +240,7 @@ Added CSS support
 - text-outline is now supported on TD/TH tags
 - hebrew, khmer, cambodian, lao, and cjk-decimal recognised as values for "list-style-type" in numbered lists and page numbering.
 - list-style-image and list-style-position
-- transform (on `<img>` only)
+- transform (on `<img loading="lazy" >` only)
 - text-decoration:overline
 - image-rendering
 - unicode-bidi (also `<bdi>` tag)
@@ -291,8 +291,8 @@ Bug Fixes & Minor Additions
     <tr><td style="border-top: 14px solid #0F0; "> Hallo world </td></tr>
     </table>
     ```
-- Images - image height is reset proportional to original if width is set to maximum e.g. `<img width="100%" height="20mm">`
-- URL handling changed to work with special characters in path fragments; affects `<a>` links, `<img>` images and
+- Images - image height is reset proportional to original if width is set to maximum e.g. `<img loading="lazy"  width="100%" height="20mm">`
+- URL handling changed to work with special characters in path fragments; affects `<a>` links, `<img loading="lazy" >` images and
     CSS url() e.g background-image
     - also to ignore `../` included as a query value
 - Barcodes with bottom numerals e.g. EAN-13 - incorrect numeral size when using core fonts
@@ -347,11 +347,11 @@ Bug Fixes & Minor Additions
 - tables - if table width set to 100% and one cell/column is empty with no padding/border, sizing incorrectly
     (http://www.mpdf1.com/forum/discussion/1886/td-fontsize-in-nested-table-bug-#Item_5)
 - `<main>` added as recognised tag
-- CSS style transform supported on `<img>` element (only)
+- CSS style transform supported on `<img loading="lazy" >` element (only)
     All transform functions are supported except matrix() i.e. translate(), translateX(), translateY(), skew(), skewX(), skewY(),
     scale(), scaleX(), scaleY(), rotate()
     NB When using Columns or Keep-with-table (use_kwt), cannot use transform
-- CSS background-color now supported on `<img>` element
+- CSS background-color now supported on `<img loading="lazy" >` element
 - @page :first not recognised unless @page {} has styles set
 - left/right margins not allowed on @page :first
 
@@ -503,7 +503,7 @@ New features / Improvements
 - Origin and clipping for background images and gradients controlled by CSS i.e. background-origin, background-size, background-clip
 - Text-outline controlled by CSS (compatible with CSS3 spec.)
 - Use of `<dottab>` enhanced by custom CSS "outdent" property
-- Image HTML attributes `<img>` added: max-height, max-width, min-height and min-width
+- Image HTML attributes `<img loading="lazy" >` added: max-height, max-width, min-height and min-width
 - Spotcolor can now be defined as it is used e.g. color: spot(PANTONE 534 EC, 100%, 85, 65, 47, 9);
 - Lists - added support for "start" attribute in `<ol>` e.g. `<ol start="5">`
 - Hyphenation controlled using CSS, consistent with CSS3 spec.
@@ -519,7 +519,7 @@ New features / Improvements
 
 Added CSS support
 -----------------
-- max-height, max-width, min-height and min-width for images `<img>`
+- max-height, max-width, min-height and min-width for images `<img loading="lazy" >`
 - "hyphens: none|manual|auto" as per CSS3 spec.
 - Decimal mark alignment e.g. text-align: "." center;
 - "rem" accepted as a valid (font)size in CSS e.g. font-size: 1.5rem
@@ -588,10 +588,10 @@ config.php changes
 
 New features / Improvements
 ---------------------------
-CSS support added for for min-height, min-width, max-height and max-width in `<img>`
+CSS support added for for min-height, min-width, max-height and max-width in `<img loading="lazy" >`
 
 Images embedded in CSS
-- `<img src="data:image/gif;base64,....">` improved to make it more robust, and background: `url(data:image...` now added to work
+- `<img loading="lazy"  src="data:image/gif;base64,....">` improved to make it more robust, and background: `url(data:image...` now added to work
 
 HTML5 tags supported
 - as generic block elements: `<article><aside><details><figure><figcaption><footer><header><hgroup><nav><section><summary>`

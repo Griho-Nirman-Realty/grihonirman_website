@@ -58,7 +58,7 @@
             <div class="col-lg-6">
                 <div class="about-thumb mb-50 mb-lg-0">
                     <div class="about-img-1 text-center">
-                        <img src="assets/images/home/about-1.webp" alt="img">
+                        <img loading="lazy"  src="assets/images/home/about-1.webp" alt="img">
                     </div>
                 </div>
             </div>
@@ -90,10 +90,10 @@
     ==============================-->
 <div class="service-area-1  overflow-hidden">
     <div class="service-shape1_1 shape-mockup jump-reverse d-lg-block d-none" data-top="0" data-right="0">
-        <img src="assets/img/service/service-shape1-1.webp" alt="img">
+        <img loading="lazy"  src="assets/img/service/service-shape1-1.png" alt="img">
     </div>
     <div class="service-shape1_2 shape-mockup jump-reverse d-lg-block d-none" data-top="0" data-left="0">
-        <img src="assets/img/service/service-shape1-2.webp" alt="img">
+        <img loading="lazy"  src="assets/img/service/service-shape1-2.png" alt="img">
     </div>
     <div class="leaf-shape-animation" data-bg-src="url(assets/img/icon/leaf.svg)">
     </div>
@@ -121,7 +121,7 @@
                         <p class="service-card_text">Discover quality plots, apartments, and villas tailored to your needs and preferences.</p>
                     </div>
                     <div class="service-card_img">
-                        <img src="assets/images/home/services-1.webp" alt="img">
+                        <img loading="lazy"  src="assets/images/home/services-1.webp" alt="img">
                         <a href="./maintenance" class="btn">Read More <i class="fas fa-angle-double-right"></i></a>
                     </div>
                 </div>
@@ -148,7 +148,7 @@
                         <br>
                     </div>
                     <div class="service-card_img">
-                        <img src="assets/images/home/services-2.webp" alt="img">
+                        <img loading="lazy"  src="assets/images/home/services-2.webp" alt="img">
                         <a href="./maintenance" class="btn">Read More <i class="fas fa-angle-double-right"></i></a>
                     </div>
                 </div>
@@ -168,7 +168,7 @@
                             Find your dream home with confidence and peace of mind.<br><br></p>
                     </div>
                     <div class="service-card_img">
-                        <img src="assets/images/home/services-3.webp" alt="img">
+                        <img loading="lazy"  src="assets/images/home/services-3.webp" alt="img">
                         <a href="./maintenance" class="btn">Read More <i class="fas fa-angle-double-right"></i></a>
                     </div>
                 </div>
@@ -227,10 +227,10 @@
     ==============================-->
 <div class="process-area-1 space overflow-hidden">
     <div class="portfolio-shape1_1 shape-mockup jump d-lg-block d-none" data-top="0%" data-left="0">
-        <img src="assets/img/process/process-shape1-1.png" alt="img">
+        <img loading="lazy"  src="assets/img/process/process-shape1-1.png" alt="img">
     </div>
     <div class="portfolio-shape1_2 shape-mockup d-lg-block d-none" data-bottom="0%" data-right="0">
-        <img src="assets/img/process/process-shape1-2.png" alt="img">
+        <img loading="lazy"  src="assets/img/process/process-shape1-2.png" alt="img">
     </div>
     <div class="leaf-shape-animation" data-bg-src="url(assets/img/icon/butterfly.svg)"></div>
     <div class="container container2">
@@ -246,7 +246,7 @@
         <div class="row gy-30 justify-content-center">
             <div class="col-lg-auto col-md-6 process-card-wrap">
                 <div class="process-card">
-                    <div class="process-arrow"><img src="assets/img/process/process-arrow1-1.png" alt="img"></div>
+                    <div class="process-arrow"><img loading="lazy"  src="assets/img/process/process-arrow1-1.png" alt="img"></div>
                     <div class="process-card-icon">
                         <div class="process-num">01</div>
                         <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" viewBox="0 0 512 452.387" width="80" height="80" fill="green">
@@ -262,7 +262,7 @@
             </div>
             <div class="col-lg-auto col-md-6 process-card-wrap">
                 <div class="process-card">
-                    <div class="process-arrow"><img src="assets/img/process/process-arrow1-2.png" alt="img"></div>
+                    <div class="process-arrow"><img loading="lazy"  src="assets/img/process/process-arrow1-2.png" alt="img"></div>
                     <div class="process-card-icon">
                         <div class="process-num">02</div>
                         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 84.91 122.88" style="enable-background:new 0 0 84.91 122.88" xml:space="preserve" width="80" height="80" fill="green">
@@ -276,7 +276,7 @@
             </div>
             <div class="col-lg-auto col-md-6 process-card-wrap">
                 <div class="process-card">
-                    <div class="process-arrow"><img src="assets/img/process/process-arrow1-1.png" alt="img"></div>
+                    <div class="process-arrow"><img loading="lazy"  src="assets/img/process/process-arrow1-1.png" alt="img"></div>
                     <div class="process-card-icon">
                         <div class="process-num">03</div>
                         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 120.87 122.88" xml:space="preserve" width="80" height="80" fill="green">
@@ -313,7 +313,7 @@
         <div class="row align-items-center flex-row-reverse">
             <div class="col-lg-6">
                 <div class="faq-img-1">
-                    <img class="w-100" src="assets/img/normal/faq1.png" alt="img">
+                    <img loading="lazy"  class="w-100" src="assets/img/normal/faq1.png" alt="img">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -416,7 +416,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="donation-card">
                     <div class="donation-card-img">
-                        <img src="assets/images/home/project-green-view.webp" alt="img">
+                        <img loading="lazy"  src="assets/images/home/project-green-view.webp" alt="img">
                     </div>
                     <div class="donation-card-content">
                         <h3 class="donation-card-title">
@@ -433,7 +433,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="donation-card">
                     <div class="donation-card-img">
-                        <img src="assets/images/portfolio/convicity/convicity-home.webp" alt="img">
+                        <img loading="lazy"  src="assets/images/portfolio/convicity/convicity-home.webp" alt="img">
                     </div>
                     <div class="donation-card-content">
                         <h3 class="donation-card-title">
@@ -450,7 +450,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="donation-card">
                     <div class="donation-card-img">
-                        <img src="assets/images/portfolio/windfield/windfields.webp" alt="img">
+                        <img loading="lazy"  src="assets/images/portfolio/windfield/windfields.webp" alt="img">
                     </div>
                     <div class="donation-card-content">
                         <h3 class="donation-card-title">
@@ -500,7 +500,7 @@
                     <p class="testi-box_text">Griho Nirman Realty provided us with invaluable guidance and support, resulting in a perfect home purchase.Highly Recommended</p>
                     <div class="testi-box_profile">
                         <!-- <div class="testi-box_img">
-                            <img src="assets/img/testimonial/1.jpg" alt="img">
+                            <img loading="lazy"  src="assets/img/testimonial/1.jpg" alt="img">
                         </div> -->
                         <div class="testi-box_details">
                             <h4 class="testi-box_name">Swastik Sarkar</h4>
@@ -524,7 +524,7 @@
                     <p class="testi-box_text">With Griho Nirman Realty's top-notch service and market knowledge, we felt confident and well-informed every step of the way.</p>
                     <div class="testi-box_profile">
                         <!-- <div class="testi-box_img">
-                            <img src="assets/img/testimonial/2.jpg" alt="img">
+                            <img loading="lazy"  src="assets/img/testimonial/2.jpg" alt="img">
                         </div> -->
                         <div class="testi-box_details">
                             <h4 class="testi-box_name">Khushi Adhikary</h4>
@@ -548,7 +548,7 @@
                     <p class="testi-box_text">The dedication and professionalism of the Griho Nirman Realty team made our home buying experience seamless and enjoyable.</p>
                     <div class="testi-box_profile">
                         <!-- <div class="testi-box_img">
-                            <img src="assets/img/testimonial/3.jpg" alt="img">
+                            <img loading="lazy"  src="assets/img/testimonial/3.jpg" alt="img">
                         </div> -->
                         <div class="testi-box_details">
                             <h4 class="testi-box_name">Amitabha Sengupta</h4>
@@ -572,7 +572,7 @@
                     <p class="testi-box_text">Thanks to Griho Nirman Realty, we found our dream home quickly and efficiently, their team truly goes above and beyond.Thankyou Again</p>
                     <div class="testi-box_profile">
                         <!-- <div class="testi-box_img">
-                            <img src="assets/img/testimonial/4.jpg" alt="img">
+                            <img loading="lazy"  src="assets/img/testimonial/4.jpg" alt="img">
                         </div> -->
                         <div class="testi-box_details">
                             <h4 class="testi-box_name">Tanishq Gupta</h4>

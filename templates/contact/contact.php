@@ -30,7 +30,7 @@
                     <div class="col-md-12">
                         <div class="contact-info" style="margin-top: 0;">
                             <div class="contact-info_icon">
-                                <img src="assets/img/icon/contact-envelope.svg" alt="icon">
+                                <img loading="lazy"  src="assets/img/icon/contact-envelope.svg" alt="icon">
                             </div>
                             <div class="media-body">
                                 <h4 class="contact-info_title">Contacts Info</h4>
@@ -43,7 +43,7 @@
                     <div class="col-md-12">
                         <div class="contact-info">
                             <div class="contact-info_icon">
-                                <img src="assets/img/icon/contact-home.svg" alt="icon">
+                                <img loading="lazy"  src="assets/img/icon/contact-home.svg" alt="icon">
                             </div>
                             <div class="media-body">
                                 <h4 class="contact-info_title">Location</h4>
@@ -56,7 +56,7 @@
                     <div class="col-md-12">
                         <div class="contact-info">
                             <div class="contact-info_icon">
-                                <img src="assets/img/icon/contact-calendar.svg" alt="icon">
+                                <img loading="lazy"  src="assets/img/icon/contact-calendar.svg" alt="icon">
                             </div>
                             <div class="media-body">
                                 <h4 class="contact-info_title">Working Hour</h4>

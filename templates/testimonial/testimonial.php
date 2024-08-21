@@ -50,7 +50,6 @@
                         <p class="testi-box_text">Thanks to Griho Nirman Realty, we found our dream home quickly and efficiently, their team truly goes above and beyond.",
                         </p>   
                         <div class="testi-box_profile">
-                            
                             <div class="testi-box_details">
                                 <h4 class="testi-box_name">Tanisqh Gupta</h4>
                                 <span class="testi-box_desig">Client</span>                        
