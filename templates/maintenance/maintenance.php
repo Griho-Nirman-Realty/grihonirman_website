@@ -3,7 +3,7 @@
         <img src="assets/img/process/process-shape1-2.png" alt="img">
     </div>
     <div class="process-shape3_2 shape-mockup jump-reverse d-lg-block d-none" data-top="0" data-left="0">
-        <img src="assets/img/service/service-shape1-2.png" alt="img">
+        <img src="assets/img/service/service-shape1-2.webp" alt="img">
     </div>
     <main>
         <svg xmlns="http://www.w3.org/2000/svg" width="150" height="100" viewBox="0 0 100 68">

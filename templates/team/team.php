@@ -1,7 +1,7 @@
  <!--==============================
     Breadcumb
     ============================== -->
-    <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcrumb-bg-1-1.jpg">
+    <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcrumb-bg-1-1.webp">
         <!-- bg animated image/ -->   
         <div class="container">
             <div class="row">

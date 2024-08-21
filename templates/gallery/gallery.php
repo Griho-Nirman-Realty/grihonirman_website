@@ -20,10 +20,10 @@ Breadcumb
 <!-- Gallery section -->
 <div class="process-area-3 overflow-hidden">
     <div class="service-shape1_1 shape-mockup jump-reverse d-lg-block d-none" data-top="0" data-right="0">
-        <img src="assets/img/service/service-shape1-1.png" alt="img">
+        <img src="assets/img/service/service-shape1-1.webp" alt="img">
     </div>
     <div class="service-shape1_2 shape-mockup jump-reverse d-lg-block d-none" data-top="0" data-left="0">
-        <img src="assets/img/service/service-shape1-2.png" alt="img">
+        <img src="assets/img/service/service-shape1-2.webp" alt="img">
     </div>
     <div class="leaf-shape-animation" data-bg-src="url(assets/img/icon/leaf.svg)">
     </div>
