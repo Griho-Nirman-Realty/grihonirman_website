@@ -79,7 +79,7 @@ $system_ph_num = $system_info_data[5];
             },
             "telephone": "+91  9147390718",
             "url": "https://grihonirmanrealty.in",
-            "logo": "https://grihonirmanrealty.in/siteimage.jpg",
+            "logo": "https://grihonirmanrealty.in/siteimage.webp",
             "sameAs": [
                 "https://www.facebook.com/profile.php?id=61563583546780",
                 "https://x.com/GrihoL48022",
@@ -92,7 +92,7 @@ $system_ph_num = $system_info_data[5];
     <!-- Google / Search Engine Tags -->
     <meta itemprop="name" content=" Griho Nirman Realty Pvt Ltd">
     <meta itemprop="description" content="Discover premium real estate in Kolkata with Griho Nirman Realty. Explore top listings and expert services to find your dream home or investment property.">
-    <meta itemprop="image" content="https://grihonirmanrealty.in/siteimage.jpg">
+    <meta itemprop="image" content="https://grihonirmanrealty.in/siteimage.webp">
     <meta property="og:image:type" content="image/jpeg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -103,7 +103,7 @@ $system_ph_num = $system_info_data[5];
     <meta property="og:type" content="website">
     <meta property="og:title" content=" Griho Nirman Realty Pvt Ltd">
     <meta property="og:description" content="Discover premium real estate in Kolkata with Griho Nirman Realty. Explore top listings and expert services to find your dream home or investment property.">
-    <meta property="og:image" content="https://grihonirmanrealty.in/siteimage.jpg">
+    <meta property="og:image" content="https://grihonirmanrealty.in/siteimage.webp">
     <meta property="og:image:type" content="image/jpeg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -113,7 +113,7 @@ $system_ph_num = $system_info_data[5];
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content=" Griho Nirman Realty Pvt Ltd">
     <meta name="twitter:description" content="Discover premium real estate in Kolkata with Griho Nirman Realty. Explore top listings and expert services to find your dream home or investment property.">
-    <meta name="twitter:image" content="https://grihonirmanrealty.in/siteimage.jpg">
+    <meta name="twitter:image" content="https://grihonirmanrealty.in/siteimage.webp">
     <meta property="og:image:type" content="image/jpeg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -350,8 +350,8 @@ Plots with easy access to Calcutta Hospital," />
                     <div class="col-auto">
                         <div class="header-links">
                             <ul>
-                                <li style="margin-right: 12px;"><img src="assets/icon/email.png" alt="Call" style="width: 30px;"><a href="mailto:<?php echo $system_email ?>"><?php echo $system_email; ?></a></li>
-                                <li style="white-space: nowrap;"><img src="assets/icon/call-i.png" alt="Call" style="width: 30px;"><a href="tel: <?php echo $system_ph_num; ?>"><?php echo $system_ph_num; ?></a></li>
+                                <li style="margin-right: 12px;"><img src="assets/icon/email.webp" alt="Email" style="width: 30px;"><a href="mailto:<?php echo $system_email ?>"><?php echo $system_email; ?></a></li>
+                                <li style="white-space: nowrap;"><img src="assets/icon/call-i.webp" alt="Call" style="width: 30px;"><a href="tel: <?php echo $system_ph_num; ?>"><?php echo $system_ph_num; ?></a></li>
                             </ul>
                         </div>
                     </div>
@@ -811,7 +811,7 @@ Plots with easy access to Calcutta Hospital," />
     <div class="whatsapp-sticky-main">
         <a href="https://wa.me/9147390718?text=" target="_blank" class="whatsapp-sticky">
             <span>Need Help?Let's Chat</span>
-            <img src="assets/icon/whatsapp.png" alt="whatsapp">
+            <img src="assets/icon/whatsapp.webp" alt="whatsapp">
         </a>
     </div>
 
