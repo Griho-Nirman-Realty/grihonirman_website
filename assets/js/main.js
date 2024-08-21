@@ -90,7 +90,9 @@
         meanExpandClass: "mean-expand-class",
         appendElement: '<span class="mean-expand-class"></span>',
         subMenuToggleClass: "menu-open",
-        toggleSpeed: 400,
+        toggleSpeed: 0,
+        showSpeed: 0,
+        hideSpeed: 0,
       },
       options
     );

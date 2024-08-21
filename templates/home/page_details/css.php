@@ -111,4 +111,28 @@
         padding-right: 0px !important;
         margin-right: 0px;
     }
+
+    .hero-style1.text-section {
+        height: 700px;
+        margin: 0;
+        padding: 35% 0px;
+    }
+
+    @media(max-width: 767px) {
+        .hero-style1.text-section {
+            height: 480px;
+            margin: 0;
+            padding: 30% 50px;
+            text-align: center;
+        }
+
+        .hero-style1.text-section .hero-title {
+            font-size: 19px;
+        }
+    }
+
+    .about-img-1 img{
+        width: 100%;
+        height: auto;
+    }
 </style>

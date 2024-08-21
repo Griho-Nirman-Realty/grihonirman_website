@@ -259,13 +259,13 @@ html {
 
 .global-carousel-main-slider .slick-arrow.slick-prev {
   left: 20px;
-  top: 56.3%;
+  top: 57.3%;
 }
 
 @media (max-width: 575px) {
   .global-carousel-main-slider .slick-arrow.slick-prev {
     left: 20px;
-    top: 57.5%;
+    top: 60.5%;
   }
 }
 
@@ -273,4 +273,38 @@ html {
   right: 20px;
   margin: 0 !important;
   top: 50%;
+}
+
+.sub-title {
+  color: var(--theme-color);
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  position: inherit;
+  font-weight: 700;
+  font-family: var(--body-font);
+  display: block;
+  align-items: center;
+  margin-top: 3px
+}
+.mobilemenu.openModalBtn.menu-toggle {
+  border: none;
+  font-size: 22px;
+  position: inherit;
+  padding: 10px 20px;
+  line-height: 1;
+  justify-content: left !important;
+  width: auto;
+  height: auto;
+  font-size: 14px;
+  z-index: 1;
+  color: var(--white-color);
+  background-color: var(--theme-color);
+  border-radius: none;
+}
+
+.mobilemenu.openModalBtn.menu-toggle:after {
+display: none;
+  z-index: -1;
 }
