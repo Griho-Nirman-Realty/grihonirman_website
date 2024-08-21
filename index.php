@@ -38,15 +38,60 @@ $system_ph_num = $system_info_data[5];
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+    <meta name="theme-color" content="#108957" />
+    <base href="<?php echo $baseHref; ?>" />
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="upload_content/upload_img/system_img/<?php echo $system_favicon; ?>" type="image/x-icon" />
+    <?php
+    if (file_exists("templates/" . $pg_nm . "/page_details/title.php")) {
+        include("templates/" . $pg_nm . "/page_details/title.php");
+    } else {
+    ?>
+        <title>Griho Nirman Realty Pvt.Ltd - Best Realestate Company in Kolkata</title>
+    <?php
+    }
+    ?>
+    <?php
+    if (file_exists("templates/" . $pg_nm . "/page_details/meta_details.php")) {
+        include("templates/" . $pg_nm . "/page_details/meta_details.php");
+    } else {
+    ?>
+        <meta name="description" content="Discover premium real estate in Kolkata with Griho Nirman Realty. Explore top listings and expert services to find your dream home or investment property.">
+        <meta name="keywords" content="
+            best relestate company in kolkata,
+            buy plots in kolkata,
+            buy villa in kolkata,
+            housing,
+            99acers,
+            land sale in kolkata,
+            buy villas , 
+            bunglow ,
+            plot sale ,
+            property,
+            Bashbhumi Green View Project,
+            Residential plots,
+            Real estate,
+            Plot sizes,
+            Plots for sale near Joka Metro Station,
+            Residential plots near Vivekananda Mission School,
+            plots in Kolkata,
+            Buy residential plots in a green environment,
+            Investment in Kolkata real estate,
+            Plots with modern amenities in Kolkata,
+            Kolkata plots for family homes,
+            Secure and serene residential plots in Kolkata,
+            Plots near Bharat Sevashram Hospital,
+            Plots with easy access to Calcutta Hospital" />
+    <?php
+    }
+    ?>
     <!-- Google / Search Engine Tags -->
-    <meta itemprop="name" content=" Griho Nirman Realty Pvt Ltd">
+    <meta itemprop="name" content=" Griho Nirman Realty Pvt.Ltd.">
     <meta itemprop="description" content="Discover premium real estate in Kolkata with Griho Nirman Realty. Explore top listings and expert services to find your dream home or investment property.">
     <meta itemprop="image" content="https://grihonirmanrealty.in/siteimage.webp">
-    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:type" content="image/webp">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-
 
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content="https://grihonirmanrealty.in/home">
@@ -58,7 +103,6 @@ $system_ph_num = $system_info_data[5];
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
 
-
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content=" Griho Nirman Realty Pvt Ltd">
@@ -67,65 +111,6 @@ $system_ph_num = $system_info_data[5];
     <meta property="og:image:type" content="image/jpeg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-
-    <?php
-    if (file_exists("templates/" . $pg_nm . "/page_details/meta_details.php")) {
-        include("templates/" . $pg_nm . "/page_details/meta_details.php");
-    } else {
-    ?>
-
-        <!-- HTML Meta Tags -->
-        <title>Home</title>
-        <meta name="description" content="Discover premium real estate in Kolkata with Griho Nirman Realty. Explore top listings and expert services to find your dream home or investment property.">
-        <meta name="keywords" content="
-                                best relestate company in kolkata,
-                                buy plots in kolkata,
-                                buy villa in kolkata,
-                                housing,
-                                99acers,
-                                land sale in kolkata,
-                                buy villas , 
-                                bunglow ,
-                                plot sale ,
-                                property,
-                                Bashbhumi Green View Project,
-                                Residential plots,
-                                Real estate,
-                                Plot sizes,
-                                Plots for sale near Joka Metro Station,
-                                Residential plots near Vivekananda Mission School,
-                                plots in Kolkata,
-                                Buy residential plots in a green environment,
-                                Investment in Kolkata real estate,
-                                Plots with modern amenities in Kolkata,
-                                Kolkata plots for family homes,
-                                Secure and serene residential plots in Kolkata,
-                                Plots near Bharat Sevashram Hospital,
-                                Plots with easy access to Calcutta Hospital," />
-    <?php
-
-    }
-    ?>
-
-    <?php
-    if (file_exists("templates/" . $pg_nm . "/page_details/title.php")) {
-        include("templates/" . $pg_nm . "/page_details/title.php");
-    } else {
-    ?>
-
-        <title>
-            <?php echo $system_name; ?>
-
-        </title>
-    <?php
-
-    }
-    ?>
-
-
-    <base href="<?php echo $baseHref; ?>" />
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="upload_content/upload_img/system_img/<?php echo $system_favicon; ?>" type="image/x-icon" />
     <!--begin::Fonts-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
     <!--end::Fonts-->
@@ -164,7 +149,9 @@ $system_ph_num = $system_info_data[5];
         const baseUrl = "<?php echo $baseUrl; ?>";
         const login = "<?php echo $login; ?>";
     </script>
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
+
+    <!-- ================================================================================================================================================
+    ===================================================================================================================================================== -->
     <!-- Google Tag Manager -->
     <script>
         (function(w, d, s, l, i) {
@@ -198,7 +185,7 @@ $system_ph_num = $system_info_data[5];
                 "postalCode": "700160",
                 "addressCountry": "IN"
             },
-            "telephone": "+91  9147390718",
+            "telephone": "+91 9147390718",
             "url": "https://grihonirmanrealty.in",
             "logo": "https://grihonirmanrealty.in/siteimage.webp",
             "sameAs": [
@@ -228,7 +215,8 @@ $system_ph_num = $system_info_data[5];
             'phone_conversion_number': '9147390718'
         });
     </script>
-
+    <!-- ================================================================================================================================================
+    ===================================================================================================================================================== -->
 </head>
 
 <!-- ============================= -->
@@ -238,8 +226,11 @@ $system_ph_num = $system_info_data[5];
 <body>
 
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KMKJLBNM"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KMKJLBNM"
+            height="0" width="0" style="display:none;visibility:hidden">
+        </iframe>
+    </noscript>
     <!-- End Google Tag Manager (noscript) -->
     <!--==============================
      Preloader_Section
@@ -256,38 +247,6 @@ $system_ph_num = $system_info_data[5];
             <span class="loader"></span>
         </div>
     </div>
-
-    <!-- <div class="sidemenu-wrapper">
-        <div class="sidemenu-content">
-            <button class="closeButton sideMenuCls"><i class="fas fa-times"></i></button>
-            <div class="widget footer-widget">
-                <div class="widget-about">
-                    <div class="footer-logo">
-                        <a href="<?php echo $baseUrl; ?>/home""><img src=" upload_content/upload_img/system_img/<?php echo $system_logo == "" ? "no_image.png" : $system_logo ?>" alt="Grihonirman"></a>
-                    </div>
-                    <p class="about-text">Lorem ipsum dolor sit amet consectetur adipiscing elit sociosqu integer, suscipit nascetur aliquet posuere aptent vehicula ligula pulvinar praesent.</p>
-                    <div class="social-btn style2">
-                        <a href="https://www.facebook.com/profile.php?id=61562931081728" target="_blank"><i class="fab fa-facebook"></i></a>
-                        <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                        <a href="https://pinterest.com/"><i class="fab fa-pinterest-p"></i></a>
-                        <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="widget widget_nav_menu footer-widget">
-                <h3 class="widget_title">Quick Links</h3>
-                <ul class="menu">
-                    <li><a href="<?php echo $baseUrl; ?>/home" </a></li>
-                    <li><a href="<?php echo $baseUrl; ?>/about">About Us</a></li>
-                    <li><a href="<?php echo $baseUrl; ?>/testimonial">Client Testimonial</a></li>
-                    <li><a href="<?php echo $baseUrl; ?>/team">Our Team</a></li>
-                    <li><a href="<?php echo $baseUrl; ?>/contact">Contact Us</a></li>
-                </ul>
-            </div>
-        </div>
-    </div> -->
-
-
     <!--==============================
     Mobile_Menu
     ============================== -->
@@ -309,10 +268,6 @@ $system_ph_num = $system_info_data[5];
                             <li><a href="<?php echo $baseUrl; ?>/services">Services</a></li>
                             <li><a href="<?php echo $baseUrl; ?>/faq">FAQ</a></li>
                             <li><a href="<?php echo $baseUrl; ?>/gallery">Gallery</a></li>
-
-
-
-                            <!-- <li><a href="<?php echo $baseUrl; ?>/team">Our Team</a></li> -->
                         </ul>
                     </li>
                     <li>
@@ -330,6 +285,9 @@ $system_ph_num = $system_info_data[5];
                     </li>
 
                 </ul>
+            </div>
+            <div class="btn-wrap" style="justify-content: center !important;">
+                <button class="mobilemenu menu-toggle openModalBtn open-modal-btn btn style2">Enquiry Now<i class="fas fa-angle-double-right"></i></button>
             </div>
         </div>
     </div>
@@ -420,7 +378,7 @@ $system_ph_num = $system_info_data[5];
                         </div>
                         <div class="col-auto d-none d-xl-block">
                             <div class="header-button">
-                                <button id="openModalBtn" class="open-modal-btn btn">
+                                <button id="openModalBtn" class="openModalBtn open-modal-btn btn">
                                     Enquiry Now
                                     <i class="fas fa-angle-double-right"></i>
                                     </a>
@@ -841,14 +799,14 @@ $system_ph_num = $system_info_data[5];
 
     <script src="assets/global/plugins/bootstrap-toastr/toastr.min.js" type="text/javascript"></script>
     <script src="assets/global/plugins/bootstrap-sweetalert/sweetalert.js" type="text/javascript"></script>
-    <script src="assets/common_assets/main_controller.js?v=1.1.1" type="text/javascript"></script>
-    <script>
+    <script src="assets/common_assets/main_controller.js?v=1.1.2" type="text/javascript"></script>
+    <!-- <script>
         window.embeddedChatbotConfig = {
             chatbotId: "a9OqzUxQZ1E5DEnTOInm-",
             domain: "www.chatbase.co"
         }
-    </script>
-    <script src="https://www.chatbase.co/embed.min.js" chatbotId="a9OqzUxQZ1E5DEnTOInm-" domain="www.chatbase.co" defer>
+    </script> -->
+    <!-- <script src="https://www.chatbase.co/embed.min.js" chatbotId="a9OqzUxQZ1E5DEnTOInm-" domain="www.chatbase.co" defer> -->
     </script>
     <?php
     if (file_exists("templates/" . $pg_nm . "/page_details/js.php")) {

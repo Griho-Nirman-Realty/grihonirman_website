@@ -9,35 +9,36 @@
 <!-- Slider_Section -->
 <div class="hero-wrapper hero-1" id="hero">
     <div class="global-carousel-main-slider" id="heroSlider1">
-        <div class="hero-slider" data-bg-src="linear-gradient(45deg, #000000cf, transparent), url(assets/img/hero/hero-bg-4.jpg)">
+        <div class="hero-slider" data-bg-src="linear-gradient(45deg, #000000cf, transparent), url(assets/images/home/slide1.jpg)">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8">
-                        <div class="hero-style1">
+
+                    <div class="col-lg-8 col-md-12">
+                        <div class="hero-style1 text-section ">
                             <span class="hero-subtitle"></span>
                             <h1 class="hero-title">Griho Nirman Realty - Discover Your Next Investment</h1>
                             <h2 class="hero-title">Top Resale Properties</h2>
                             <p class="hero-text"> Browse our exclusive listings and find your next real estate opportunity. </p>
                             <div class="btn-wrap">
-                                <a href="<?php echo $baseUrl ?>/contact" class="btn style2">Join Us Now<i class="fas fa-angle-double-right"></i></a>
+                                <button class="openModalBtn open-modal-btn btn style2">Enquiry Now<i class="fas fa-angle-double-right"></i></button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="hero-slider" data-bg-src="linear-gradient(45deg, #000000cf, transparent), url(assets/img/hero/hero-bg-5.jpg)">
+        <div class="hero-slider" data-bg-src="linear-gradient(45deg, #000000cf, transparent), url(assets/images/home/slide2.jpg)">
             <div class="container">
                 <div class="row">
 
                     <div class="col-lg-8 col-md-12">
-                        <div class="hero-style1">
+                        <div class="hero-style1 text-section">
                             <span class="hero-subtitle"></span>
                             <h2 class="hero-title">Find Your Perfect Property</h2>
                             <h2 class="hero-title"> Quality Resales at Your Fingertips</h2>
                             <p class="hero-text"> Explore a curated selection of homes ready for you to make your own. </p>
                             <div class="btn-wrap">
-                                <a href="<?php echo $baseUrl ?>/contact" class="btn style2">Join Us Now<i class="fas fa-angle-double-right"></i></a>
+                                <button class="openModalBtn open-modal-btn btn style2">Enquiry Now<i class="fas fa-angle-double-right"></i></button>
                             </div>
                         </div>
                     </div>
@@ -64,7 +65,7 @@
             <div class="col-lg-6">
                 <div class="about-content-wrap">
                     <div class="title-area mb-35">
-                        <span class="sub-title">ABOUT  US</span>
+                        <span class="sub-title">ABOUT US</span>
                         <h2 class="sec-title">Welcome To </br> <?php echo $system_name ?></h2>
                         <p class="sec-text">Griho Nirman is a marketing initiative that showcases our exceptional projects, including plots, apartments, and villas. By highlighting unique features and amenities, it caters to a wide audience. Utilizing a multi-channel approach, Griho Nirman maximizes reach and impact, effectively connecting buyers with their dream homes. Focused on quality, transparency, and customer satisfaction, Griho Nirman is a key driver of our marketing success.</p>
                     </div>
@@ -248,7 +249,7 @@
                     <div class="process-arrow"><img src="assets/img/process/process-arrow1-1.png" alt="img"></div>
                     <div class="process-card-icon">
                         <div class="process-num">01</div>
-                        <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality"  viewBox="0 0 512 452.387" width="80" height="80" fill="green">
+                        <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" viewBox="0 0 512 452.387" width="80" height="80" fill="green">
                             <path fill-rule="nonzero" d="M276.915 436.666c-32.989-9.896-62.965-28.911-87.618-55.815 6.175.567 12.783.958 19.819 1.159 32.31.949 63.167-3.3 91.339-11.815 29.561-8.937 56.687-22.776 79.927-40.41 23.979-18.196 43.56-40.301 57.238-65.17 12.232-22.234 19.84-46.769 21.81-72.836a195.403 195.403 0 0112.994 13.486c19.513 22.316 33.012 48.301 37.715 75.028 4.856 27.594.457 55.851-16.114 81.723-5.048 7.88-11.248 15.52-18.686 22.824l8.165 49.068a15.502 15.502 0 01-.8 8.562c-3.132 8.017-12.171 11.976-20.188 8.844l-55.504-21.826c-44.846 17.676-89.637 19.315-130.097 7.178z" />
                             <path fill="#D8F0F0" d="M212.522 382.09c51.415 47.307 122.9 61.072 194.383 30.61l61.283 24.098-9.593-57.651c57.022-49.859 43.787-119.134-1.727-167.884-3.555 18.854-10.111 36.745-19.248 53.352-13.678 24.869-33.259 46.974-57.238 65.17-23.24 17.634-50.366 31.473-79.927 40.41-27.181 8.215-56.861 12.459-87.933 11.895z" />
                             <path fill-rule="nonzero" d="M369.951 55.167c38.685 33.165 61.879 78.348 60.427 127.704l-.004.172c-1.516 49.407-27.413 93.189-68.065 124.036-39.713 30.136-93.646 47.911-152.383 46.183-15.058-.442-29.669-1.977-43.59-4.684-11.877-2.308-23.389-5.475-34.399-9.545L25.552 371.527l31.949-75.984c-17.241-15.38-31.223-33.198-41.066-52.706C5.175 220.521-.707 196.009.068 170.392 1.561 120.96 27.462 77.156 68.131 46.297c85.638-64.984 220.168-61.131 301.82 8.87z" />
@@ -278,7 +279,7 @@
                     <div class="process-arrow"><img src="assets/img/process/process-arrow1-1.png" alt="img"></div>
                     <div class="process-card-icon">
                         <div class="process-num">03</div>
-                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 120.87 122.88"  xml:space="preserve" width="80" height="80" fill="green">
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 120.87 122.88" xml:space="preserve" width="80" height="80" fill="green">
                             <g>
                                 <path d="M79.21,70.64c11.61,1.57,21.65,4.57,28.79,8.49c8.11,4.45,12.88,10.3,12.88,17c0,8.29-7.44,15.35-19.46,20.05 c-10.58,4.14-25.07,6.69-40.98,6.69c-15.9,0-30.4-2.56-40.98-6.69C7.44,111.49,0,104.43,0,96.14c0-6.8,4.91-12.71,13.23-17.19 c7.32-3.94,17.6-6.93,29.47-8.44l1.28,10.11c-10.6,1.34-19.64,3.94-25.92,7.32c-4.93,2.65-7.83,5.51-7.83,8.2 c0,3.65,4.95,7.41,12.95,10.53c9.44,3.69,22.61,5.97,37.26,5.97c14.65,0,27.82-2.28,37.26-5.97c8-3.13,12.95-6.89,12.95-10.53 c0-2.63-2.8-5.44-7.57-8.05c-6.09-3.34-14.88-5.94-25.23-7.34L79.21,70.64L79.21,70.64z M65.33,44.36v50.87H55.1V44.36 c-9.95-2.32-17.36-11.24-17.36-21.89C37.74,10.06,47.8,0,60.22,0c12.41,0,22.47,10.06,22.47,22.47 C82.69,33.13,75.28,42.05,65.33,44.36L65.33,44.36z" />
                             </g>
@@ -291,7 +292,7 @@
                 <div class="process-card">
                     <div class="process-card-icon">
                         <div class="process-num">04</div>
-                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 88.47 122.88"  xml:space="preserve" width="80" height="80" fill="green">
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 88.47 122.88" xml:space="preserve" width="80" height="80" fill="green">
                             <g>
                                 <path d="M11.86,68.08L7.62,92.09c-0.07,0.33-0.2,0.63-0.4,0.86c-1.51,1.95-2.46,3.62-2.74,4.97c-0.2,1,0,1.8,0.67,2.43l16.56,16.56 c1.05,1.01,2.28,1.65,3.74,1.91c1.6,0.3,3.46,0.13,5.6-0.45c0.03,0,0.08-0.02,0.12-0.02c0.81-0.22,1.88-0.48,2.89-0.73 c4.44-1.08,8.31-2.03,11.91-5.29l4.62-4.82c0.05-0.08,0.12-0.15,0.18-0.22c0.07-0.07,0.52-0.52,1.13-1.1 c3.16-3.09,7.07-6.9,4.69-10.24l-1.85-1.85c-0.9,0.86-1.85,1.71-2.76,2.53c-0.83,0.73-1.61,1.41-2.33,2.13 c-0.76,0.76-2,0.76-2.76,0c-0.76-0.77-0.76-2,0-2.76c0.71-0.72,1.6-1.5,2.51-2.31c3.13-2.76,6.72-5.92,4.79-8.68l-1.83-1.83 c-0.1-0.1-0.18-0.22-0.27-0.33c-1.05,1.08-2.21,2.11-3.34,3.11c-0.83,0.73-1.61,1.41-2.33,2.13c-0.77,0.77-2,0.77-2.76,0 c-0.77-0.76-0.77-2,0-2.76c0.71-0.71,1.6-1.5,2.51-2.31c3.13-2.76,6.72-5.92,4.79-8.68l-1.83-1.83c-0.13-0.13-0.23-0.27-0.32-0.42 l-5.37,5.37c-0.77,0.76-2,0.76-2.76,0c-0.76-0.77-0.76-2,0-2.76l10.07-10.07c2.41-2.41,2.96-4.92,2.33-6.82 c-0.23-0.7-0.62-1.31-1.1-1.8c-0.25-0.25-0.53-0.47-0.84-0.66l-0.01,0c-0.15,0.07-0.26-0.08-0.4-0.22 c-0.17-0.08-0.36-0.16-0.54-0.22c-1.67-0.55-3.84-0.16-6.04,1.69c-0.03,0.03-0.06,0.06-0.09,0.08c-0.24,0.2-0.48,0.42-0.72,0.66 L22.44,78.27c-0.76,0.76-2,0.76-2.76,0c-0.7-0.7-0.76-1.78-0.18-2.55L11.86,68.08L11.86,68.08z M25.08,70.11l0.67-0.67l13.79-13.79 c-1.43-0.66-2.76-1.59-3.94-2.77c-5.25-5.25-5.25-13.73,0-18.98c5.25-5.25,13.73-5.25,18.98,0c5.25,5.25,5.25,13.73,0,18.98 c-0.04,0.04-0.09,0.09-0.13,0.13c0.1,0.09,0.21,0.19,0.31,0.29c0.43,0.43,0.8,0.9,1.13,1.4l17.1-17.1c-2.62-2.62-2.62-6.9,0-9.53 L60.25,15.33c-2.62,2.62-6.9,2.62-9.53,0L15.28,50.77c2.62,2.62,2.62,6.9,0,9.53L25.08,70.11L25.08,70.11z M55.14,65.57 c-0.46,0.64-0.99,1.28-1.62,1.9l-2,2l-0.02-0.05c0.15,0.08,0.28,0.18,0.42,0.32l1.91,1.91c0.1,0.1,0.2,0.23,0.28,0.35 c2.15,2.94,1.81,5.57,0.35,7.97c0.27,0.1,0.52,0.25,0.71,0.45l1.91,1.91c0.1,0.1,0.2,0.23,0.28,0.35c2.31,3.18,1.73,5.95,0,8.48 c0.08,0.05,0.15,0.12,0.23,0.2l1.91,1.91c0.1,0.1,0.2,0.23,0.28,0.35c4.44,6.07-0.85,11.22-5.1,15.38l-1.1,1.1l-4.74,4.97 l-0.15,0.15c-4.34,3.94-8.65,4.99-13.62,6.2c-0.83,0.2-1.68,0.42-2.84,0.71c-0.03,0-0.05,0.02-0.08,0.02 c-2.69,0.73-5.14,0.91-7.33,0.52c-2.23-0.4-4.16-1.4-5.77-2.98L2.52,103.15c-1.68-1.61-2.24-3.61-1.78-5.97 c0.37-1.9,1.46-3.99,3.19-6.25l4.42-25.04v-0.1c0.04-0.31,0.1-0.66,0.17-1.04L0,56.23L56.23,0l32.24,32.24L55.14,65.57L55.14,65.57 z" />
                             </g>
