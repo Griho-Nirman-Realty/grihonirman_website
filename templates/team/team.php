@@ -28,7 +28,7 @@
                 <div class="col-lg-5">
                     <div class="team-page-single">
                         <div class="page-img mb-40">
-                            <img src="assets/img/team/team-details-1.jpg" alt="img">
+                            <!-- <img src="assets/img/team/team-details-1.jpg" alt="img"> -->
                         </div>
                     </div>
                 </div>  
@@ -111,7 +111,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="team-card style4">
                         <div class="team-img">
-                            <img src="assets/img/team/2-1.jpg" alt="img">
+                            <!-- <img src="assets/img/team/2-1.jpg" alt="img"> -->
                             <div class="social-btn style5">
                                 <a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
                                 <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
@@ -128,7 +128,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="team-card style4">
                         <div class="team-img">
-                            <img src="assets/img/team/2-2.jpg" alt="img">
+                            <!-- <img src="assets/img/team/2-2.jpg" alt="img"> -->
                             <div class="social-btn style5">
                                 <a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
                                 <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
@@ -146,7 +146,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="team-card style4">
                         <div class="team-img">
-                            <img src="assets/img/team/2-3.jpg" alt="img">
+                            <!-- <img src="assets/img/team/2-3.jpg" alt="img"> -->
                             <div class="social-btn style5">
                                 <a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
                                 <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
@@ -163,7 +163,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="team-card style4">
                         <div class="team-img">
-                            <img src="assets/img/team/2-4.jpg" alt="img">
+                            <!-- <img src="assets/img/team/2-4.jpg" alt="img"> -->
                             <div class="social-btn style5">
                                 <a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
                                 <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
@@ -180,7 +180,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="team-card style4">
                         <div class="team-img">
-                            <img src="assets/img/team/2-5.jpg" alt="img">
+                            <!-- <img src="assets/img/team/2-5.jpg" alt="img"> -->
                             <div class="social-btn style5">
                                 <a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
                                 <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
@@ -197,7 +197,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="team-card style4">
                         <div class="team-img">
-                            <img src="assets/img/team/2-6.jpg" alt="img">
+                            <!-- <img src="assets/img/team/2-6.jpg" alt="img"> -->
                             <div class="social-btn style5">
                                 <a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
                                 <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>

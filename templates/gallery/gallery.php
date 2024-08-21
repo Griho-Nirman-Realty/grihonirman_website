@@ -1,7 +1,7 @@
 <!--==============================
 Breadcumb
 ============================== -->
-<div class="breadcumb-wrapper" data-bg-src="linear-gradient(45deg, #000000cf, transparent),url(assets/images/gallery/convicity-2.jpg)">
+<div class="breadcumb-wrapper" data-bg-src="linear-gradient(45deg, #000000cf, transparent),url(assets/images/gallery/convicity-2.webp)">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -38,22 +38,22 @@ Breadcumb
 
         <div class="gallery-container px-4 py-4 mb-4">
             <div class="gallery-item" data-index="1">
-                <img src="assets/images/gallery/convicity-2.jpg" alt="image" >
+                <img src="assets/images/gallery/convicity-2.webp" alt="image" >
             </div>
             <div class="gallery-item" data-index="2">
-                <img src="assets/images/gallery/convicity-1.jpg" alt="image">
+                <img src="assets/images/gallery/convicity-1.webp" alt="image">
             </div>
             <div class="gallery-item" data-index="3">
                 <img src="assets/images/gallery/226.webp" alt="image">
             </div>
             <div class="gallery-item" data-index="4">
-                <img src="assets/images/gallery/23.jpeg" alt="image">
+                <img src="assets/images/gallery/23.webp" alt="image">
             </div>
             <div class="gallery-item" data-index="5">
-                <img src="assets/images/gallery/24.jpeg" alt="image">
+                <img src="assets/images/gallery/24.webp" alt="image">
             </div>
             <div class="gallery-item" data-index="6">
-                <img src="assets/images/gallery/25.jpeg" alt="image">
+                <img src="assets/images/gallery/25.webp" alt="image">
             </div>
             <div class="gallery-item" data-index="7">
                 <img src="assets/images/gallery/villa-1.webp" alt="image">
@@ -62,7 +62,7 @@ Breadcumb
                 <img src="assets/images/gallery/27.webp" alt="image">
             </div>
             <div class="gallery-item" data-index="9">
-                <img src="assets/images/gallery/22.jpeg" alt="image">
+                <img src="assets/images/gallery/22.webp" alt="image">
             </div>
             <div class="gallery-item" data-index="10">
                 <img src="assets/images/gallery/villa-2.webp" alt="image">
