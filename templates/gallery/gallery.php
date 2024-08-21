@@ -1,7 +1,7 @@
 <!--==============================
 Breadcumb
 ============================== -->
-<div class="breadcumb-wrapper" data-bg-src="linear-gradient(45deg, #000000cf, transparent),url(assets/images/gallery/convicity-2.jpg)">
+<div class="breadcumb-wrapper" data-bg-src="linear-gradient(45deg, #000000cf, transparent),url(assets/images/gallery/convicity-2.webp)">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -38,6 +38,7 @@ Breadcumb
 
         <div class="gallery-container px-4 py-4 mb-4">
             <div class="gallery-item" data-index="1">
+
                 <img loading="lazy"  src="assets/images/gallery/convicity-2.jpg" alt="image" >
             </div>
             <div class="gallery-item" data-index="2">

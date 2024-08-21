@@ -1,7 +1,7 @@
     <!--==============================
     Breadcumb
     ============================== -->
-    <div class="breadcumb-wrapper" data-bg-src="linear-gradient(45deg, #000000cf, transparent),url(assets/images/testimonials/testimonial-hero.jpg)">
+    <div class="breadcumb-wrapper" data-bg-src="linear-gradient(45deg, #000000cf, transparent),url(assets/images/testimonials/testimonial-hero.webp)">
         <!-- bg animated image/ -->   
         <div class="container">
             <div class="row">
@@ -50,9 +50,6 @@
                         <p class="testi-box_text">Thanks to Griho Nirman Realty, we found our dream home quickly and efficiently, their team truly goes above and beyond.",
                         </p>   
                         <div class="testi-box_profile">
-                            <!-- <div class="testi-box_img">
-                                <img loading="lazy"  src="assets/images/testimonials/people/1.jpg" alt="person 1 img">
-                            </div> -->
                             <div class="testi-box_details">
                                 <h4 class="testi-box_name">Tanisqh Gupta</h4>
                                 <span class="testi-box_desig">Client</span>                        
