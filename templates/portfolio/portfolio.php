@@ -51,7 +51,7 @@
               </div>
               <div class="col-md-4 filter-item running">
                   <div class="project-card style2">
-                      <div class="project-card-img" data-bg-src="url(assets/images/basbhumi/basbhumi_hero.jpg) no-repeat center center / cover">
+                      <div class="project-card-img" data-bg-src="url(assets/images/basbhumi/basbhumi_hero.webp) no-repeat center center / cover">
                       </div>
                       <div class="project-card-details">
                           <p class="project-card-subtitle"><a href="./basbhumi">Green View</a></p>

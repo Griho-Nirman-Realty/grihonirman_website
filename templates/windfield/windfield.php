@@ -151,12 +151,10 @@
                             best meterials here as per my recommendation. Hope we will deliver our villa on time. I
                             would suggest Bloomsberry for villa or flats.</p>
                         <div class="testi-box_profile">
-                            <!-- <div class="testi-box_img">
-                                <img src="assets/img/testimonial/1.jpg" alt="img">
-                            </div> -->
+                           
                             <div class="testi-box_details">
                                 <h4 class="testi-box_name">Shouvik Biswas</h4>
-                                <!-- <span class="testi-box_desig">CFO</span> -->
+                                
                             </div>
                         </div>
                     </div>
@@ -179,12 +177,10 @@
                             future villas.
                         </p>
                         <div class="testi-box_profile">
-                            <!-- <div class="testi-box_img">
-                                <img src="assets/img/testimonial/2.jpg" alt="img">
-                            </div> -->
+                           
                             <div class="testi-box_details">
                                 <h4 class="testi-box_name">Loknath Saha</h4>
-                                <!-- <span class="testi-box_desig">Manager</span> -->
+                                
                             </div>
                         </div>
                     </div>
@@ -205,12 +201,10 @@
                             Hope to have a cleaner air there. I'm really pissed off the pollution of Kolkata &
                             Indifference of Govt about it!</p>
                         <div class="testi-box_profile">
-                            <!-- <div class="testi-box_img">
-                                <img src="assets/img/testimonial/3.jpg" alt="img">
-                            </div> -->
+                           
                             <div class="testi-box_details">
                                 <h4 class="testi-box_name">Abhijit Dey</h4>
-                                <!-- <span class="testi-box_desig">Founder</span> -->
+                              
                             </div>
                         </div>
                     </div>
@@ -231,12 +225,10 @@
                             public transportation service is still not connected. Will give 5 star when the project is
                             ready.</p>
                         <div class="testi-box_profile">
-                            <!-- <div class="testi-box_img">
-                                <img src="assets/img/testimonial/4.jpg" alt="img">
-                            </div> -->
+                            
                             <div class="testi-box_details">
                                 <h4 class="testi-box_name">Ananya</h4>
-                                <!-- <span class="testi-box_desig">Chairman</span> -->
+                                
                             </div>
                         </div>
                     </div>
@@ -270,7 +262,7 @@
                     <div class="blog-card">
                         <div class="blog-img">
                             <a href="https://convicity.in/project/catalog/elite-villa" target="_blank">
-                                <img src="assets/images/portfolio/convicity/elite.jpg" alt=" image">
+                                <img src="assets/images/portfolio/convicity/elite.webp" alt=" image">
                                 <!-- <div class="blog-date">03 Apr</div> -->
                             </a>
                         </div>
@@ -296,7 +288,7 @@
                     <div class="blog-card">
                         <div class="blog-img">
                             <a href="https://convicity.in/project/catalog/apartment" target="_blank">
-                                <img src="assets/images/portfolio/convicity/okside.jpg" alt="image">
+                                <img src="assets/images/portfolio/convicity/okside.webp" alt="image">
                                 <!-- <div class="blog-date">03 Apr</div> -->
                             </a>
                         </div>
