@@ -25,7 +25,7 @@
             <div class="col-xl-4 col-md-6">
                 <div class="service-card style3 style-border">
                     <div class="service-card-img">
-                        <img src="assets\images\services\service-1.jpg" alt="img">
+                        <img loading="lazy"  src="assets\images\services\service-1.jpg" alt="img">
                     </div>
                     <div class="service-card_icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
@@ -49,7 +49,7 @@
             <div class="col-xl-4 col-md-6">
                 <div class="service-card style3 style-border">
                     <div class="service-card-img">
-                        <img src="assets\images\services\h1234.jpg" alt="img">
+                        <img loading="lazy"  src="assets\images\services\h1234.jpg" alt="img">
                     </div>
                     <div class="service-card_icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
@@ -74,7 +74,7 @@
             <div class="col-xl-4 col-md-6">
                 <div class="service-card style3 style-border">
                     <div class="service-card-img">
-                        <img src="assets\images\services\images (3).jpg" alt="img">
+                        <img loading="lazy"  src="assets\images\services\images (3).jpg" alt="img">
                     </div>
                     <div class="service-card_icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
@@ -98,7 +98,7 @@
             <div class="col-xl-4 col-md-6">
                 <div class="service-card style3 style-border">
                     <div class="service-card-img">
-                        <img src="assets\images\services\CRN135465-1659523140377.png" alt="img">
+                        <img loading="lazy"  src="assets\images\services\CRN135465-1659523140377.png" alt="img">
                     </div>
                     <div class="service-card_icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
@@ -123,7 +123,7 @@
             <div class="col-xl-4 col-md-6 ">
                 <div class="service-card style3 style-border">
                     <div class="service-card-img">
-                        <img src="assets\images\services\images (3).png" alt="img">
+                        <img loading="lazy"  src="assets\images\services\images (3).png" alt="img">
                     </div>
                     <div class="service-card_icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
@@ -150,7 +150,7 @@
             <div class="col-xl-4 col-md-6">
                 <div class="service-card style3 style-border">
                     <div class="service-card-img">
-                        <img src="assets\images\services\What-is-customer-service.jpg" alt="img">
+                        <img loading="lazy"  src="assets\images\services\What-is-customer-service.jpg" alt="img">
                     </div>
                     <div class="service-card_icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">

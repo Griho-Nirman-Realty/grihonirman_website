@@ -8,9 +8,9 @@
  *    ... becomes ...
  *    <a href="http://foobar.com" target="_blank" rel="nofollow">foo</a>
  *
- *    <img align="left" src="http://foobar.com/image.png">
+ *    <img loading="lazy"  align="left" src="http://foobar.com/image.png">
  *    ... becomes ...
- *    <img class="wysiwyg-float-left" src="http://foobar.com/image.png" alt="">
+ *    <img loading="lazy"  class="wysiwyg-float-left" src="http://foobar.com/image.png" alt="">
  *
  *    <div>foo<script>alert(document.cookie);</script></div>
  *    ... becomes ...
@@ -162,7 +162,7 @@ var wysihtmlParserRules = {
      *                            <p align="center">foo</p> ... becomes ... <p class="wysiwyg-text-align-center">foo</p>
      *                          - clear_br:    converts clear attribute values left/right/all/both to their corresponding css class "wysiwyg-clear-*"
      *                            <br clear="all"> ... becomes ... <br class="wysiwyg-clear-both">
-     *                          - align_img:    converts align attribute values (right/left) on <img> to their corresponding css class "wysiwyg-float-*"
+     *                          - align_img:    converts align attribute values (right/left) on <img loading="lazy" > to their corresponding css class "wysiwyg-float-*"
      *
      *    - add_style:        converts and deletes the given HTML4 attribute (align) via the given method to a css style
      *                        The following methods are implemented in wysihtml.dom.parse:

@@ -190,7 +190,7 @@ wysihtml.commands.formatCode = (function() {
 })();
 
 /**
- * Inserts an <img>
+ * Inserts an <img loading="lazy" >
  * If selection is already an image link, it removes it
  *
  * @example

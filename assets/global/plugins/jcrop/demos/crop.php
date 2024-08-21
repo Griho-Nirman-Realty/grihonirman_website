@@ -96,7 +96,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 </div>
 
 		<!-- This is the image we're attaching Jcrop to -->
-		<img src="demo_files/pool.jpg" id="cropbox" />
+		<img loading="lazy"  src="demo_files/pool.jpg" id="cropbox" />
 
 		<!-- This is the form that our event handler fills -->
 		<form action="crop.php" method="post" onsubmit="return checkCoords();">

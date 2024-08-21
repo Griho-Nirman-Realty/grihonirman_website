@@ -1732,7 +1732,7 @@ Makes editable any HTML element on the page. Applied as jQuery method.
                 } else if($.trim(this.$element.text()) !== '') {
                     this.isEmpty = false;
                 } else {
-                    //e.g. '<img>'
+                    //e.g. '<img loading="lazy" >'
                     this.isEmpty = !this.$element.height() || !this.$element.width();
                 }
             }           

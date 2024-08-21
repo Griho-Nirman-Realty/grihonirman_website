@@ -153,69 +153,7 @@ $system_ph_num = $system_info_data[5];
 
     <!-- ================================================================================================================================================
     ===================================================================================================================================================== -->
-    <!-- Google Tag Manager -->
-    <script>
-        (function(w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-KMKJLBNM');
-    </script>
-    <!-- End Google Tag Manager -->
-
-    <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "LocalBusiness",
-            "name": "Griho Nirman Realty",
-            "description": "Providing top-notch real estate services in Kolkata.",
-            "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "Plot no.10/871(hidco), Street no. 871, action area -3b",
-                "addressLocality": "Newtown",
-                "addressRegion": "West Bengal",
-                "postalCode": "700160",
-                "addressCountry": "IN"
-            },
-            "telephone": "+91 9147390718",
-            "url": "https://grihonirmanrealty.in",
-            "logo": "https://grihonirmanrealty.in/siteimage.webp",
-            "sameAs": [
-                "https://www.facebook.com/profile.php?id=61563583546780",
-                "https://x.com/GrihoL48022",
-                "https://www.instagram.com/griho.nirman/",
-                "https://www.linkedin.com/in/griho-nirman-97b0a4322/"
-            ],
-            "openingHours": " 09:00-18:00"
-        }
-    </script>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16665448208">
-    </script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'AW-16665448208');
-    </script>
-    <script>
-        gtag('config', 'AW-16665448208/-jskCIKZqMsZEJCe2oo-', {
-            'phone_conversion_number': '9147390718'
-        });
-    </script>
+   
     <!-- ================================================================================================================================================
     ===================================================================================================================================================== -->
 </head>
@@ -227,24 +165,20 @@ $system_ph_num = $system_info_data[5];
 <body>
 
     <!-- Google Tag Manager (noscript) -->
-    <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KMKJLBNM"
-            height="0" width="0" style="display:none;visibility:hidden">
-        </iframe>
-    </noscript>
+  
     <!-- End Google Tag Manager (noscript) -->
     <!--==============================
      Preloader_Section
     ==============================-->
     <div class="preloader">
         <div class="preloader-inner">
-            <img src="upload_content/upload_img/system_img/<?php echo $system_favicon; ?>" alt="Grihonirman">
+            <img loading="lazy" src="upload_content/upload_img/system_img/<?php echo $system_favicon; ?>" alt="Grihonirman">
             <span class="loader"></span>
         </div>
     </div>
     <div class="preloader2">
         <div class="preloader-inner">
-            <img src="upload_content/upload_img/system_img/<?php echo $system_favicon; ?>" alt="Grihonirman">
+            <img loading="lazy" src="upload_content/upload_img/system_img/<?php echo $system_favicon; ?>" alt="Grihonirman">
             <span class="loader"></span>
         </div>
     </div>
@@ -255,7 +189,7 @@ $system_ph_num = $system_info_data[5];
         <div class="mobile-menu-area text-center">
             <button class="menu-toggle"><i class="fas fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="<?php echo $baseUrl; ?>/home"><img src="upload_content/upload_img/system_img/<?php echo $system_logo == "" ? "no_image.png" : $system_logo ?>" alt="Grihonirman"></a>
+                <a href="<?php echo $baseUrl; ?>/home"><img loading="lazy" src="upload_content/upload_img/system_img/<?php echo $system_logo == "" ? "no_image.png" : $system_logo ?>" alt="Grihonirman"></a>
             </div>
             <div class="mobile-menu">
                 <ul>
@@ -302,8 +236,8 @@ $system_ph_num = $system_info_data[5];
                     <div class="col-auto">
                         <div class="header-links">
                             <ul>
-                                <li style="margin-right: 12px;"><img src="assets/icon/email.webp" alt="Email" style="width: 30px;"><a href="mailto:<?php echo $system_email ?>"><?php echo $system_email; ?></a></li>
-                                <li style="white-space: nowrap;"><img src="assets/icon/call-i.webp" alt="Call" style="width: 30px;"><a href="tel: <?php echo $system_ph_num; ?>"><?php echo $system_ph_num; ?></a></li>
+                                <li style="margin-right: 12px;"><img loading="lazy" src="assets/icon/email.webp" alt="Email" style="width: 30px;"><a href="mailto:<?php echo $system_email ?>"><?php echo $system_email; ?></a></li>
+                                <li style="white-space: nowrap;"><img loading="lazy" src="assets/icon/call-i.webp" alt="Call" style="width: 30px;"><a href="tel: <?php echo $system_ph_num; ?>"><?php echo $system_ph_num; ?></a></li>
                             </ul>
                         </div>
                     </div>
@@ -333,7 +267,7 @@ $system_ph_num = $system_info_data[5];
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                             <div class="header-logo top-section">
-                                <a href="<?php echo $baseUrl; ?>/home"><img src="upload_content/upload_img/system_img/<?php echo $system_logo == "" ? "no_image.png" : $system_logo ?>" alt="logo"></a>
+                                <a href="<?php echo $baseUrl; ?>/home"><img loading="lazy" src="upload_content/upload_img/system_img/<?php echo $system_logo == "" ? "no_image.png" : $system_logo ?>" alt="logo"></a>
                                 <p><?php echo $system_name; ?></p>
                             </div>
                         </div>
@@ -692,7 +626,7 @@ $system_ph_num = $system_info_data[5];
                         <div class="widget footer-widget">
                             <div class="widget-about">
                                 <div class="footer-logo">
-                                    <a href="<?php echo $baseUrl; ?>/home"><img src="upload_content/upload_img/system_img/<?php echo $system_logo == "" ? "no_image.png" : $system_logo ?>" alt="Grihonirman"></a>
+                                    <a href="<?php echo $baseUrl; ?>/home"><img loading="lazy" src="upload_content/upload_img/system_img/<?php echo $system_logo == "" ? "no_image.png" : $system_logo ?>" alt="Grihonirman"></a>
                                 </div>
                                 <p class="about-text">Griho Nirman is committed to showcasing properties that meet
                                     high standards of quality and providing clear, honest information about each
@@ -762,7 +696,7 @@ $system_ph_num = $system_info_data[5];
     <div class="whatsapp-sticky-main">
         <a href="https://wa.me/9147390718?text=" target="_blank" class="whatsapp-sticky">
             <span>Need Help?Let's Chat</span>
-            <img src="assets/icon/whatsapp.webp" alt="whatsapp">
+            <img loading="lazy" src="assets/icon/whatsapp.webp" alt="whatsapp">
         </a>
     </div>
 

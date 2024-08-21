@@ -51,7 +51,7 @@
                         </p>   
                         <div class="testi-box_profile">
                             <!-- <div class="testi-box_img">
-                                <img src="assets/images/testimonials/people/1.jpg" alt="person 1 img">
+                                <img loading="lazy"  src="assets/images/testimonials/people/1.jpg" alt="person 1 img">
                             </div> -->
                             <div class="testi-box_details">
                                 <h4 class="testi-box_name">Tanisqh Gupta</h4>

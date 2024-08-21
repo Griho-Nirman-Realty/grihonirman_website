@@ -3725,7 +3725,7 @@ wysihtml5.browser = (function() {
     },
     
     /**
-     * In IE it's impssible for the user and for the selection library to set the caret after an <img> when it's the lastChild in the document
+     * In IE it's impssible for the user and for the selection library to set the caret after an <img loading="lazy" > when it's the lastChild in the document
      */
     hasProblemsSettingCaretAfterImg: function() {
       return isIE;
@@ -4745,7 +4745,7 @@ wysihtml5.dom.parse = (function() {
   
   /**
    * It's not possible to use a XMLParser/DOMParser as HTML5 is not always well-formed XML
-   * new DOMParser().parseFromString('<img src="foo.gif">') will cause a parseError since the
+   * new DOMParser().parseFromString('<img loading="lazy"  src="foo.gif">') will cause a parseError since the
    * node isn't closed
    *
    * Therefore we've to use the browser's ordinary HTML parser invoked by setting innerHTML.
@@ -4981,7 +4981,7 @@ wysihtml5.dom.parse = (function() {
     // set attributes on newNode
     for (attributeName in attributes) {
       // Setting attributes can cause a js error in IE under certain circumstances
-      // eg. on a <img> under https when it's new attribute value is non-https
+      // eg. on a <img loading="lazy" > under https when it's new attribute value is non-https
       // TODO: Investigate this further and check for smarter handling
       try {
         newNode.setAttribute(attributeName, attributes[attributeName]);
@@ -5310,7 +5310,7 @@ wysihtml5.dom.replaceWithChildNodes = function(node) {
  *
  * @example
  *    new wysihtml5.dom.Sandbox(function(sandbox) {
- *      sandbox.getWindow().document.body.innerHTML = '<img src=foo.gif onerror="alert(document.cookie)">';
+ *      sandbox.getWindow().document.body.innerHTML = '<img loading="lazy"  src=foo.gif onerror="alert(document.cookie)">';
  *    });
  */
 (function(wysihtml5) {
@@ -7368,7 +7368,7 @@ wysihtml5.Commands = Base.extend(
   
   wysihtml5.commands.insertImage = {
     /**
-     * Inserts an <img>
+     * Inserts an <img loading="lazy" >
      * If selection is already an image link, it removes it
      * 
      * @example
@@ -8572,7 +8572,7 @@ wysihtml5.views.View = Base.extend(
           parent;
       if (target && target.nodeName === "IMG" && (keyCode === wysihtml5.BACKSPACE_KEY || keyCode === wysihtml5.DELETE_KEY)) { // 8 => backspace, 46 => delete
         parent = target.parentNode;
-        // delete the <img>
+        // delete the <img loading="lazy" >
         parent.removeChild(target);
         // and it's parent <a> too if it hasn't got any other child nodes
         if (parent.nodeName === "A" && !parent.firstChild) {

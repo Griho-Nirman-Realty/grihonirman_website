@@ -13,7 +13,7 @@
 				<!--begin::Login Header-->
 				<div class="d-flex flex-center mb-15">
 					<a href="#">
-						<img style="width: 100%;" src="../upload_content/upload_img/system_img/<?php echo $system_logo; ?>" class="max-h-100px" alt="Logins" />
+						<img loading="lazy"  style="width: 100%;" src="../upload_content/upload_img/system_img/<?php echo $system_logo; ?>" class="max-h-100px" alt="Logins" />
 					</a>
 				</div>
 				<!--end::Login Header-->

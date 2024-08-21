@@ -29,10 +29,10 @@
                 <div class="col-xl-6">
                     <div class="about-thumb6 mb-40 mb-xl-0">
                         <div class="about-img-1">
-                            <img src="assets/images/portfolio/windfield/21.webp" alt="img">
+                            <img loading="lazy"  src="assets/images/portfolio/windfield/21.webp" alt="img">
                         </div>
                         <div class="about-img-2 jump">
-                            <img src="assets/images/portfolio/windfield/floors-image.webp" alt="img">
+                            <img loading="lazy"  src="assets/images/portfolio/windfield/floors-image.webp" alt="img">
                         </div>
 
                     </div>
@@ -101,7 +101,7 @@
     <div class="gradient-half-primary-v1 call text-center rounded p-5">
         <div class="mb-3">
             <a href="https://www.windfields.in/index.html" target="_blank">
-                <img src="assets/images/portfolio/windfield/logo.png" alt="Logo" style="width: 100px; max-width: 100%;">
+                <img loading="lazy"  src="assets/images/portfolio/windfield/logo.png" alt="Logo" style="width: 100px; max-width: 100%;">
             </a>
 
         </div>
@@ -152,7 +152,7 @@
                             would suggest Bloomsberry for villa or flats.</p>
                         <div class="testi-box_profile">
                             <!-- <div class="testi-box_img">
-                                <img src="assets/img/testimonial/1.jpg" alt="img">
+                                <img loading="lazy"  src="assets/img/testimonial/1.jpg" alt="img">
                             </div> -->
                             <div class="testi-box_details">
                                 <h4 class="testi-box_name">Shouvik Biswas</h4>
@@ -180,7 +180,7 @@
                         </p>
                         <div class="testi-box_profile">
                             <!-- <div class="testi-box_img">
-                                <img src="assets/img/testimonial/2.jpg" alt="img">
+                                <img loading="lazy"  src="assets/img/testimonial/2.jpg" alt="img">
                             </div> -->
                             <div class="testi-box_details">
                                 <h4 class="testi-box_name">Loknath Saha</h4>
@@ -206,7 +206,7 @@
                             Indifference of Govt about it!</p>
                         <div class="testi-box_profile">
                             <!-- <div class="testi-box_img">
-                                <img src="assets/img/testimonial/3.jpg" alt="img">
+                                <img loading="lazy"  src="assets/img/testimonial/3.jpg" alt="img">
                             </div> -->
                             <div class="testi-box_details">
                                 <h4 class="testi-box_name">Abhijit Dey</h4>
@@ -232,7 +232,7 @@
                             ready.</p>
                         <div class="testi-box_profile">
                             <!-- <div class="testi-box_img">
-                                <img src="assets/img/testimonial/4.jpg" alt="img">
+                                <img loading="lazy"  src="assets/img/testimonial/4.jpg" alt="img">
                             </div> -->
                             <div class="testi-box_details">
                                 <h4 class="testi-box_name">Ananya</h4>
@@ -270,7 +270,7 @@
                     <div class="blog-card">
                         <div class="blog-img">
                             <a href="https://convicity.in/project/catalog/elite-villa" target="_blank">
-                                <img src="assets/images/portfolio/convicity/elite.jpg" alt=" image">
+                                <img loading="lazy"  src="assets/images/portfolio/convicity/elite.jpg" alt=" image">
                                 <!-- <div class="blog-date">03 Apr</div> -->
                             </a>
                         </div>
@@ -296,7 +296,7 @@
                     <div class="blog-card">
                         <div class="blog-img">
                             <a href="https://convicity.in/project/catalog/apartment" target="_blank">
-                                <img src="assets/images/portfolio/convicity/okside.jpg" alt="image">
+                                <img loading="lazy"  src="assets/images/portfolio/convicity/okside.jpg" alt="image">
                                 <!-- <div class="blog-date">03 Apr</div> -->
                             </a>
                         </div>
@@ -323,7 +323,7 @@
                     <div class="blog-card">
                         <div class="blog-img">
                             <a href="https://convicity.in/project/catalog/classic-villa" target="_blank">
-                                <img src="assets/images/portfolio/convicity/classic.webp" alt=" image">
+                                <img loading="lazy"  src="assets/images/portfolio/convicity/classic.webp" alt=" image">
                                 <!-- <div class="blog-date">03 Apr</div> -->
                             </a>
                         </div>

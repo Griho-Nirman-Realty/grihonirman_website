@@ -132,7 +132,7 @@ var wysihtmlParserRules = {
      *                            <p align="center">foo</p> ... becomes ... <p> class="wysiwyg-text-align-center">foo</p>
      *                          - clear_br:    converts clear attribute values left/right/all/both to their corresponding css class "wysiwyg-clear-*"
      *                            <br clear="all"> ... becomes ... <br class="wysiwyg-clear-both">
-     *                          - align_img:    converts align attribute values (right/left) on <img> to their corresponding css class "wysiwyg-float-*"
+     *                          - align_img:    converts align attribute values (right/left) on <img loading="lazy" > to their corresponding css class "wysiwyg-float-*"
      *                          
      *    - remove:             removes the element and its content
      *
