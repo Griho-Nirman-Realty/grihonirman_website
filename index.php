@@ -739,9 +739,9 @@ $system_ph_num = $system_info_data[5];
             chatbotId: "a9OqzUxQZ1E5DEnTOInm-",
             domain: "www.chatbase.co"
         }
-    </script> -->
-    <!-- <script src="https://www.chatbase.co/embed.min.js" chatbotId="a9OqzUxQZ1E5DEnTOInm-" domain="www.chatbase.co" defer> -->
     </script>
+    <script src="https://www.chatbase.co/embed.min.js" chatbotId="a9OqzUxQZ1E5DEnTOInm-" domain="www.chatbase.co" defer> 
+    </script>-->
     <?php
     if (file_exists("templates/" . $pg_nm . "/page_details/js.php")) {
         include("templates/" . $pg_nm . "/page_details/js.php");
