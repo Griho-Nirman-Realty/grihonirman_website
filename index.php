@@ -29,8 +29,9 @@ $system_email = $system_info_data[3];
 $system_address = $system_info_data[4];
 $system_ph_num = $system_info_data[5];
 ?>
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <!-- Head_Section  -->
 
 <head>
@@ -740,11 +741,10 @@ $system_ph_num = $system_info_data[5];
                     <div class="col-auto align-self-center">
                         <div class="footer-links">
                             <div class="social-btn style4" style="justify-content: center">
-                                <a href="https://www.facebook.com/profile.php?id=61563583546780" target="_blank" tabindex="0"><i class="fab fa-facebook-f"></i></a>
-                                <a href="https://x.com/GrihoL48022" target="_blank" tabindex="1"><i class="fab fa-brands fa-x-twitter"></i></a>
-                                <a href="https://www.instagram.com/griho.nirman/" target="_blank" tabindex="2"><i class="fab fa-instagram"></i></a>
-                                <a href="https://www.linkedin.com/in/griho-nirman-97b0a4322/" target="_blank" tabindex="3"><i class="fab fa-linkedin-in"></i></a>
-
+                                <a href="https://www.facebook.com/profile.php?id=61563583546780" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://x.com/GrihoL48022" target="_blank"><i class="fab fa-brands fa-x-twitter"></i></a>
+                                <a href="https://www.instagram.com/griho.nirman/" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.linkedin.com/in/griho-nirman-97b0a4322/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
                     </div>
