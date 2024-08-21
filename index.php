@@ -19,9 +19,6 @@ if ($pg_nm == "") {
     header('location: ' . $baseUrl . '/home/');
 }
 
-// if (
-
-
 $system_info_dataget = mysqli_query($con, "select system_name, logo, favicon, email, address, ph_num from system_info ");
 $system_info_data = mysqli_fetch_row($system_info_dataget);
 
@@ -37,58 +34,11 @@ $system_ph_num = $system_info_data[5];
 <!-- Head_Section  -->
 
 <head>
-    <!-- Google Tag Manager -->
-    <script>
-        (function(w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-KMKJLBNM');
-    </script>
-    <!-- End Google Tag Manager -->
-
     <!-- Basic -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-
-
-    <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "LocalBusiness",
-            "name": "Griho Nirman Realty",
-            "description": "Providing top-notch real estate services in Kolkata.",
-            "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "Plot no.10/871(hidco), Street no. 871, action area -3b",
-                "addressLocality": "Newtown",
-                "addressRegion": "West Bengal",
-                "postalCode": "700160",
-                "addressCountry": "IN"
-            },
-            "telephone": "+91  9147390718",
-            "url": "https://grihonirmanrealty.in",
-            "logo": "https://grihonirmanrealty.in/siteimage.webp",
-            "sameAs": [
-                "https://www.facebook.com/profile.php?id=61563583546780",
-                "https://x.com/GrihoL48022",
-                "https://www.instagram.com/griho.nirman/",
-                "https://www.linkedin.com/in/griho-nirman-97b0a4322/"
-            ],
-            "openingHours": " 09:00-18:00"
-        }
-    </script>
     <!-- Google / Search Engine Tags -->
     <meta itemprop="name" content=" Griho Nirman Realty Pvt Ltd">
     <meta itemprop="description" content="Discover premium real estate in Kolkata with Griho Nirman Realty. Explore top listings and expert services to find your dream home or investment property.">
@@ -214,8 +164,52 @@ $system_ph_num = $system_info_data[5];
         const baseUrl = "<?php echo $baseUrl; ?>";
         const login = "<?php echo $login; ?>";
     </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KMKJLBNM');
+    </script>
+    <!-- End Google Tag Manager -->
 
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Griho Nirman Realty",
+            "description": "Providing top-notch real estate services in Kolkata.",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Plot no.10/871(hidco), Street no. 871, action area -3b",
+                "addressLocality": "Newtown",
+                "addressRegion": "West Bengal",
+                "postalCode": "700160",
+                "addressCountry": "IN"
+            },
+            "telephone": "+91  9147390718",
+            "url": "https://grihonirmanrealty.in",
+            "logo": "https://grihonirmanrealty.in/siteimage.webp",
+            "sameAs": [
+                "https://www.facebook.com/profile.php?id=61563583546780",
+                "https://x.com/GrihoL48022",
+                "https://www.instagram.com/griho.nirman/",
+                "https://www.linkedin.com/in/griho-nirman-97b0a4322/"
+            ],
+            "openingHours": " 09:00-18:00"
+        }
+    </script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16665448208">
     </script>
@@ -818,8 +812,8 @@ $system_ph_num = $system_info_data[5];
     <!-- ============================= -->
     <!-- Footer Section End  -->
     <!-- ============================= -->
-    <script src="frontend_assets/assets/global/plugins/jquery.min.js" type="text/javascript"></script>
-    <script src="frontend_assets/assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 
     <!-- WEB SITE JS START  -->
     <!-- Jquery -->
