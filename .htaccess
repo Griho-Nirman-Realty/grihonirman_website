@@ -1,5 +1,5 @@
 RewriteEngine on
-Redirect 301 / https://grihonirmanrealty.in/
+#Redirect 301 / https://grihonirmanrealty.in/
 
 
 RewriteCond %{REQUEST_FILENAME} !-f
