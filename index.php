@@ -128,30 +128,30 @@ $system_ph_num = $system_info_data[5];
         <title>Home</title>
         <meta name="description" content="Discover premium real estate in Kolkata with Griho Nirman Realty. Explore top listings and expert services to find your dream home or investment property.">
         <meta name="keywords" content="
-best relestate company in kolkata,
-buy plots in kolkata,
-buy villa in kolkata,
-housing,
-99acers,
-land sale in kolkata,
-buy villas , 
-bunglow ,
-plot sale ,
-property,
-Bashbhumi Green View Project,
-Residential plots,
-Real estate,
-Plot sizes,
-Plots for sale near Joka Metro Station,
-Residential plots near Vivekananda Mission School,
-plots in Kolkata,
-Buy residential plots in a green environment,
-Investment in Kolkata real estate,
-Plots with modern amenities in Kolkata,
-Kolkata plots for family homes,
-Secure and serene residential plots in Kolkata,
-Plots near Bharat Sevashram Hospital,
-Plots with easy access to Calcutta Hospital," />
+                                best relestate company in kolkata,
+                                buy plots in kolkata,
+                                buy villa in kolkata,
+                                housing,
+                                99acers,
+                                land sale in kolkata,
+                                buy villas , 
+                                bunglow ,
+                                plot sale ,
+                                property,
+                                Bashbhumi Green View Project,
+                                Residential plots,
+                                Real estate,
+                                Plot sizes,
+                                Plots for sale near Joka Metro Station,
+                                Residential plots near Vivekananda Mission School,
+                                plots in Kolkata,
+                                Buy residential plots in a green environment,
+                                Investment in Kolkata real estate,
+                                Plots with modern amenities in Kolkata,
+                                Kolkata plots for family homes,
+                                Secure and serene residential plots in Kolkata,
+                                Plots near Bharat Sevashram Hospital,
+                                Plots with easy access to Calcutta Hospital," />
     <?php
 
     }
@@ -200,11 +200,10 @@ Plots with easy access to Calcutta Hospital," />
     <!-- WEBSITE CSS END -->
     <!-- ========================================== -->
 
-    <link href="frontend_assets/assets/global/plugins/bootstrap-sweetalert/sweetalert.css" rel="stylesheet" type="text/css" />
-    <link href="frontend_assets/assets/global/plugins/bootstrap-toastr/toastr.min.css" rel="stylesheet" type="text/css" />
-    <link href="frontend_assets/assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-
-    <link rel="stylesheet" href="frontend_assets/common_assets/style.css">
+    <link href="assets/global/plugins/bootstrap-sweetalert/sweetalert.css" rel="stylesheet" type="text/css" />
+    <link href="assets/global/plugins/bootstrap-toastr/toastr.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="assets/common_assets/style.css">
 
     <?php
     if (file_exists("templates/" . $pg_nm . "/page_details/css.php")) {
@@ -846,9 +845,9 @@ Plots with easy access to Calcutta Hospital," />
     <script src="https://kit.fontawesome.com/35181277b5.js" crossorigin="anonymous"></script>
     <!-- WEB SITE JS End -->
 
-    <script src="frontend_assets/assets/global/plugins/bootstrap-toastr/toastr.min.js" type="text/javascript"></script>
-    <script src="frontend_assets/assets/global/plugins/bootstrap-sweetalert/sweetalert.js" type="text/javascript"></script>
-    <script src="frontend_assets/common_assets/main_controller.js?v=1.1.1" type="text/javascript"></script>
+    <script src="assets/global/plugins/bootstrap-toastr/toastr.min.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/bootstrap-sweetalert/sweetalert.js" type="text/javascript"></script>
+    <script src="assets/common_assets/main_controller.js?v=1.1.1" type="text/javascript"></script>
     <script>
         window.embeddedChatbotConfig = {
             chatbotId: "a9OqzUxQZ1E5DEnTOInm-",
