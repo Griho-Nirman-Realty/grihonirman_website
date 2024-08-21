@@ -8,17 +8,17 @@
 
 <!-- Slider_Section -->
 <div class="hero-wrapper hero-1" id="hero">
-    <div class="global-carousel-main-slider" id="heroSlider1" data-fade="false" data-slide-show="1" data-arrows="true" data-xl-arrows="true" data-ml-arrows="true" data-lg-arrows="true" data-arrows="true" data-dots="false" data-xl-dots="false" data-ml-dots="false" data-lg-dots="false">
+    <div class="global-carousel-main-slider" id="heroSlider1">
         <div class="hero-slider" data-bg-src="linear-gradient(45deg, #000000cf, transparent), url(assets/img/hero/hero-bg-4.jpg)">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8">
                         <div class="hero-style1">
-                            <span class="hero-subtitle" data-ani="slideinup" data-ani-delay="0.3s">Explore</span>
-                            <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">Griho Nirman Realty - Discover Your Next Investment</h1>
-                            <h2 class="hero-title" data-ani="slideinup" data-ani-delay="0.5s">Top Resale Properties</h2>
-                            <p class="hero-text" data-ani="slideinup" data-ani-delay="0.6s"> Browse our exclusive listings and find your next real estate opportunity. </p>
-                            <div class="btn-wrap" data-ani="slideinup" data-ani-delay="0.7s">
+                            <span class="hero-subtitle"></span>
+                            <h1 class="hero-title">Griho Nirman Realty - Discover Your Next Investment</h1>
+                            <h2 class="hero-title">Top Resale Properties</h2>
+                            <p class="hero-text"> Browse our exclusive listings and find your next real estate opportunity. </p>
+                            <div class="btn-wrap">
                                 <a href="<?php echo $baseUrl ?>/contact" class="btn style2">Join Us Now<i class="fas fa-angle-double-right"></i></a>
                             </div>
                         </div>
@@ -32,11 +32,11 @@
 
                     <div class="col-lg-8 col-md-12">
                         <div class="hero-style1">
-                            <span class="hero-subtitle" data-ani="slideinup" data-ani-delay="0.3s">Explore</span>
-                            <h2 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">Find Your Perfect Property</h2>
-                            <h2 class="hero-title" data-ani="slideinup" data-ani-delay="0.5s"> Quality Resales at Your Fingertips</h2>
-                            <p class="hero-text" data-ani="slideinup" data-ani-delay="0.6s"> Explore a curated selection of homes ready for you to make your own. </p>
-                            <div class="btn-wrap" data-ani="slideinup" data-ani-delay="0.7s">
+                            <span class="hero-subtitle"></span>
+                            <h2 class="hero-title">Find Your Perfect Property</h2>
+                            <h2 class="hero-title"> Quality Resales at Your Fingertips</h2>
+                            <p class="hero-text"> Explore a curated selection of homes ready for you to make your own. </p>
+                            <div class="btn-wrap">
                                 <a href="<?php echo $baseUrl ?>/contact" class="btn style2">Join Us Now<i class="fas fa-angle-double-right"></i></a>
                             </div>
                         </div>

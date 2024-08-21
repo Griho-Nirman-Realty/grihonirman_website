@@ -2,10 +2,6 @@
 <title>Griho Nirman Realty-Best plots in kolkata</title>
 <meta name="description" content="Discover premium real estate in Kolkata with Griho Nirman Realty. Explore top listings and expert services to find your dream home or investment property.">
 
-
-
-
-
 <meta name="keywords" content="
 best relestate company in kolkata,
 buy plots in kolkata,
