@@ -313,7 +313,7 @@
         <div class="row align-items-center flex-row-reverse">
             <div class="col-lg-6">
                 <div class="faq-img-1">
-                    <img loading="lazy"  class="w-100" src="assets/img/normal/faq1.png" alt="img">
+                    <img loading="lazy"  class="w-100" src="assets/images/FAQ/faq1.png" alt="img">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -416,7 +416,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="donation-card">
                     <div class="donation-card-img">
-                        <img loading="lazy"  src="assets/images/home/project-green-view.webp" alt="img">
+                        <img loading="lazy" src="assets/images/home/project-green-view.webp" alt="img">
                     </div>
                     <div class="donation-card-content">
                         <h3 class="donation-card-title">
@@ -433,7 +433,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="donation-card">
                     <div class="donation-card-img">
-                        <img loading="lazy"  src="assets/images/portfolio/convicity/convicity-home.webp" alt="img">
+                        <img loading="lazy" src="assets/images/portfolio/convicity/convicity-home.webp" alt="img">
                     </div>
                     <div class="donation-card-content">
                         <h3 class="donation-card-title">
@@ -499,9 +499,6 @@
                     </div>
                     <p class="testi-box_text">Griho Nirman Realty provided us with invaluable guidance and support, resulting in a perfect home purchase.Highly Recommended</p>
                     <div class="testi-box_profile">
-                        <!-- <div class="testi-box_img">
-                            <img loading="lazy"  src="assets/img/testimonial/1.jpg" alt="img">
-                        </div> -->
                         <div class="testi-box_details">
                             <h4 class="testi-box_name">Swastik Sarkar</h4>
                             <span class="testi-box_desig">Client</span>
