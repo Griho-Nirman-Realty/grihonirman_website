@@ -101,7 +101,7 @@
         </div>
     </div>
 </div>
-<div class="counter-area-2 overflow-hidden" data-bg-src="assets/img/bg/counter-2-1-bg.jpg">
+<div class="counter-area-2 overflow-hidden" data-bg-src="assets/img/bg/counter-2-1-bg.webp">
     <div class="container container2">
         <div class="row gy-40 justify-content-lg-between justify-content-center">
             <div class="col-sm-6 col-lg-auto">

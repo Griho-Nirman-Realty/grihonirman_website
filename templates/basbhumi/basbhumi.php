@@ -60,7 +60,7 @@
 <!--==============================
     Counter Area  
     ==============================-->
-<div class="counter-area-2 overflow-hidden" data-bg-src="url(assets/img/bg/counter-2-1-bg.jpg)" style="padding-bottom: 60px;">
+<div class="counter-area-2 overflow-hidden" data-bg-src="url(assets/img/bg/counter-2-1-bg.webp)" style="padding-bottom: 60px;">
     <div class="container">
         <div class="row  justify-content-lg-between justify-content-center">
             <div class="col-sm-6 col-lg-3">

@@ -9,7 +9,7 @@
 <!-- Slider_Section -->
 <div class="hero-wrapper hero-1" id="hero">
     <div class="global-carousel-main-slider" id="heroSlider1">
-        <div class="hero-slider" data-bg-src="linear-gradient(45deg, #000000cf, transparent), url(assets/images/home/slide1.jpg)">
+        <div class="hero-slider" data-bg-src="linear-gradient(45deg, #000000cf, transparent), url(assets/images/home/slide1.webp)">
             <div class="container">
                 <div class="row">
 
@@ -27,7 +27,7 @@
                 </div>
             </div>
         </div>
-        <div class="hero-slider" data-bg-src="linear-gradient(45deg, #000000cf, transparent), url(assets/images/home/slide2.jpg)">
+        <div class="hero-slider" data-bg-src="linear-gradient(45deg, #000000cf, transparent), url(assets/images/home/slide2.webp)">
             <div class="container">
                 <div class="row">
 
@@ -183,7 +183,7 @@
     ==============================-->
 <div class="counter-area-1" data-pos-for=".service-area-1" data-sec-pos="top-half">
     <div class="container container2">
-        <div class="counter-wrap" data-bg-src="url(assets/img/bg/counter-1-1-bg.jpg)">
+        <div class="counter-wrap" data-bg-src="url(assets/img/bg/counter-1-1-bg.webp)">
             <div class="row gy-40 justify-content-lg-between justify-content-center">
                 <div class="col-sm-6 col-lg-auto">
                     <div class="counter-card">
