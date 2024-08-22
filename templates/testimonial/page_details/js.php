@@ -1,1 +1,1 @@
-<script src="templates/testimonial/controller.js"></script>
+<script src="templates/testimonial/controller.js" defer></script>

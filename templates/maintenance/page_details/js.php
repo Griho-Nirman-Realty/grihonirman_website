@@ -1,1 +1,1 @@
-<script src="templates/maintenance/controller.js"></script>
+<script src="templates/maintenance/controller.js" defer></script>

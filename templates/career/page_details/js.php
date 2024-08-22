@@ -1,1 +1,1 @@
-<script src="templates/career/controller.js"></script>
+<script src="templates/career/controller.js" defer></script>

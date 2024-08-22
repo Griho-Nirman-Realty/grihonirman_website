@@ -1,2 +1,2 @@
-<script src="templates/windfield/controller.js"></script>
-<script src ="assets/js/imagemodal.js"></script>
+<script src="templates/windfield/controller.js" defer></script>
+<script src ="assets/js/imagemodal.js" defer></script>

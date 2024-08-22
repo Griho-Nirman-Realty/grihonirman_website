@@ -1,1 +1,1 @@
-<script src="templates/faq/controller.js"></script>
+<script src="templates/faq/controller.js" defer></script>
