@@ -57,7 +57,7 @@
             <div class="col-lg-6">
                 <div class="about-thumb mb-50 mb-lg-0">
                     <div class="about-img-1 text-center">
-                        <img loading="lazy"  src="assets/images/home/about-1.webp" alt="img">
+                        <img src="assets/images/home/about-1.webp" alt="about img" loading="lazy" style="width: 100%; height: auto;">
                     </div>
                 </div>
             </div>
@@ -89,10 +89,10 @@
     ==============================-->
 <div class="service-area-1  overflow-hidden">
     <div class="service-shape1_1 shape-mockup jump-reverse d-lg-block d-none" data-top="0" data-right="0">
-        <img src="assets/img/service/service-shape1-1.webp" alt="img" loading="lazy">
+        <img src="assets/img/service/service-shape1-1.webp" alt="service image" loading="lazy" style="width: 100%; height: auto;">
     </div>
     <div class="service-shape1_2 shape-mockup jump-reverse d-lg-block d-none" data-top="0" data-left="0">
-        <img src="assets/img/service/service-shape1-2.webp" alt="img" loading="lazy">
+        <img src="assets/img/service/service-shape1-2.webp" alt="service image" loading="lazy" style="width: 100%; height: auto;">
     </div>
     <div class="leaf-shape-animation" data-bg-src="url(assets/img/icon/leaf.svg)">
     </div>
@@ -120,7 +120,7 @@
                         <p class="service-card_text">Discover quality plots, apartments, and villas tailored to your needs and preferences.</p>
                     </div>
                     <div class="service-card_img">
-                        <img loading="lazy"  src="assets/images/home/services-1.webp" alt="img">
+                        <img src="assets/images/home/services-1.webp" alt="img" loading="lazy" style="width: 100%; height: auto;">
                         <a href="./maintenance" class="btn">Read More <i class="fas fa-angle-double-right"></i></a>
                     </div>
                 </div>
@@ -225,10 +225,10 @@
     ==============================-->
 <div class="process-area-1 space overflow-hidden">
     <div class="portfolio-shape1_1 shape-mockup jump d-lg-block d-none" data-top="0%" data-left="0">
-        <img loading="lazy"  src="assets/img/process/process-shape1-1.png" alt="img">
+        <img src="assets/img/process/process-shape1-1.png" alt="img" loading="lazy" style="width: 100%; height: auto;">
     </div>
     <div class="portfolio-shape1_2 shape-mockup d-lg-block d-none" data-bottom="0%" data-right="0">
-        <img loading="lazy"  src="assets/img/process/process-shape1-2.png" alt="img">
+        <img src="assets/img/process/process-shape1-2.png" alt="process img" loading="lazy" style="width: auto; height: auto;">
     </div>
     <div class="leaf-shape-animation" data-bg-src="url(assets/img/icon/butterfly.svg)"></div>
     <div class="container container2">
@@ -311,7 +311,7 @@
         <div class="row align-items-center flex-row-reverse">
             <div class="col-lg-6">
                 <div class="faq-img-1">
-                    <img loading="lazy" class="w-100" src="assets/images/FAQ/faq1.png" alt="img">
+                    <img src="assets/images/FAQ/faq1.png" alt="Faq Image" loading="lazy" style="width: 100%; height: auto;">
                 </div>
             </div>
             <div class="col-lg-6">

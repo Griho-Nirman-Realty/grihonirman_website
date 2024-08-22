@@ -135,7 +135,7 @@ $system_ph_num = $system_info_data[5];
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <!--begin::Fonts-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" as="style"/>
     <!--end::Fonts-->
 
     <!-- ========================================== -->
@@ -151,7 +151,6 @@ $system_ph_num = $system_info_data[5];
 
     <!-- Theme Custom CSS -->
     <link rel="stylesheet" href="assets/css/modal.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/common.css">
     <!-- ========================================== -->
