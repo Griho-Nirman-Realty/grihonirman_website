@@ -354,7 +354,7 @@ $system_ph_num = $system_info_data[5];
                                 <label data-default-mssg="" class="input_alert name-inp-alert"></label>
                             </div>
                         </div>
-                        <div class="col-lg-4 p-1">
+                        <div class="col-lg-4 my-2 my-lg-0">
                             <select name="isd_code" id="isd_code" class="form-select style-border" required>
                                 <option value="" disabled selected hidden>Country code
                                 </option>

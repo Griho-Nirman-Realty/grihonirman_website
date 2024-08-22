@@ -51,38 +51,38 @@
         <!--==============================
             About_Section
             ==============================-->
-        <div class="about-main">
-            <div class="container container2">
-                <div class="row align-items-center justify-content-between">
-                    <div class="col-lg-6">
-                        <div class="about-thumb mb-50 mb-lg-0">
-                            <div class="about-img-1 text-center">
-                                <img src="assets/images/home/about-1.webp" alt="about img" loading="lazy" style="width: 100%; height: auto;">
-                            </div>
+
+        <div class="container container2 py-4">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-lg-6">
+                    <div class="about-thumb mb-50 mb-lg-0">
+                        <div class="about-img-1 text-center">
+                            <img src="assets/images/home/about-1.webp" alt="about img" loading="lazy" style="width: 100%; height: auto;">
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="about-content-wrap">
-                            <div class="title-area mb-35">
-                                <span class="sub-title">ABOUT US</span>
-                                <h2 class="sec-title">Welcome To </br> <?php echo $system_name ?></h2>
-                                <p class="sec-text">Griho Nirman is a marketing initiative that showcases our exceptional projects, including plots, apartments, and villas. By highlighting unique features and amenities, it caters to a wide audience. Utilizing a multi-channel approach, Griho Nirman maximizes reach and impact, effectively connecting buyers with their dream homes. Focused on quality, transparency, and customer satisfaction, Griho Nirman is a key driver of our marketing success.</p>
-                            </div>
-                            <div class="checklist mb-30">
-                                <ul>
-                                    <li><i class="fas fa-check-circle"></i>Showcasing Exceptional Real Estate Projects
-                                    </li>
-                                    <li><i class="fas fa-check-circle"></i>Connecting Buyers with Quality Homes through Innovative Marketing</li>
-                                </ul>
-                            </div>
-                            <div class="btn-wrap mt-40 justify-content-between">
-                                <a href="<?php echo $baseUrl ?>/about" class="btn style4">Read More <i class="fas fa-angle-double-right"></i></a>
-                            </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content-wrap">
+                        <div class="title-area mb-35">
+                            <span class="sub-title">ABOUT US</span>
+                            <h2 class="sec-title">Welcome To </br> <?php echo $system_name ?></h2>
+                            <p class="sec-text" style="color: #000;">Griho Nirman is a marketing initiative that showcases our exceptional projects, including plots, apartments, and villas. By highlighting unique features and amenities, it caters to a wide audience. Utilizing a multi-channel approach, Griho Nirman maximizes reach and impact, effectively connecting buyers with their dream homes. Focused on quality, transparency, and customer satisfaction, Griho Nirman is a key driver of our marketing success.</p>
+                        </div>
+                        <div class="checklist mb-30">
+                            <ul>
+                                <li><i class="fas fa-check-circle"></i>Showcasing Exceptional Real Estate Projects
+                                </li>
+                                <li><i class="fas fa-check-circle"></i>Connecting Buyers with Quality Homes through Innovative Marketing</li>
+                            </ul>
+                        </div>
+                        <div class="btn-wrap mt-40 justify-content-between">
+                            <a href="<?php echo $baseUrl ?>/about" class="btn style4">Read More <i class="fas fa-angle-double-right"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
 
         <!--==============================
             Service_Section   

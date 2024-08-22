@@ -57,11 +57,6 @@
                 }
             }
 
-            .about-main {
-                padding: 30px 0px;
-                background-color: #fff !important;
-            }
-
             .service-area-1 {
                 padding: 30px 0px;
                 background-color: #c8ff8fde !important;
