@@ -7,4 +7,8 @@ function truncateText(text, maxWords, className) {
     return text;
 }
 
+
+
+
+
 // alert(truncateText("Bashbhumi Green View Project is a premier residential development that offers a variety of plot sizes to cater to diverse needs and preferences", 10));
