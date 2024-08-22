@@ -1,3 +1,5 @@
+
+
 function clear_quick_contact1(){
 	_("#name1").value="";
 	_("#isd_code1").value="";
@@ -87,5 +89,11 @@ function clear_quick_contact1(){
 	  true
 	);
 	xhr.send(data);
+
+
+
+	
   }
+  
+
   
