@@ -120,14 +120,14 @@ if ($login == "No") {
 		</script>
 		<!--end::Global Config-->
 		<!--begin::Global Theme Bundle(used by all pages)-->
-		<script src="../backend_assets/plugins/global/plugins.bundle.js"></script>
-		<script src="../backend_assets/plugins/custom/prismjs/prismjs.bundle.js"></script>
-		<script src="../backend_assets/js/scripts.bundle.js"></script>
+		<script src="../backend_assets/plugins/global/plugins.bundle.js" defer></script>
+		<script src="../backend_assets/plugins/custom/prismjs/prismjs.bundle.js" defer></script>
+		<script src="../backend_assets/js/scripts.bundle.js" defer></script>
 		<!--end::Global Theme Bundle-->
 		<!--begin::Page Scripts(used by this page)-->
-		<script src="../backend_assets/js/pages/widgets.js"></script>
+		<script src="../backend_assets/js/pages/widgets.js" defer></script>
 		<!--end::Page Scripts-->
-		<script src="main_assets/main_controller.js"></script>
+		<script src="main_assets/main_controller.js" defer></script>
 
 		<?php
 		include("templates/login/page_details/js.php");
@@ -773,14 +773,14 @@ if ($login == "No") {
 		</script>
 		<!--end::Global Config-->
 		<!--begin::Global Theme Bundle(used by all pages)-->
-		<script src="../backend_assets/plugins/global/plugins.bundle.js"></script>
-		<script src="../backend_assets/plugins/custom/prismjs/prismjs.bundle.js"></script>
-		<script src="../backend_assets/js/scripts.bundle.js"></script>
+		<script src="../backend_assets/plugins/global/plugins.bundle.js" defer></script>
+		<script src="../backend_assets/plugins/custom/prismjs/prismjs.bundle.js" defer></script>
+		<script src="../backend_assets/js/scripts.bundle.js" defer></script>
 		<!--end::Global Theme Bundle-->
 		<!--begin::Page Scripts(used by this page)-->
-		<script src="../backend_assets/js/pages/widgets.js"></script>
+		<script src="../backend_assets/js/pages/widgets.js" defer></script>
 		<!--end::Page Scripts-->
-		<script src="main_assets/main_controller.js"></script>
+		<script src="main_assets/main_controller.js" defer></script>
 
 		<?php
 		if (file_exists("templates/" . $pg_nm . "/page_details/js.php")) {

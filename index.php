@@ -723,36 +723,36 @@ $system_ph_num = $system_info_data[5];
     <!-- ============================= -->
     <!-- Footer Section End  -->
     <!-- ============================= -->
-    <script src="assets/global/plugins/jquery.min.js" type="text/javascript"></script>
-    <script src="assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/jquery.min.js" type="text/javascript" defer></script>
+    <script src="assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript" defer></script>
 
     <!-- WEB SITE JS START  -->
     <!-- Jquery -->
-    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/jquery-3.6.0.min.js" defer></script>
     <!-- Slick Slider -->
-    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/slick.min.js" defer></script>
     <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/bootstrap.min.js" defer></script>
     <!-- Magnific Popup -->
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js" defer></script>
     <!-- Counter Up -->
-    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js" defer></script>
     <!-- Range Slider -->
-    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="assets/js/jquery-ui.min.js" defer></script>
     <!-- Isotope Filter -->
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js" defer></script>
+    <script src="assets/js/isotope.pkgd.min.js" defer></script>
     <!-- Main Js File -->
-    <script src="assets/js/modal.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/sllider-implitaion.js"></script>
-    <script src="assets/js/custom.js"></script>
-    <script src="https://kit.fontawesome.com/35181277b5.js" crossorigin="anonymous"></script>
+    <script src="assets/js/modal.js" defer></script>
+    <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/sllider-implitaion.js" defer></script>
+    <script src="assets/js/custom.js" defer></script>
+    <script src="https://kit.fontawesome.com/35181277b5.js" crossorigin="anonymous" defer></script>
     <!-- WEB SITE JS End -->
 
-    <script src="assets/global/plugins/bootstrap-toastr/toastr.min.js" type="text/javascript"></script>
-    <script src="assets/global/plugins/bootstrap-sweetalert/sweetalert.js" type="text/javascript"></script>
-    <script src="assets/common_assets/main_controller.js?v=1.1.2" type="text/javascript"></script>
+    <script src="assets/global/plugins/bootstrap-toastr/toastr.min.js" type="text/javascript" defer></script>
+    <script src="assets/global/plugins/bootstrap-sweetalert/sweetalert.js" type="text/javascript" defer></script>
+    <script src="assets/common_assets/main_controller.js?v=1.1.2" type="text/javascript" defer></script>
     <!-- <script>
         window.embeddedChatbotConfig = {
             chatbotId: "a9OqzUxQZ1E5DEnTOInm-",
