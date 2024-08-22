@@ -77,6 +77,14 @@
 /*------------------- 1.1. Mixin -------------------*/
 /*------------------- 1.2. Function -------------------*/
 /*------------------- 1.3. Variable-------------------*/
+*{
+  font-display: swap;
+  font-size: 17px;
+}
+img{
+  height: auto;
+  width: auto;
+}
 :root {
   --theme-color: #4BAF47;
   --theme-back-color: #c8ff8fde;

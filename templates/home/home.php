@@ -48,7 +48,6 @@
     </div>
 </div>
 <!--======== / Hero Section ========-->
-
 <!--==============================
     About_Section
     ==============================-->
@@ -221,7 +220,6 @@
         </div>
     </div>
 </div>
-
 <!--==============================
         Work_Process_Section  
     ==============================-->
@@ -313,7 +311,7 @@
         <div class="row align-items-center flex-row-reverse">
             <div class="col-lg-6">
                 <div class="faq-img-1">
-                    <img loading="lazy"  class="w-100" src="assets/images/FAQ/faq1.png" alt="img">
+                    <img loading="lazy" class="w-100" src="assets/images/FAQ/faq1.png" alt="img">
                 </div>
             </div>
             <div class="col-lg-6">
