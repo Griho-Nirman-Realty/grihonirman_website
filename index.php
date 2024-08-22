@@ -183,8 +183,10 @@ $system_ph_num = $system_info_data[5];
 <body>
 
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KMKJLBNM"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KMKJLBNM"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
     <!-- End Google Tag Manager (noscript) -->
     <!--==============================
      Preloader_Section
@@ -208,7 +210,9 @@ $system_ph_num = $system_info_data[5];
         <div class="mobile-menu-area text-center">
             <button class="menu-toggle"><i class="fas fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="<?php echo $baseUrl; ?>/home"><img loading="lazy" src="upload_content/upload_img/system_img/<?php echo $system_logo == "" ? "no_image.png" : $system_logo ?>" alt="Grihonirman"></a>
+                <a href="<?php echo $baseUrl; ?>/home">
+                    <img src="upload_content/upload_img/system_img/<?php echo $system_logo == "" ? "no_image.png" : $system_logo ?>" alt="Griho Nirman Logo" loading="lazy">
+                </a>
             </div>
             <div class="mobile-menu">
                 <ul>
@@ -255,8 +259,8 @@ $system_ph_num = $system_info_data[5];
                     <div class="col-auto">
                         <div class="header-links">
                             <ul>
-                                <li style="margin-right: 12px;"><img loading="lazy" src="assets/icon/email.webp" alt="Email" style="width: 30px;"><a href="mailto:<?php echo $system_email ?>"><?php echo $system_email; ?></a></li>
-                                <li style="white-space: nowrap;"><img loading="lazy" src="assets/icon/call-i.webp" alt="Call" style="width: 30px;"><a href="tel: <?php echo $system_ph_num; ?>"><?php echo $system_ph_num; ?></a></li>
+                                <li style="margin-right: 12px;"><img src="assets/icon/email.webp" alt="Email" loading="lazy" style="width: 30px; height: 30px;"><a href="mailto:<?php echo $system_email ?>"><?php echo $system_email; ?></a></li>
+                                <li style="white-space: nowrap;"><img src="assets/icon/call-i.webp" alt="Call" loading="lazy" style="width: 30px; height: 30px;"><a href="tel: <?php echo $system_ph_num; ?>"><?php echo $system_ph_num; ?></a></li>
                             </ul>
                         </div>
                     </div>
@@ -286,7 +290,7 @@ $system_ph_num = $system_info_data[5];
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                             <div class="header-logo top-section">
-                                <a href="<?php echo $baseUrl; ?>/home"><img loading="lazy" src="upload_content/upload_img/system_img/<?php echo $system_logo == "" ? "no_image.png" : $system_logo ?>" alt="logo"></a>
+                                <a href="<?php echo $baseUrl; ?>/home"><img src="upload_content/upload_img/system_img/<?php echo $system_logo == "" ? "no_image.png" : $system_logo ?>" alt="logo" loading="lazy"></a>
                                 <p><?php echo $system_name; ?></p>
                             </div>
                         </div>
@@ -303,14 +307,8 @@ $system_ph_num = $system_info_data[5];
                                             <li><a href="<?php echo $baseUrl; ?>/services">Services</a></li>
                                             <li><a href="<?php echo $baseUrl; ?>/faq">FAQ</a></li>
                                             <li><a href="<?php echo $baseUrl; ?>/gallery">Gallery</a></li>
-
-
-
-                                            <!-- <li><a href="<?php echo $baseUrl; ?>/team">Our Team</a></li> -->
                                         </ul>
                                     </li>
-
-
                                     <li>
                                         <a href="<?php echo $baseUrl; ?>/portfolio">Our Portfolio</a>
                                     </li>
@@ -323,7 +321,6 @@ $system_ph_num = $system_info_data[5];
                                     <li>
                                         <a href="<?php echo $baseUrl; ?>/contact">Contact</a>
                                     </li>
-
                                 </ul>
                             </nav>
                             <div class="navbar-right d-inline-flex d-lg-none">
@@ -335,7 +332,7 @@ $system_ph_num = $system_info_data[5];
                                 <button id="openModalBtn" class="openModalBtn open-modal-btn btn">
                                     Enquiry Now
                                     <i class="fas fa-angle-double-right"></i>
-                                    </a>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -345,22 +342,22 @@ $system_ph_num = $system_info_data[5];
     </header>
     <!-- Qucik_Contact_Modal -->
     <div id="modal" class="modal modal-quick-contact">
-        <div class="contact-form-wrap ms-xl-4 mt-40 mt-lg-0">
+        <div class="contact-form-wrap">
             <div class="title-area">
-                <h2 class="sec-title">Want to Know More about the projects? Our Advisors Are Ready to Assist!</h2>
+                <p class="sec-title" style="line-height: 1.5; color: #000000; font-size: 16px;">Want to Know More about the projects? Our Advisors Are Ready to Assist!</p>
                 <button id="closeModalBtn" class="close-modal-btn">&times;</button>
             </div>
-            <form id="modalForm">
+            <div id="modalForm">
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="form-group">
-                            <input type="text" class="form-control style-border" name="name" id="name" placeholder="Your Name" required>
+                            <input type="text" class="form-control style-border" id="name" placeholder="Your Name" required>
                             <label data-default-mssg="" class="input_alert name-inp-alert"></label>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="form-group">
-                            <select name="isd_code" id="isd_code" class="form-select style-border" required>
+                            <select id="isd_code" class="form-select style-border" required>
                                 <option value="" disabled selected hidden>Select Country</option>
                                 <option value="+1">USA (+1)</option>
                                 <option value="+93">Afghanistan (+93)</option>
@@ -577,19 +574,19 @@ $system_ph_num = $system_info_data[5];
                     </div>
                     <div class="col-lg-8">
                         <div class="form-group">
-                            <input type="number" class="form-control style-border" name="phone" id="phone" placeholder="Phone Number" required>
+                            <input type="number" class="form-control style-border" id="phone" placeholder="Phone Number" required>
                             <label data-default-mssg="" class="input_alert phone-inp-alert"></label>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="form-group">
-                            <input type="email" class="form-control style-border" name="email" id="email" placeholder="Email Address" required>
+                            <input type="email" class="form-control style-border" id="email" placeholder="Email Address" required>
                             <label data-default-mssg="" class="input_alert email-inp-alert"></label>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="form-group">
-                            <select name="category" id="category" class="form-select style-border" required>
+                            <select id="category" class="form-select style-border" required>
                                 <option value="" disabled selected hidden>Category</option>
                                 <option value="General Inquiry">General Inquiry</option>
                                 <option value="Job Opportunity">Job Opportunity</option>
@@ -611,7 +608,7 @@ $system_ph_num = $system_info_data[5];
                 <div class="form-btn col-12 text-center">
                     <button type="submit" class="btn w-100 style4" onclick="quick_contact()">Submit Now</button>
                 </div>
-            </form>
+            </div>
         </div>
     </div>
 
@@ -645,7 +642,7 @@ $system_ph_num = $system_info_data[5];
                         <div class="widget footer-widget">
                             <div class="widget-about">
                                 <div class="footer-logo">
-                                    <a href="<?php echo $baseUrl; ?>/home"><img loading="lazy" src="upload_content/upload_img/system_img/<?php echo $system_logo == "" ? "no_image.png" : $system_logo ?>" alt="Grihonirman"></a>
+                                    <a href="<?php echo $baseUrl; ?>/home"><img src="upload_content/upload_img/system_img/<?php echo $system_logo == "" ? "no_image.png" : $system_logo ?>" alt="Griho Nirman" loading="lazy" style="width: 80px; height: 80px;"></a>
                                 </div>
                                 <p class="about-text">Griho Nirman is committed to showcasing properties that meet
                                     high standards of quality and providing clear, honest information about each

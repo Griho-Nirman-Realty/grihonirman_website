@@ -308,3 +308,7 @@ html {
 display: none;
   z-index: -1;
 }
+
+.counter-number{
+  font-size: 45px;
+}
