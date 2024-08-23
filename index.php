@@ -62,9 +62,8 @@ $system_ph_num = $system_info_data[5];
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta name="theme-color" content="#108957" />
-         <!-- Canonical Link -->
-         <link rel="canonical" href="https://grihonirmanrealty.in" />
          
+
         <base href="<?php echo $baseHref; ?>" />
         <!-- Favicon -->
         <link rel="icon" type="image/png" href="upload_content/upload_img/system_img/<?php echo $system_favicon; ?>" type="image/x-icon" />
