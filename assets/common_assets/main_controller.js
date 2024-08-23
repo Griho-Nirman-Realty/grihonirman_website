@@ -184,7 +184,7 @@ function subscribeNewsLetter() {
       }
     }
   };
-  xhr.open("POST", "frontend_assets/common_assets/save_newsletter.php", true);
+  xhr.open("POST", "assets/common_assets/save_newsletter.php", true);
   xhr.send(data);
 }
 function clear_quick_contact() {

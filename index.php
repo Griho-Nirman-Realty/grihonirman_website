@@ -512,14 +512,16 @@ $system_ph_num = $system_info_data[5];
         <!-- Footer Section End  -->
         <!-- ============================= -->
         <script src="assets/js/dropdown.js" typeof="text/javascript" defer></script>
+        <script src="assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+        <script src="assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 
         <!-- WEB SITE JS START  -->
         <!-- Jquery -->
         <script src="assets/js/vendor/jquery-3.6.0.min.js" defer></script>
-        <!-- Slick Slider -->
-        <script src="assets/js/slick.min.js" defer></script>
         <!-- Bootstrap -->
         <script src="assets/js/bootstrap.min.js" defer></script>
+        <!-- Slick Slider -->
+        <script src="assets/js/slick.min.js" defer></script>
         <!-- Magnific Popup -->
         <script src="assets/js/jquery.magnific-popup.min.js" defer></script>
         <!-- Counter Up -->

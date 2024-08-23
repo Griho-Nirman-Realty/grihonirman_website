@@ -274,7 +274,7 @@
       var all = Cell(Optional.none());
       var emojiImagesUrl = getEmotionsImageUrl(editor);
       var getEmoji = function (lib) {
-        if (startsWith(lib.char, '<img loading="lazy" ')) {
+        if (startsWith(lib.char, '<img')) {
           return lib.char.replace(/src="([^"]+)"/, function (match, url) {
             return 'src="' + emojiImagesUrl + url + '"';
           });
