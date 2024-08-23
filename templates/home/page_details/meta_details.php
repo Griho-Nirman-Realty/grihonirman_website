@@ -28,4 +28,4 @@
         plots with easy access to Calcutta Hospital" />
 
         <!-- Canonical Link -->
-        <link rel="canonical" href="https://grihonirmanrealty.in/home" />
+        <link rel="canonical" href="https://grihonirmanrealty.in/" />
