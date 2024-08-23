@@ -1,5 +1,5 @@
         <!-- HTML Meta Tags -->
-        <meta name="description" content="Discover premium real estate in Kolkata with Griho Nirman Realty Pvt.Ltd. Explore top listings and expert services to find your dream home or investment property.">
+        <meta name="description" content="Discover premium Kolkata real estate with Griho Nirman Realty Pvt. Ltd. Find your dream home or investment with expert guidance and top listings.">
 
         <meta name="keywords" content="
         best real estate company in Kolkata,
