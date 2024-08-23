@@ -14,9 +14,9 @@ include("templates/function/text-short.php");
 include("templates/function/social_user_details_save.php");
 
 if ($pg_nm == "") {
-    header('location: ' . $baseUrl . '/home/');
+    header('location: ' . $baseUrl . '/home');
 } else if (!file_exists("templates/" . $pg_nm . "/page_details/title.php")) {
-    header('location: ' . $baseUrl . '/home/');
+    header('location: ' . $baseUrl . '/home');
 }
 
 $system_info_dataget = mysqli_query($con, "select system_name, logo, favicon, email, address, ph_num from system_info ");
@@ -62,6 +62,9 @@ $system_ph_num = $system_info_data[5];
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta name="theme-color" content="#108957" />
+         <!-- Canonical Link -->
+         <link rel="canonical" href="https://grihonirmanrealty.in" />
+         
         <base href="<?php echo $baseHref; ?>" />
         <!-- Favicon -->
         <link rel="icon" type="image/png" href="upload_content/upload_img/system_img/<?php echo $system_favicon; ?>" type="image/x-icon" />
