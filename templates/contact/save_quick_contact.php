@@ -136,6 +136,7 @@ if ($execute == 1) {
 			`email`, 
 			`category`, 
 			`message`, 
+			`entry_timestamp`, 
 			entry_user_code
 			) values(
 			'" . $quick_contact_code . "',
@@ -145,7 +146,8 @@ if ($execute == 1) {
 			'" . $email . "',
 			'" . $category . "',
 			'" . $message . "',
-			'user')");
+			'" . $timestamp . "',
+			'user-contact')");
 
 	$status = "save";
 	$status_text = "We will get back to you soon. Thank you!";
