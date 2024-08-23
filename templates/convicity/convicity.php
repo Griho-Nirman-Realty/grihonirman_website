@@ -3,7 +3,7 @@
     Breadcumb
     ============================== -->
     <div class="breadcumb-wrapper"
-        data-bg-src="linear-gradient(3deg, #00000099, #0012008a) , url(assets/images/portfolio/convicity/convicity-home.jpg)">
+        data-bg-src="linear-gradient(3deg, #00000099, #0012008a) , url(assets/images/portfolio/convicity/convicity-home.webp)">
         <!-- bg animated image/ -->
         <div class="container">
             <div class="row">
@@ -24,16 +24,16 @@
     <!--==============================
     About Area  
     ==============================-->
-    <div class="space">
-        <div class="container container2">
-            <div class="row gx-40 align-items-center justify-content-between">
+    <div class="py-3" style="background-color: #e8ffdc;">
+        <div class="container">
+            <div class="row align-items-top justify-content-between">
                 <div class="col-xl-6">
-                    <div class="about-thumb6 mb-40 mb-xl-0">
-                        <div class="about-img-1">
-                            <img loading="lazy"  src="assets/images/portfolio/convicity/convicity-hero.wepb" alt="img">
+                    <div class="about-thumb1 mb-40 mb-xl-0" style="width: 100%;">
+                        <div class="about-img-1 py-2">
+                            <img src="assets/images/portfolio/convicity/convicity-hero.webp" alt="img" loading="lazy" style="width: 100%;">
                         </div>
-                        <div class="about-img-2 jump">
-                            <img loading="lazy"  src="assets/images/portfolio/convicity/convicity-hero-1.webp" alt="img">
+                        <div class="about-img-1 py-2">
+                            <img src="assets/images/portfolio/convicity/convicity-hero-1.webp" alt="img" loading="lazy" style="width: 100%;">
                         </div>
 
                     </div>
@@ -273,7 +273,7 @@
                     <div class="blog-card">
                         <div class="blog-img">
                             <a  href="https://convicity.in/project/catalog/elite-villa" target="_blank">
-                                <img loading="lazy"  src="assets/images/portfolio/convicity/elite.jpg" alt=" image">
+                                <img loading="lazy"  src="assets/images/portfolio/convicity/elite.webp" alt=" image">
                                 <!-- <div class="blog-date">03 Apr</div> -->
                             </a>
                         </div>
@@ -299,7 +299,7 @@
                     <div class="blog-card">
                         <div class="blog-img">
                             <a href="https://convicity.in/project/catalog/apartment" target="_blank">
-                                <img loading="lazy"  src="assets/images/portfolio/convicity/okside.jpg" alt="image">
+                                <img loading="lazy"  src="assets/images/portfolio/convicity/okside.webp" alt="image">
                                 <!-- <div class="blog-date">03 Apr</div> -->
                             </a>
                         </div>
@@ -326,7 +326,7 @@
                     <div class="blog-card">
                         <div class="blog-img">
                             <a href="https://convicity.in/project/catalog/classic-villa" target="_blank">
-                                <img loading="lazy"  src="assets/images/portfolio/convicity/classic.jpg" alt=" image">
+                                <img loading="lazy"  src="assets/images/portfolio/convicity/classic.webp" alt=" image">
                                 <!-- <div class="blog-date">03 Apr</div> -->
                             </a>
                         </div>
