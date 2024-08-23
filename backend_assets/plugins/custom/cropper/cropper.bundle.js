@@ -3226,7 +3226,7 @@
       _classCallCheck(this, Cropper);
 
       if (!element || !REGEXP_TAG_NAME.test(element.tagName)) {
-        throw new Error('The first argument is required and must be an <img loading="lazy" > or <canvas> element.');
+        throw new Error('The first argument is required and must be an <img> or <canvas> element.');
       }
 
       this.element = element;

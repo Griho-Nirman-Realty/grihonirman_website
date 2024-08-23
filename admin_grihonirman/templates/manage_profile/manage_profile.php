@@ -62,7 +62,7 @@
                             <center>
                                 <div class="image-input image-input-outline">
                                     <div style="width: auto; height:auto; margin-top:10px;" class="image-input-wrapper">
-                                        <img loading="lazy"  style="max-width: 150px;" alt="image" class="profile_img" data-blank-image="../upload_content/upload_img/profile_img/<?php echo $profile_img == "" ? "user_icon.png" : $profile_img; ?>" src="../upload_content/upload_img/profile_img/<?php echo $profile_img == "" ? "user_icon.png" : $profile_img; ?>" />
+                                        <img style="max-width: 150px;" class="profile_img" data-blank-image="../upload_content/upload_img/profile_img/<?php echo $profile_img == "" ? "user_icon.png" : $profile_img; ?>" src="../upload_content/upload_img/profile_img/<?php echo $profile_img == "" ? "user_icon.png" : $profile_img; ?>" />
                                     </div>
                                 </div>
                             </center>
