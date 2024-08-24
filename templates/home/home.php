@@ -5,7 +5,6 @@
         <!-- 5. Faq_Section -->
         <!-- 6. Project_Section -->
         <!-- 6. Client_Testimonial_Section -->
-
         <!-- Slider_Section -->
         <div class="hero-wrapper hero-1" id="hero">
             <div class="global-carousel-main-slider" id="heroSlider1">
