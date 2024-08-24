@@ -123,7 +123,7 @@ if ($execute == 1) {
 	$headers = "MIME-Version: 1.0" . "\r\n";
 	$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 	$headers .= "From: contact@grihonirmanrealty.in" . "\r\n";
-	$headers .= "CC: bhuniasourav360@gmail.com, admin@grihonirmanrealty.in" . "\r\n";
+	$headers .= "CC: sourav1grihonirman@gmail.com, admin@grihonirmanrealty.in" . "\r\n";
 	$msg = wordwrap($message, 70);
 	mail($email, $subject, $body, $headers);
 	$quick_contact_code = "QCC_" . uniqid() . time();
