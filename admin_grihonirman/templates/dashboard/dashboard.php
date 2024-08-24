@@ -79,7 +79,7 @@
                             echo $count;
                             ?>
                         </span>
-                        <span class="font-weight-bold text-muted font-size-sm label-dash-1">Totoal Visitor</span>
+                        <span class="font-weight-bold text-muted font-size-sm label-dash-1">Total Visitor</span>
                     </div>
                     <!--end::Body-->
                 </div>

@@ -4,5 +4,5 @@ $(document).ready(function () {
 function show_modal() {
   setTimeout(function(){
     _("#openModalBtn").click();
-  },2000)
+  },10000)
 }
