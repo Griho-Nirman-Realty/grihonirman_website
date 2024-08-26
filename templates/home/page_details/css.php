@@ -130,4 +130,10 @@
                 width: 100%;
                 height: auto;
             }
+            .video-section-main{
+                background-color: #000000;
+            }
+            .video-section-main img{
+                border-radius: 10px !important;
+            }
         </style>
