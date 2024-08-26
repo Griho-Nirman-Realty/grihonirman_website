@@ -6,7 +6,7 @@
         <!-- 6. Project_Section -->
         <!-- 6. Client_Testimonial_Section -->
         <!-- Slider_Section -->
-        <div class="hero-wrapper hero-1" id="hero">
+        <!-- <div class="hero-wrapper hero-1" id="hero">
             <div class="global-carousel-main-slider" id="heroSlider1">
                 <div class="hero-slider" data-bg-src="linear-gradient(45deg, #000000cf, transparent), url(assets/images/home/slide1.webp)">
                     <div class="container">
@@ -45,7 +45,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!--======== / Hero Section ========-->
         <!--==============================
             About_Section
