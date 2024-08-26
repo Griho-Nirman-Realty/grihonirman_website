@@ -53,10 +53,10 @@
 
         <div class="container py-4">
             <div class="row align-items-center justify-content-between">
-                <div class="col-lg-6 about-thumb-img-main">
+                <div class="col-lg-6">
                     <div class="about-thumb mb-50 mb-lg-0">
-                        <div class="text-center about-thumb-img">
-                            <img src="assets/images/home/about-1.webp" alt="about img" loading="lazy" class="img-fluid h-100">
+                        <div class="about-img-1 text-center">
+                            <img src="assets/images/home/about-1.webp" alt="about img" loading="lazy" style="width: 100%; height: auto;">
                         </div>
                     </div>
                 </div>

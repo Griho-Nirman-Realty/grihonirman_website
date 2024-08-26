@@ -130,21 +130,4 @@
                 width: 100%;
                 height: auto;
             }
-
-          
-            
-            .about-thumb-img-main .about-thumb-img {
-                height: 500px;
-            }
-            .about-thumb-img-main {
-                text-align: right;
-            }
-            @media(max-width: 991px) {
-                .about-thumb-img-main .about-thumb-img {
-                    height: 400px;
-                }
-                .about-thumb-img-main {
-                text-align: center;
-            }
-            }
         </style>
