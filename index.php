@@ -36,28 +36,6 @@ $system_ph_num = $system_info_data[5];
 <!-- Head_Section  -->
 
 <head>
-    <!-- ================================================================================================================================================
-            ===================================================================================================================================================== -->
-    <!-- Google Tag Manager -->
-    <script async>
-        (function(w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-KMKJLBNM');
-    </script>
-    <!-- End Google Tag Manager -->
-    <!-- ================================================================================================================================================
-            ===================================================================================================================================================== -->
     <!-- Basic -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -138,20 +116,20 @@ $system_ph_num = $system_info_data[5];
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <!--begin::Fonts-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" type="text/css" />
+ 
     <!--end::Fonts-->
 
     <!-- ========================================== -->
     <!-- WEBSITE CSS START -->
     <!-- ========================================== -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
-    <!-- Fontawesome Icon -->
-    <link rel="stylesheet" href="assets/css/all.min.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Magnific Popup -->
-    <link rel="stylesheet" href="assets/css/magnific-popup.min.css" type="text/css">
+    <!-- <link rel="stylesheet" href="assets/css/magnific-popup.min.css" type="text/css"> -->
     <!-- Slick Slider -->
-    <link rel="stylesheet" href="assets/css/slick.min.css" type="text/css">
-
+    <!-- <link rel="stylesheet" href="assets/css/slick.min.css" type="text/css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
     <!-- Theme Custom CSS -->
     <link rel="stylesheet" href="assets/css/modal.css" type="text/css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
@@ -175,7 +153,34 @@ $system_ph_num = $system_info_data[5];
         const login = "<?php echo $login; ?>";
     </script>
 
-
+    <!-- Google Tag Manager -->
+    <script async>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KMKJLBNM');
+    </script>
+    <!-- End Google Tag Manager -->
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Griho Nirman Realty Pvt.Ltd.",
+            "url": "https://grihonirmanrealty.in",
+            "logo": "https://grihonirmanrealty.in/siteimage.webp"
+        }
+    </script>
 </head>
 
 <!-- ============================= -->
@@ -512,37 +517,38 @@ $system_ph_num = $system_info_data[5];
     <!-- ============================= -->
     <!-- Footer Section End  -->
     <!-- ============================= -->
-    <script src="assets/js/dropdown.js" typeof="text/javascript" defer></script>
-    <script src="assets/global/plugins/jquery.min.js" type="text/javascript"></script>
-    <script src="assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-
+    
+    
     <!-- WEB SITE JS START  -->
     <!-- Jquery -->
-    <script src="assets/js/vendor/jquery-3.6.0.min.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.min.js" defer></script>
+    <!-- <script src="assets/js/bootstrap.min.js" defer></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Slick Slider -->
-    <script src="assets/js/slick.min.js" defer></script>
+    <!-- <script src="assets/js/slick.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <!-- Magnific Popup -->
-    <script src="assets/js/jquery.magnific-popup.min.js" defer></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
     <!-- Counter Up -->
-    <script src="assets/js/jquery.counterup.min.js" defer></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
     <!-- Range Slider -->
-    <script src="assets/js/jquery-ui.min.js" defer></script>
+    <!-- <script src="assets/js/jquery-ui.min.js"></script> -->
     <!-- Isotope Filter -->
-    <script src="assets/js/imagesloaded.pkgd.min.js" defer></script>
-    <script src="assets/js/isotope.pkgd.min.js" defer></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="https://kit.fontawesome.com/35181277b5.js"></script>
     <!-- Main Js File -->
-    <script src="assets/js/modal.js" defer></script>
-    <script src="assets/js/main.js" defer></script>
-    <script src="assets/js/sllider-implitaion.js" defer></script>
-    <script src="assets/js/custom.js" defer></script>
-    <script src="https://kit.fontawesome.com/35181277b5.js" crossorigin="anonymous" defer></script>
+    <script src="assets/js/dropdown.js" typeof="text/javascript"></script>
+    <script src="assets/js/modal.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/sllider-implitaion.js"></script>
+    <script src="assets/js/custom.js"></script>
     <!-- WEB SITE JS End -->
-
-    <script src="assets/global/plugins/bootstrap-toastr/toastr.min.js" type="text/javascript" defer></script>
-    <script src="assets/global/plugins/bootstrap-sweetalert/sweetalert.js" type="text/javascript" defer></script>
-    <script src="assets/common_assets/main_controller.js?v=1.1.2" type="text/javascript" defer></script>
+    
+    <script src="assets/global/plugins/bootstrap-toastr/toastr.min.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/bootstrap-sweetalert/sweetalert.js" type="text/javascript"></script>
+    <script src="assets/common_assets/main_controller.js?v=1.1.2" type="text/javascript"></script>
 
     <!-- <script>
                 window.embeddedChatbotConfig = {

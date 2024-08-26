@@ -194,14 +194,14 @@
     ==============================-->
 <div class="process-area-3 overflow-hidden">
     <div class="service-shape1_1 shape-mockup jump-reverse d-lg-block d-none" data-top="0" data-right="0">
-        <img loading="lazy"  src="assets/img/service/service-shape1-1.png" alt="img">
+        <img loading="lazy"  src="assets/img/service/service-shape1-1.webp" alt="img">
     </div>
     <div class="service-shape1_2 shape-mockup jump-reverse d-lg-block d-none" data-top="0" data-left="0">
-        <img loading="lazy"  src="assets/img/service/service-shape1-2.png" alt="img">
+        <img loading="lazy"  src="assets/img/service/service-shape1-2.webp" alt="img">
     </div>
     <div class="leaf-shape-animation" data-bg-src="url(assets/img/icon/leaf.svg)">
     </div>
-    <div class="container container2">
+    <div class="container">
         <div class="row justify-content-center">
             <div class="col-xl-7 col-lg-8">
                 <div class="title-area text-center">
@@ -215,9 +215,9 @@
                 <div class="process-card style3">
                     <div class="process-card-icon">
                         <div class="process-num">01</div>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 24" fill="currentColor" className="w-12 h-12 mb-3 inline-block text-green-600">
+                        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 24" fill="currentColor" className="w-12 h-12 mb-3 inline-block text-green-600">
                             <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM5 5h14v14H5V5zm2 2h10v10H7V7zm4 4h2v2h-2v-2z" />
-                        </svg>
+                        </svg> -->
                     </div>
                     <h3 class="process-card-title">Diverse Property Offerings</h3>
                     <p class="process-card-text">Griho Nirman provides a wide selection of plots, apartments, and villas, ensuring there's something for everyone.</p>
@@ -228,9 +228,9 @@
                 <div class="process-card style3">
                     <div class="process-card-icon">
                         <div class="process-num">02</div>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="80" height="80">
+                        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="80" height="80">
                             <path d="M4 2H2v20h2V4h16v18h2V2H4zm16 2h-4v4h-4V4H8v4H4V4h16v4z" />
-                        </svg>
+                        </svg> -->
                     </div>
                     <h3 class="process-card-title">Expertise in Real Estate</h3>
                     <p class="process-card-text">We leverage our deep knowledge and expertise to help you find the perfect property.</p>
@@ -241,9 +241,9 @@
                 <div class="process-card style3">
                     <div class="process-card-icon">
                         <div class="process-num">03</div>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="80" height="80">
+                        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="80" height="80">
                             <path d="M12 3.5l-6 6 6 6 6-6-6-6zm0 7.5l-3.5-3.5L12 4.5l3.5 3.5L12 11z" />
-                        </svg>
+                        </svg> -->
                     </div>
                     <h3 class="process-card-title">Multi-Channel Marketing Strategy</h3>
                     <p class="process-card-text">We connect you with your ideal property through various channels.</p>
@@ -254,9 +254,9 @@
                 <div class="process-card style3">
                     <div class="process-card-icon">
                         <div class="process-num">04</div>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="80" height="80">
+                        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="80" height="80">
                             <path d="M12 3v4.2L16.5 6.5 20 10V4h-2v4l-4-4zM2 12v-2h8V6.4l3.8 3.8 2.6-2.6L12 2l-9 9h1v2H2z" />
-                        </svg>
+                        </svg> -->
                     </div>
                     <h3 class="process-card-title">Commitment to Quality and Transparency</h3>
                     <p class="process-card-text">We prioritize high standards and clear, honest information, showcasing properties built to the highest quality.</p>

@@ -37,4 +37,7 @@
         font-size: 25px;
         margin-bottom: 40px;
     }
+    .process-card-wrap .process-card{
+        height: 350px;
+    }
 </style>
