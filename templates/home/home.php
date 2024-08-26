@@ -219,6 +219,8 @@
                 </div>
             </div>
         </div>
+
+
         <!--==============================
                 Work_Process_Section  
             ==============================-->
@@ -301,6 +303,8 @@
                 </div>
             </div>
         </div>
+
+
 
         <!--==============================
             Faq_Section  
@@ -400,6 +404,40 @@
             </div>
         </div>
 
+        <!-- =============== -->
+        <!-- Video Section -->
+        <div class="video-section-main">
+            <div class="container py-3">
+                <div class="row">
+                    <div class="col-md-4 py-4">
+                        <div class="blog-img video-wrap" data-overlay="title" data-opacity="1" style="height: 400px;">
+                            <img src="assets/images/gallery/226.webp" alt="blog image" style="width: 100%; height: 100%;">
+                            <a href="https://www.youtube.com/watch?v=oEp3dY7oPcA" class="play-btn popup-video">
+                                <i class="fas fa-solid fa-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-4">
+                        <div class="blog-img video-wrap" data-overlay="title" data-opacity="1" style="height: 400px;">
+                            <img src="assets/images/gallery/27.webp" alt="blog image" style="width: 100%; height: 100%;">
+                            <a href="https://www.youtube.com/watch?v=oEp3dY7oPcA" class="play-btn popup-video">
+                                <i class="fas fa-solid fa-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-4">
+                        <div class="blog-img video-wrap" data-overlay="title" data-opacity="1" style="height: 400px;">
+                            <img src="assets/images/gallery/DSC_0972.webp" alt="blog image" style="width: 100%; height: 100%;">
+                            <a href="https://www.youtube.com/watch?v=oEp3dY7oPcA" class="play-btn popup-video">
+                                <i class="fas fa-solid fa-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Video Section -->
         <!--==============================
                 Project_Section  
             ==============================-->

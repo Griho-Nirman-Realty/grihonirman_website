@@ -126,7 +126,7 @@ $system_ph_num = $system_info_data[5];
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Magnific Popup -->
-    <!-- <link rel="stylesheet" href="assets/css/magnific-popup.min.css" type="text/css"> -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css" type="text/css">
     <!-- Slick Slider -->
     <!-- <link rel="stylesheet" href="assets/css/slick.min.css" type="text/css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
