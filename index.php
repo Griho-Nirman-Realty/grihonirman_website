@@ -115,8 +115,11 @@ $system_ph_num = $system_info_data[5];
     <meta property="og:image:type" content="image/jpeg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
+
+    <link rel="canonical" href="https://grihonirmanrealty.in" />
+
     <!--begin::Fonts-->
- 
+
     <!--end::Fonts-->
 
     <!-- ========================================== -->
@@ -517,8 +520,8 @@ $system_ph_num = $system_info_data[5];
     <!-- ============================= -->
     <!-- Footer Section End  -->
     <!-- ============================= -->
-    
-    
+
+
     <!-- WEB SITE JS START  -->
     <!-- Jquery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -545,7 +548,7 @@ $system_ph_num = $system_info_data[5];
     <script src="assets/js/sllider-implitaion.js"></script>
     <script src="assets/js/custom.js"></script>
     <!-- WEB SITE JS End -->
-    
+
     <script src="assets/global/plugins/bootstrap-toastr/toastr.min.js" type="text/javascript"></script>
     <script src="assets/global/plugins/bootstrap-sweetalert/sweetalert.js" type="text/javascript"></script>
     <script src="assets/common_assets/main_controller.js?v=1.1.2" type="text/javascript"></script>
