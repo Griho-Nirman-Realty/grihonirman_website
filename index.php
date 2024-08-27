@@ -41,7 +41,7 @@ $system_ph_num = $system_info_data[5];
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="theme-color" content="#108957" />
-    <meta name="google-site-verification" content="AjbVp_ZGqBSzhmi6H3NagV_D6S1pH9pAoqsnHvgmZjo" />
+
 
     <base href="<?php echo $baseHref; ?>" />
     <!-- Favicon -->
