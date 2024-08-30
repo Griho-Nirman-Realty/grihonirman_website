@@ -109,7 +109,6 @@
                                         <option value="General Inquiry">General Inquiry</option>
                                         <option value="Job Opportunity">Job Opportunity</option>
                                         <option value="Feedback">Feedback</option>
-                                        <option value="Flat">Flat</option>
                                         <option value="Plots">Plots</option>
                                         <option value="Villa">Villa</option>
                                     </select>
