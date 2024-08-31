@@ -13,9 +13,15 @@ function show_list() {
 			'serverSide': true,
 			'serverMethod': 'post',
 			'ajax': {
-				'url': 'templates/quick_contact/list.php'
+				'url': 'templates/quick_contact/list.php',
+				'data': function (d) {
+					d.from_date = $('#from_date').val();
+					d.to_date = $('#to_date').val();
+					d.category = $('#category').val();
+				},
 			},
 			'drawCallback': function (data) {
+				// console.log(data);
 				// Here the response
 				// var response = data.json;
 				// console.log(response);

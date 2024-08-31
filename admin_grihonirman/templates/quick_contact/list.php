@@ -12,6 +12,11 @@ if ($view_permission == "Yes") {
 	$columnSortOrder = $_POST['order'][0]['dir']; // asc or desc
 	$searchValue = mysqli_real_escape_string($con, $_POST['search']['value']); // Search value
 
+
+	$from_date = mysqli_real_escape_string($con, $_POST['from_date']);
+	$to_date = mysqli_real_escape_string($con, $_POST['to_date']);
+	$category = mysqli_real_escape_string($con, $_POST['category']);
+
 	## Search 
 	$searchQuery = " ";
 	if ($searchValue != '') {
@@ -19,6 +24,7 @@ if ($view_permission == "Yes") {
 			tbl_quick_contact.isd_code like '%" . $searchValue . "%' or 
 			tbl_quick_contact.phone like '%" . $searchValue . "%' or 
 			tbl_quick_contact.email like '%" . $searchValue . "%' or 
+			tbl_quick_contact.entry_timestamp like '%" . $searchValue . "%' or 
 			tbl_quick_contact.category like'%" . $searchValue . "%' ) ";
 	}
 
@@ -31,7 +37,20 @@ if ($view_permission == "Yes") {
 		tbl_quick_contact.category,
 		tbl_quick_contact.message,
 		tbl_quick_contact.entry_timestamp
-		FROM tbl_quick_contact";
+		FROM tbl_quick_contact WHERE 1";
+
+	if ($category != "") {
+		$query .= " and tbl_quick_contact.category='" . $category . "' ";
+	}
+
+	if ($from_date != "") {
+		$query .= " and tbl_quick_contact.entry_timestamp >= '" . $from_date . "' ";
+	}
+	if ($to_date != "") {
+		$query .= " and tbl_quick_contact.entry_timestamp <= '" . $to_date . "' ";
+	}
+
+
 
 	## Total number of records without filtering
 	$sel = mysqli_query($con, $query);
@@ -39,12 +58,12 @@ if ($view_permission == "Yes") {
 	$totalRecords = $records;
 
 	## Total number of records with filtering
-	$sel = mysqli_query($con, $query . " WHERE 1 " . $searchQuery);
+	$sel = mysqli_query($con, $query . $searchQuery);
 	$records = mysqli_num_rows($sel);
 	$totalRecordwithFilter = $records;
 
 	## Fetch records
-	$empQuery = $query . " WHERE 1 " . $searchQuery . " order by " . $columnName . " " . $columnSortOrder . " limit " . $row . "," . $rowperpage;
+	$empQuery = $query . $searchQuery . " order by " . $columnName . " " . $columnSortOrder . " limit " . $row . "," . $rowperpage;
 	$empRecords = mysqli_query($con, $empQuery);
 	$data = array();
 	$i = 1;
@@ -77,7 +96,7 @@ if ($view_permission == "Yes") {
 		$data[] = array(
 			"action" => $action,
 			"name" => '<input type="hidden" id="quick_contact_code_' . $i . '" value="' . $row['quick_contact_code'] . '" />' . $row['name'],
-			"phone" => $row['isd_code']." ".$row['phone'],
+			"phone" => $row['isd_code'] . " " . $row['phone'],
 			"email" => $row['email'],
 			"category" => $row['category'],
 			"message" => $row['message'],
