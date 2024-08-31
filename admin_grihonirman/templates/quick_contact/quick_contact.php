@@ -31,6 +31,38 @@
 		</div>
 	</div>
 	<!--end::Subheader-->
+	<div class="row">
+		<div class="col-md-3"></div>
+		<div class="col-md-2">
+			<div class="form-group">
+				<label class="control-label">From Date</label>
+				<input type="date" onchange="reload_table()" class="form-control" id="from_date"
+					placeholder="Choose From Date" />
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div class="form-group">
+				<label class="control-label">TO Date</label>
+				<input type="date" onchange="reload_table()" class="form-control" id="to_date"
+					placeholder="Choose To Date" />
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div class="form-group">
+				<label class="control-label">Message Category</label>
+				<select id="category" onchange="reload_table()" class="form-control">
+					<option value="">All</option>
+					<option value="General Inquiry">General Inquiry</option>
+					<option value="Villa">Villa</option>
+					<option value="Plots">Plots</option>
+					<option value="Job Opportunity">Job Opportunity</option>
+					<option value="Feedback">Feedback</option>
+				</select>
+				<label data-default-mssg="" class="input_alert voucher_type-inp-alert"></label>
+			</div>
+		</div>
+		<div class="col-md-3"></div>
+	</div>
 	<!--begin::Entry-->
 	<div class="d-flex flex-column-fluid">
 		<!--begin::Container-->

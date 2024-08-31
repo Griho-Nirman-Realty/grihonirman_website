@@ -107,10 +107,10 @@
                                     <select name="category1" id="category1" class="form-select style-border" required>
                                         <option value="" disabled selected hidden>Category</option>
                                         <option value="General Inquiry">General Inquiry</option>
+                                        <option value="Villa">Villa / bungalow</option>
+                                        <option value="Plots">Plots / Land</option>
                                         <option value="Job Opportunity">Job Opportunity</option>
                                         <option value="Feedback">Feedback</option>
-                                        <option value="Plots">Plots</option>
-                                        <option value="Villa">Villa</option>
                                     </select>
                                     <label data-default-mssg="" class="input_alert category1-inp-alert"></label>
                                 </div>
