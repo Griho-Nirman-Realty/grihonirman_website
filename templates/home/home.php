@@ -451,7 +451,9 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="donation-card">
                             <div class="donation-card-img">
-                                <img loading="lazy" src="assets/images/home/project-green-view.webp" alt="img">
+                                <a href="<?php echo $baseUrl ?>/basbhumi">
+                                    <img loading="lazy" src="assets/images/home/project-green-view.webp" alt="img">
+                                </a>
                             </div>
                             <div class="donation-card-content">
                                 <h3 class="donation-card-title">
@@ -468,7 +470,9 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="donation-card">
                             <div class="donation-card-img">
-                                <img loading="lazy" src="assets/images/portfolio/convicity/convicity-home.webp" alt="img">
+                                <a href="<?php echo $baseUrl ?>/convicity" >
+                                    <img loading="lazy" src="assets/images/portfolio/convicity/convicity-home.webp" alt="img">
+                                </a>
                             </div>
                             <div class="donation-card-content">
                                 <h3 class="donation-card-title">
@@ -485,14 +489,18 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="donation-card">
                             <div class="donation-card-img">
-                                <img loading="lazy" src="assets/images/portfolio/windfield/windfields.webp" alt="img">
+                                <a href="<?php echo $baseUrl ?>/windfield"> 
+                                    <img loading="lazy"  src="assets/images/portfolio/windfield/windfields.webp" alt="img">
+
+                                </a>
                             </div>
                             <div class="donation-card-content">
                                 <h3 class="donation-card-title">
                                     <a href="<?php echo $baseUrl ?>/windfield">Windfield</a>
                                 </h3>
                                 <p class="donation-card-text">
-                                    Bashbhumi Green View Project is a premier residential development that offers a variety of plot sizes to cater to diverse needs and preferences...</p>
+                                Siddidata Enclave Pvt. Ltd. is a leading real estate company in New Town, Kolkata, known for
+                                its flagship project,"Wind Fields." The company offers diverse real estate solutions, ... </p>
                                 <div class="donate-price-area">
                                     <a href="<?php echo $baseUrl ?>/windfield" class="btn style4">Visit Now</a>
                                 </div>
