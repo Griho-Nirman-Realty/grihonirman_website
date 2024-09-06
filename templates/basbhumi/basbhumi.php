@@ -29,7 +29,7 @@
             <div class="col-lg-6">
                 <div class="">
                     <div class="about-img-3">
-                        <img loading="lazy"  src="assets/images/basbhumi/basbhumi_hero.webp" alt="img">
+                        <img loading="lazy" src="assets/images/basbhumi/basbhumi_hero.webp" alt="img">
                     </div>
                 </div>
             </div>
@@ -142,7 +142,7 @@
 <div class="container py-4">
     <div class="row">
         <div class="col-lg-6">
-            <img loading="lazy"  src="assets/images/basbhumi/basbhumi_plan.webp" class="why-bg-img-1 img-cursor" alt="Bashbhumi Plan"
+            <img loading="lazy" src="assets/images/basbhumi/basbhumi_plan.webp" class="why-bg-img-1 img-cursor" alt="Bashbhumi Plan"
                 id="myImg">
         </div>
         <div class="col-lg-6">
@@ -172,7 +172,7 @@
 <!-- The Modal -->
 <div id="myModal" class="modal">
     <span class="close">&times;</span>
-    <img loading="lazy"  class="modal-content" id="img01" alt="image">
+    <img loading="lazy" class="modal-content" id="img01" alt="image">
     <div id="caption"></div>
 </div>
 <!--==============================
@@ -181,10 +181,10 @@
 <div class="row m-0 nearby justify-content-center pt-5">
     <div>
         <div class="service-shape1_1 shape-mockup jump-reverse d-lg-block d-none" data-top="0" data-right="0">
-            <img loading="lazy"  src="assets/img/service/service-shape1-1.webp" alt="img">
+            <img loading="lazy" src="assets/img/service/service-shape1-1.webp" alt="img">
         </div>
         <div class="service-shape1_2 shape-mockup jump-reverse d-lg-block d-none" data-top="0" data-left="0">
-            <img loading="lazy"  src="assets/img/service/service-shape1-2.webp" alt="img">
+            <img loading="lazy" src="assets/img/service/service-shape1-2.webp" alt="img">
         </div>
         <div class="leaf-shape-animation" data-bg-src="url(assets/img/icon/leaf.svg)">
         </div>
@@ -491,17 +491,14 @@
     <div class="container py-4">
         <div class="row">
             <div class="col-lg-6">
-                <img loading="lazy"  src="assets/images/basbhumi/basbhumi_map_location.webp" class="why-bg-img-1 img-cursor" alt="Bashbhumi Location" id="myImg1">
+                <img loading="lazy" src="assets/images/basbhumi/basbhumi_map_location.webp" class="why-bg-img-1 img-cursor" alt="Bashbhumi Location" id="myImg1">
             </div>
             <div class="col-lg-6">
                 <div class="title-area mb-30">
                     <span class="sub-title">Site Location</span>
                     <p class="sec-text">Discover the exact location of the Bashbhumi Green View Project. This site is conveniently located near key landmarks and offers easy access to all the essential amenities you need.</p>
                     <div class="iframe-wrapper">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18800.02153903288!2d88.27974757508181!3d22.41295488013226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0264d5dfc475b5%3A0xe9560b7c8a66169b!2sShree%20Swaminarayan%20Temple%20(Pailan%20Mandir)!5e0!3m2!1sen!2sin!4v1722595854578!5m2!1sen!2sin"
-                            width="100%" height="250px" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3688.90485713549!2d88.27651599383171!3d22.39494390548758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjLCsDIzJzQwLjgiTiA4OMKwMTYnMzkuOSJF!5e0!3m2!1sen!2sin!4v1725598639476!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
@@ -511,7 +508,7 @@
     <!-- The Modal -->
     <div id="myModal1" class="modal">
         <span class="close">&times;</span>
-        <img loading="lazy"  class="modal-content" id="img011" alt="image">
+        <img loading="lazy" class="modal-content" id="img011" alt="image">
         <div id="caption1"></div>
     </div>
 </div>
