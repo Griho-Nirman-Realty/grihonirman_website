@@ -142,7 +142,7 @@
 <div class="container py-4">
     <div class="row">
         <div class="col-lg-6">
-            <img loading="lazy" src="assets/images/basbhumi/basbhumi_plan.webp" class="why-bg-img-1 img-cursor" alt="Bashbhumi Plan"
+            <img style="border-radius: 15px" loading="lazy" src="assets/images/basbhumi/basbhumi_plan.webp" class="why-bg-img-1 img-cursor" alt="Bashbhumi Plan"
                 id="myImg">
         </div>
         <div class="col-lg-6">
@@ -490,15 +490,17 @@
     <!-- Site Location -->
     <div class="container py-4">
         <div class="row">
-            <div class="col-lg-6">
-                <img loading="lazy" src="assets/images/basbhumi/basbhumi_map_location.webp" class="why-bg-img-1 img-cursor" alt="Bashbhumi Location" id="myImg1">
+            <div class="col-lg-6" >
+                <img style="border-radius: 15px" loading="lazy" src="assets/images/basbhumi/basbhumi_map_location.webp" class="why-bg-img-1 img-cursor" alt="Bashbhumi Location" id="myImg1">
             </div>
             <div class="col-lg-6">
                 <div class="title-area mb-30">
                     <span class="sub-title">Site Location</span>
                     <p class="sec-text">Discover the exact location of the Bashbhumi Green View Project. This site is conveniently located near key landmarks and offers easy access to all the essential amenities you need.</p>
                     <div class="iframe-wrapper">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3688.90485713549!2d88.27651599383171!3d22.39494390548758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjLCsDIzJzQwLjgiTiA4OMKwMTYnMzkuOSJF!5e0!3m2!1sen!2sin!4v1725598639476!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe style="border-radius: 15px" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3688.90485713549!2d88.27651599383171!3d22.39494390548758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjLCsDIzJzQwLjgiTiA4OMKwMTYnMzkuOSJF!5e0!3m2!1sen!2sin!4v1725598639476!5m2!1sen!2sin"
+                             width="100%" height="250" style="border:0;" 
+                             allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
