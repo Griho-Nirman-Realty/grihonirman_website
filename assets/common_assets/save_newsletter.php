@@ -141,7 +141,7 @@ if ($execute == 1) {
 	$headers .= "From: Griho Nirman Realty Pvt. Ltd. <contact@grihonirmanrealty.in>" . "\r\n";
 	$headers .= "CC: sourav1grihonirman@gmail.com, admin@grihonirmanrealty.in" . "\r\n";
 	$msg = wordwrap($message, 70);
-	mail($email, $subject, $body, $headers);
+	mail($newsletter_email, $subject, $body, $headers);
 	$newsletter_code = "NLC_" . uniqid() . time();
 	//========================= INSERT IN TABLE =======================
 	mysqli_query($con, "INSERT INTO tbl_news_letter (
