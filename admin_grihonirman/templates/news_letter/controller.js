@@ -95,7 +95,7 @@ function delete_chack_box_data() {
 			if (x[i].checked == true) {
 				let data = new FormData();
 				const sendData = {
-					quick_contact_code: x[i].value,
+					newsletter_code: x[i].value,
 				};
 				data.append("sendData", JSON.stringify(sendData));
 
