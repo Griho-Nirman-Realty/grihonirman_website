@@ -63,7 +63,7 @@ function delete_data(rw_num) {
 		_(".background_overlay").style.display = "block";
 		let data = new FormData();
 		const sendData = {
-			quick_contact_code: _("#newsletter_code_" + rw_num).value
+			newsletter_code: _("#newsletter_code_" + rw_num).value
 		};
 		
 		data.append("sendData", JSON.stringify(sendData));
