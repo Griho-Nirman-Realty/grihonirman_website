@@ -138,7 +138,7 @@ if ($execute == 1) {
 	// Set the headers for the email
 	$headers = "MIME-Version: 1.0" . "\r\n";
 	$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-	$headers .= "From: Griho Nirman Realty Pvt. Ltd. <contact@grihonirmanrealty.in>" . "\r\n";
+	$headers .= "From: Newsletter - Griho Nirman Realty Pvt. Ltd. <contact@grihonirmanrealty.in>" . "\r\n";
 	$headers .= "CC: sourav1grihonirman@gmail.com, admin@grihonirmanrealty.in" . "\r\n";
 	$msg = wordwrap($message, 70);
 	mail($newsletter_email, $subject, $body, $headers);
