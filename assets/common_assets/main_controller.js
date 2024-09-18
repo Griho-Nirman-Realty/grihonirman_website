@@ -156,7 +156,7 @@ function subscribeNewsLetter() {
     return false;
   }
 
-  _(".background_overlay").style.display = "block";
+  _(".preloader2").style.display = "flex";
   let data = new FormData();
   const sendData = {
     newsletter_email: _("#newsletter_email").value,
@@ -166,7 +166,7 @@ function subscribeNewsLetter() {
   xhr.onreadystatechange = function () {
     if (xhr.readyState == 4) {
       // console.log(xhr.responseText);
-      _(".background_overlay").style.display = "none";
+      _(".preloader2").style.display = "none";
       const response = JSON.parse(xhr.responseText);
       const status = response["status"];
       const status_text = response["status_text"];
