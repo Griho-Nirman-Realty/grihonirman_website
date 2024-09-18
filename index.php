@@ -494,12 +494,13 @@ $system_ph_num = $system_info_data[5];
                         <div class="widget footer-widget">
                             <h3 class="widget_title">Newsletter</h3>
                             <p class="footer-text">Your opinion is important to us. So contact us for any service.</p>
-                            <form class="newsletter-form">
+                            <div class="newsletter-form">
                                 <div class="form-group">
-                                    <input class="form-control" type="email" placeholder="Your Email Address" required="">
+                                    <input id="newsletter_email" class="form-control" type="email" placeholder="Your Email Address" required>
+                                    <label data-default-mssg="" class="input_alert newsletter_email-inp-alert"></label>
                                 </div>
-                                <button type="submit" class="btn"><i class="fas fa-paper-plane"></i></button>
-                            </form>
+                                <button onclick="subscribeNewsLetter();" type="submit" class="btn"><i class="fas fa-paper-plane"></i></button>
+                            </div>
 
                         </div>
                     </div>
